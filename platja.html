@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>BeachesOfMallorca</title>
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="platja.css" media="screen" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <link href='https://fonts.googleapis.com/css?family=Alex+Brush' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+</head>
+
+<body>
+    <div id="navegacio" role="navigation">
+        <ul>
+            <li id="inici"><a href="index.html">
+                    <div id="mapet"></div><br>
+                    <span id="iniciText"></span>
+                </a></li>
+            <li id="fletxaEsquerra"><a href="#">&lt;</a></li>
+            <li id="municipiForm">
+                <label>
+                    <span id="platgesDeText"></span>&nbsp;
+                    <span id="municipiLabel"></span>
+                </label><br>
+                <select name="llista municipis" id="selectPlatja">
+                </select>
+            </li>
+            <li id="fletxaDreta"><a href="#">&gt;</a></li>
+        </ul>
+    </div>
+    <div id="platja">
+        <header>
+            <hgroup>
+                <h1></h1>
+                <h3><span id="títolNomsAlternatius"></span><span id="headerNomsAlternatius">
+                    </span></h3>
+                <h2>(<span id="barri"></span><span id="municipi"></span>)</h2>
+            </hgroup>
+        </header>
+        <div id="envoltoriRibbon" class="seccions fonsAmbGradient">
+            <div id="ribbon">
+                <span id="fotoPanoramicaText"></span>
+            </div>
+            <div id="envoltoriFoto">
+                <img id="foto" alt=""
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" />
+            </div>
+        </div>
+
+        <div id="envoltoriMapes" class="seccions">
+            <div id="mapaGeneral" class="fonsAmbGradient"></div>
+            <div id="mapaEspecífic" class="fonsAmbGradient"></div>
+        </div>
+        <div id="envoltoriCaracterístiques">
+            <div id="coordenades" class="característica">
+                <p>
+                    <span id="coordenadesLabel"></span><br>
+                    <span id="coordenadesLat"></span><br>
+                    <span id="coordenadesLon"></span>
+                </p>
+            </div>
+            <div id="superficie" class="característica">
+                <p>
+                    <span id="superficieIntro"></span><br>
+                    <span id="superficieTipus"></span>
+                </p>
+            </div>
+            <div id="superficieMida" class="característica">
+                <p>
+                    <span id="superficieMidaContent"></span>
+                </p>
+            </div>
+            <div id="entorn" class="característica">
+                <p>
+                    <span id="entornLabel"></span><br>
+                    <span id="entornValue"></span>
+                </p>
+            </div>
+            <div id="meteo" class="característica">
+                <p id="meteoContent"></p>
+            </div>
+        </div>
+    </div>
+    <div id="peuPrincipal">
+        <div id="peuGràfic">
+        </div>
+        <table id="peuContingut">
+            <tr>
+                <td>
+                    <label><small id="idioma_elecció">
+                        </small>&nbsp;</label>
+                    <select name="lang" id="lang">
+                    </select>
+                </td>
+                <td>
+
+                </td>
+                <td>
+                    <small>&copy; Copyright 2015<br>BeachesOfMallorca</small>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <script src="bomData.js"></script>
+    <script src="platja.js"></script>
+</body>
+
+</html>

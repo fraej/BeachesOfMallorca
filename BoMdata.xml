@@ -1,0 +1,2881 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BoM>
+    <municipis>
+        <municipi nom="Alcúdia">
+            <infoMeteoPath>http://www.aemet.es/xml/municipios/localidad_07003.xml</infoMeteoPath>
+            <platges>
+                <platja nom="Platja de Can Cap de Bou">
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>2400</llargaria>
+                    <amplada_mitjana>30</amplada_mitjana>
+                    <latitud>39,86557</latitud>
+                    <longitud>3,09088</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Platja de sa Marina">
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>400</llargaria>
+                    <amplada_mitjana>30</amplada_mitjana>
+                    <latitud>39,85874</latitud>
+                    <longitud>3,10172</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Platja des Morer Vermell">
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>800</llargaria>
+                    <amplada_mitjana>10</amplada_mitjana>
+                    <latitud>39,86281</latitud>
+                    <longitud>3,12449</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Platja de Sant Joan">
+                    <noms_alternatius>
+                        <nom_alt>Platja de sa Font de Sant Joan</nom_alt>
+                    </noms_alternatius>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>110</llargaria>
+                    <amplada_mitjana>60</amplada_mitjana>
+                    <latitud>39,8653</latitud>
+                    <longitud>3,13541</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Platja de Sant Pere">
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>100</llargaria>
+                    <amplada_mitjana>80</amplada_mitjana>
+                    <latitud>39,86458</latitud>
+                    <longitud>3,13791</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Platja de s'Illot">
+                    <superficie_tipus>còdols</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>600</llargaria>
+                    <amplada_mitjana>15</amplada_mitjana>
+                    <latitud>39,87292</latitud>
+                    <longitud>3,16187</longitud>
+                    <nat>false</nat>
+
+                </platja>
+                <platja nom="Platja des Coll Baix">
+                    <superficie_tipus>còdols</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>220</llargaria>
+                    <amplada_mitjana>50</amplada_mitjana>
+                    <latitud>39,86235</latitud>
+                    <longitud>3,1873</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Platja d'Alcanada">
+                    <noms_alternatius>
+                        <nom_alt>Platja de l'Alcanada</nom_alt>
+                    </noms_alternatius>
+                    <superficie_tipus>còdols</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>700</llargaria>
+                    <amplada_mitjana>20</amplada_mitjana>
+                    <latitud>39,83836</latitud>
+                    <longitud>3,16631</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Platja d'Alcúdia">
+                    <noms_alternatius>
+                        <nom_alt>Platja dels Francesos</nom_alt>
+                    </noms_alternatius>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>3400</llargaria>
+                    <amplada_mitjana>80</amplada_mitjana>
+                    <latitud>39,83069</latitud>
+                    <longitud>3,11977</longitud>
+                    <nat>false</nat>
+                </platja>
+            </platges>
+        </municipi>
+        <municipi nom="Andratx">
+            <infoMeteoPath>http://www.aemet.es/xml/municipios/localidad_07005.xml</infoMeteoPath>
+            <platges>
+                <platja nom="Platja de Camp de Mar">
+                    <barri>Camp de Mar</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>180</llargaria>
+                    <amplada_mitjana>60</amplada_mitjana>
+                    <latitud>39,53765</latitud>
+                    <longitud>2,42303</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Platja de ses Dones">
+                    <noms_alternatius>
+                        <nom_alt>S'arc de Camp de Mar</nom_alt>
+                    </noms_alternatius>
+                    <barri>Camp de Mar</barri>
+                    <superficie_tipus>roques</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>53</llargaria>
+                    <amplada_mitjana>10</amplada_mitjana>
+                    <latitud>39,53827</latitud>
+                    <longitud>2,41987</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala Cranc">
+                    <noms_alternatius>
+                        <nom_alt>Cala en Cranc</nom_alt>
+                    </noms_alternatius>
+                    <barri>Camp de Mar</barri>
+                    <superficie_tipus>roques</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>131</llargaria>
+                    <amplada_mitjana>17</amplada_mitjana>
+                    <latitud>39,53899</latitud>
+                    <longitud>2,41315</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala Blanca">
+                    <barri>Camp de Mar</barri>
+                    <superficie_tipus>roques</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>137</llargaria>
+                    <amplada_mitjana>27</amplada_mitjana>
+                    <latitud>39,53668</latitud>
+                    <longitud>2,40545</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala Llamp">
+                    <superficie_tipus>roques</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>122</llargaria>
+                    <amplada_mitjana>26</amplada_mitjana>
+                    <latitud>39,53363</latitud>
+                    <longitud>2,38869</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala Marmassen">
+                    <superficie_tipus>roques</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>345</llargaria>
+                    <amplada_mitjana>30</amplada_mitjana>
+                    <latitud>39,5375</latitud>
+                    <longitud>2,37674</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Ses Bassetes">
+                    <noms_alternatius>
+                        <nom_alt>Platja Brismar</nom_alt>
+                    </noms_alternatius>
+                    <barri>Port d'Andratx</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>30</llargaria>
+                    <amplada_mitjana>17</amplada_mitjana>
+                    <latitud>39,54414</latitud>
+                    <longitud>2,38703</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala en Fonoll">
+                    <noms_alternatius>
+                        <nom_alt>Cala Fonoll</nom_alt>
+                    </noms_alternatius>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>63</llargaria>
+                    <amplada_mitjana>29</amplada_mitjana>
+                    <latitud>39,54465</latitud>
+                    <longitud>2,37719</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala d'Egos">
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>55</llargaria>
+                    <amplada_mitjana>18</amplada_mitjana>
+                    <latitud>39,55523</latitud>
+                    <longitud>2,36553</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala es Conills">
+                    <noms_alternatius>
+                        <nom_alt>Cala Molins</nom_alt>
+                    </noms_alternatius>
+                    <barri>Sant Elm</barri>
+                    <superficie_tipus>roques</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>54</llargaria>
+                    <amplada_mitjana>20</amplada_mitjana>
+                    <latitud>39,57358</latitud>
+                    <longitud>2,35334</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Platja de Sant Elm">
+                    <noms_alternatius>
+                        <nom_alt>Platja des Geperut</nom_alt>
+                        <nom_alt>Platja Petita</nom_alt>
+                    </noms_alternatius>
+                    <barri>Sant Elm</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>130</llargaria>
+                    <amplada_mitjana>30</amplada_mitjana>
+                    <latitud>39,57789</latitud>
+                    <longitud>2,35406</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala s'Algar">
+                    <barri>Sant Elm</barri>
+                    <superficie_tipus>roques</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>48</llargaria>
+                    <amplada_mitjana>8</amplada_mitjana>
+                    <latitud>39,58431</latitud>
+                    <longitud>2,34843</longitud>
+                    <nat>false</nat>
+                </platja>
+            </platges>
+        </municipi>
+        <municipi nom="Artà">
+            <infoMeteoPath>http://www.aemet.es/xml/municipios/localidad_07006.xml</infoMeteoPath>
+            <platges>
+                <platja nom="Arenal de sa Canova">
+                    <noms_alternatius>
+                        <nom_alt>Areny de sa Canova</nom_alt>
+                    </noms_alternatius>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>1500</llargaria>
+                    <amplada_mitjana>40</amplada_mitjana>
+                    <latitud>39,72994</latitud>
+                    <longitud>3,24596</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala Tonó">
+                    <noms_alternatius>
+                        <nom_alt>Cala Toró</nom_alt>
+                    </noms_alternatius>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>130</llargaria>
+                    <amplada_mitjana>20</amplada_mitjana>
+                    <latitud>39,73351</latitud>
+                    <longitud>3,26276</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Platja de la Colònia de Sant Pere">
+                    <noms_alternatius>
+                        <nom_alt>Cala de Ca</nom_alt>
+                        <nom_alt>Ses Llisses</nom_alt>
+                    </noms_alternatius>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>70</llargaria>
+                    <amplada_mitjana>20</amplada_mitjana>
+                    <latitud>39,73887</latitud>
+                    <longitud>3,2771</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Arenalet de Son Colom">
+                    <noms_alternatius>
+                        <nom_alt>Arenalet dels Ermitans</nom_alt>
+                    </noms_alternatius>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>20</llargaria>
+                    <amplada_mitjana>15</amplada_mitjana>
+                    <latitud>39,74676</latitud>
+                    <longitud>3,29371</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala des Camps Vells">
+                    <noms_alternatius>
+                        <nom_alt>Cala des Camps</nom_alt>
+                        <nom_alt>Ca los Camps</nom_alt>
+                        <nom_alt>Ca los Cans</nom_alt>
+                        <nom_alt>Caló des Cans</nom_alt>
+                    </noms_alternatius>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>100</llargaria>
+                    <amplada_mitjana>10</amplada_mitjana>
+                    <latitud>39,74805</latitud>
+                    <longitud>3,30131</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Na Ferradura">
+                    <superficie_tipus>còdols</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>70</llargaria>
+                    <amplada_mitjana>10</amplada_mitjana>
+                    <latitud>39,75</latitud>
+                    <longitud>3,302778</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala de s'Aigua Dolça">
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>200</llargaria>
+                    <amplada_mitjana>15</amplada_mitjana>
+                    <latitud>39,75112</latitud>
+                    <longitud>3,30434</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Sa Banyera dels Ermitans">
+                    <noms_alternatius>
+                        <nom_alt>Es Moreros</nom_alt>
+                    </noms_alternatius>
+                    <superficie_tipus>còdols</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>10</llargaria>
+                    <amplada_mitjana>10</amplada_mitjana>
+                    <latitud>39,753944</latitud>
+                    <longitud>3,307583</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala de Betlem">
+                    <noms_alternatius>
+                        <nom_alt>Cala Mata</nom_alt>
+                    </noms_alternatius>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>50</llargaria>
+                    <amplada_mitjana>10</amplada_mitjana>
+                    <latitud>39,75618</latitud>
+                    <longitud>3,32028</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Na Clara">
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>100</llargaria>
+                    <amplada_mitjana>10</amplada_mitjana>
+                    <latitud>39,75788</latitud>
+                    <longitud>3,32559</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Arenalet des Verger">
+                    <noms_alternatius>
+                        <nom_alt>Arenalet d'Aubarca</nom_alt>
+                    </noms_alternatius>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>130</llargaria>
+                    <amplada_mitjana>40</amplada_mitjana>
+                    <latitud>39,76539</latitud>
+                    <longitud>3,37965</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Platja de sa Font Celada">
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>40</llargaria>
+                    <amplada_mitjana>30</amplada_mitjana>
+                    <latitud>39,76369</latitud>
+                    <longitud>3,38472</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala Matzoc">
+                    <noms_alternatius>
+                        <nom_alt>Es Matzoc</nom_alt>
+                    </noms_alternatius>
+                    <superficie_tipus>còdols</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>80</llargaria>
+                    <amplada_mitjana>100</amplada_mitjana>
+                    <latitud>39,75921</latitud>
+                    <longitud>3,40388</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala Mitjana">
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>100</llargaria>
+                    <amplada_mitjana>50</amplada_mitjana>
+                    <latitud>39,75206</latitud>
+                    <longitud>3,41364</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala Torta">
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>150</llargaria>
+                    <amplada_mitjana>100</amplada_mitjana>
+                    <latitud>39,75033</latitud>
+                    <longitud>3,418</longitud>
+                    <nat>false</nat>
+                </platja>
+            </platges>
+        </municipi>
+        <municipi nom="Banyalbufar">
+            <infoMeteoPath>http://www.aemet.es/xml/municipios/localidad_07007.xml</infoMeteoPath>
+            <platges>
+                <platja nom="Port de sa pedra de s'ase">
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>10</llargaria>
+                    <amplada_mitjana>40</amplada_mitjana>
+                    <latitud>39,67898</latitud>
+                    <longitud>2,49435</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala Banyalbufar">
+                    <noms_alternatius>
+                        <nom_alt>Port de Banyalbufar</nom_alt>
+                    </noms_alternatius>
+                    <superficie_tipus>còdols</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>100</llargaria>
+                    <amplada_mitjana>15</amplada_mitjana>
+                    <latitud>39,69048</latitud>
+                    <longitud>2,51592</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Punta de sa Galera">
+                    <superficie_tipus>grava</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>50</llargaria>
+                    <amplada_mitjana>15</amplada_mitjana>
+                    <latitud>39,69397</latitud>
+                    <longitud>2,52007</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Platja de Son Bunyola">
+                    <superficie_tipus>grava</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>90</llargaria>
+                    <amplada_mitjana>20</amplada_mitjana>
+                    <latitud>39,69951</latitud>
+                    <longitud>2,551</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Port des Canonge">
+                    <noms_alternatius>
+                        <nom_alt>Cala Gata</nom_alt>
+                    </noms_alternatius>
+                    <superficie_tipus>grava</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>70</llargaria>
+                    <amplada_mitjana>20</amplada_mitjana>
+                    <latitud>39,69995</latitud>
+                    <longitud>2,55485</longitud>
+                    <nat>false</nat>
+                </platja>
+            </platges>
+        </municipi>
+        <municipi nom="Calvià">
+            <infoMeteoPath>http://www.aemet.es/xml/municipios/localidad_07011.xml</infoMeteoPath>
+            <platges>
+                <platja nom="Caló des Macs">
+                    <noms_alternatius>
+                        <nom_alt>Malls</nom_alt>
+                        <nom_alt>Mais</nom_alt>
+                        <nom_alt>Platja de Cas Català</nom_alt>
+                        <nom_alt>Buguenvíl·lia</nom_alt>
+                    </noms_alternatius>
+                    <barri>Cas Català</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>100</llargaria>
+                    <amplada_mitjana>20</amplada_mitjana>
+                    <latitud>39,5461103001</latitud>
+                    <longitud>2,5956523376</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Caló de Ses Gerres">
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>23</llargaria>
+                    <amplada_mitjana>3</amplada_mitjana>
+                    <latitud>39,5447203989</latitud>
+                    <longitud>2,596081491</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala Brogit">
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>12</llargaria>
+                    <amplada_mitjana>6</amplada_mitjana>
+                    <latitud>39,5393863114</latitud>
+                    <longitud>2,5927172708</longitud>
+                    <nat>false</nat>
+                </platja>
+
+                <platja nom="Ses Illetes">
+                    <noms_alternatius>
+                        <nom_alt>Platja d'Illetes</nom_alt>
+                        <nom_alt>Platja de ses Illetes</nom_alt>
+                        <nom_alt>Caleta de Bendinat</nom_alt>
+                    </noms_alternatius>
+
+                    <barri>Illetes</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>200</llargaria>
+                    <amplada_mitjana>50</amplada_mitjana>
+                    <latitud>39,53711</latitud>
+                    <longitud>2,59077</longitud>
+                    <nat>false</nat>
+                </platja>
+
+                <platja nom="Cala Comtesa">
+                    <noms_alternatius>
+                        <nom_alt>Comptessa</nom_alt>
+                        <nom_alt>Comtessa</nom_alt>
+                    </noms_alternatius>
+                    <barri>Portals nous</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>100</llargaria>
+                    <amplada_mitjana>15</amplada_mitjana>
+                    <latitud>39,5347400077</latitud>
+                    <longitud>2,5893276887</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala Xinxell">
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>42</llargaria>
+                    <amplada_mitjana>11</amplada_mitjana>
+                    <latitud>39,533205072</latitud>
+                    <longitud>2,5890111881</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala Oli">
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>23</llargaria>
+                    <amplada_mitjana>5</amplada_mitjana>
+                    <latitud>39,5331037071</latitud>
+                    <longitud>2,5838988977</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala Portals Nous">
+                    <barri>Portals nous</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>100</llargaria>
+                    <amplada_mitjana>15</amplada_mitjana>
+                    <latitud>39,532325882</latitud>
+                    <longitud>2,5794142442</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Platja de l'Oratori">
+                    <barri>Portals Nous</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>260</llargaria>
+                    <amplada_mitjana>50</amplada_mitjana>
+                    <latitud>39,53196</latitud>
+                    <longitud>2,57326</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Platja Costa d'en Blanes">
+                    <noms_alternatius>
+                        <nom_alt>Platja d'en Blanes</nom_alt>
+                    </noms_alternatius>
+                    <barri>Costa d'en Blanes</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>120</llargaria>
+                    <amplada_mitjana>15</amplada_mitjana>
+                    <latitud>39,53215</latitud>
+                    <longitud>2,56218</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Platja de Son Caliu">
+                    <barri>Son Caliu</barri>
+                    <superficie_tipus>roques</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>80</llargaria>
+                    <amplada_mitjana>15</amplada_mitjana>
+                    <latitud>39,52613</latitud>
+                    <longitud>2,54629</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Platja des Carregador">
+                    <noms_alternatius>
+                        <nom_alt>Platja de Morocco</nom_alt>
+                        <nom_alt>Platja Porto Novo</nom_alt>
+                    </noms_alternatius>
+                    <barri>Palmanova</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>600</llargaria>
+                    <amplada_mitjana>60</amplada_mitjana>
+                    <latitud>39,52373</latitud>
+                    <longitud>2,53956</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Platja de Palmanova">
+                    <noms_alternatius>
+                        <nom_alt>Cala Blanca</nom_alt>
+                        <nom_alt>Platja de na Nadala</nom_alt>
+                    </noms_alternatius>
+                    <barri>Palmanova</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>500</llargaria>
+                    <amplada_mitjana>60</amplada_mitjana>
+                    <latitud>39,51939</latitud>
+                    <longitud>2,53713</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Platja de Son Maties">
+                    <barri>Son Maties</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>500</llargaria>
+                    <amplada_mitjana>60</amplada_mitjana>
+                    <latitud>39,51442</latitud>
+                    <longitud>2,53831</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Magaluf">
+                    <barri>Magalluf</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>1600</llargaria>
+                    <amplada_mitjana>60</amplada_mitjana>
+                    <latitud>39,5078911375</latitud>
+                    <longitud>2,5360592595</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala Vinyes">
+                    <barri>Cala Vinyes</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>60</llargaria>
+                    <amplada_mitjana>80</amplada_mitjana>
+                    <latitud>39,495078156</latitud>
+                    <longitud>2,5340154163</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala Falcó">
+                    <barri>Cap Falcó</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>50</llargaria>
+                    <amplada_mitjana>60</amplada_mitjana>
+                    <latitud>39,48782</latitud>
+                    <longitud>2,53283</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Caló de sa Nostra Dona">
+                    <noms_alternatius>
+                        <nom_alt>Platja de sa Bella Dona</nom_alt>
+                        <nom_alt>Caló de ses Paparres</nom_alt>
+                        <nom_alt>Caló de sa Nostra Dama</nom_alt>
+                        <nom_alt>Caló de sa Dona Morta</nom_alt>
+                        <nom_alt>Caló des Suro</nom_alt>
+                    </noms_alternatius>
+                    <barri>Sol de Mallorca</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>30</llargaria>
+                    <amplada_mitjana>10</amplada_mitjana>
+                    <latitud>39,48393</latitud>
+                    <longitud>2,53046</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Platja del Rei">
+                    <noms_alternatius>
+                        <nom_alt>Portals Vells III</nom_alt>
+                    </noms_alternatius>
+                    <barri>Cala Portals Vells</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>30</llargaria>
+                    <amplada_mitjana>40</amplada_mitjana>
+                    <latitud>39,47638</latitud>
+                    <longitud>2,52081</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Platja del Mago">
+                    <noms_alternatius>
+                        <nom_alt>Portals Vells II</nom_alt>
+                    </noms_alternatius>
+                    <barri>Cala Portals Vells</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>20</llargaria>
+                    <amplada_mitjana>5</amplada_mitjana>
+                    <latitud>39,475115</latitud>
+                    <longitud>2,520139</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Caleta des Portals Vells">
+                    <noms_alternatius>
+                        <nom_alt>Portals Vells I</nom_alt>
+                    </noms_alternatius>
+                    <barri>Cala Portals Vells</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>30</llargaria>
+                    <amplada_mitjana>20</amplada_mitjana>
+                    <latitud>39,47227</latitud>
+                    <longitud>2,52039</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Platja des Toro">
+                    <noms_alternatius>
+                        <nom_alt>El Toro</nom_alt>
+                        <nom_alt>Racó de sa Fragata</nom_alt>
+                        <nom_alt>Cala de ses Penyes Rotges</nom_alt>
+                    </noms_alternatius>
+                    <barri>El Toro</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>250</llargaria>
+                    <amplada_mitjana>10</amplada_mitjana>
+                    <latitud>39,49143</latitud>
+                    <longitud>2,47922</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Caló d'en Pellicer">
+                    <noms_alternatius>
+                        <nom_alt>Caló d'en Pallisser</nom_alt>
+                    </noms_alternatius>
+                    <barri>Cala de Santa Ponça</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>20</llargaria>
+                    <amplada_mitjana>30</amplada_mitjana>
+                    <latitud>39,51187</latitud>
+                    <longitud>2,47321</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Platja de Santa Ponça">
+                    <barri>Cala de Santa Ponça</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>1300</llargaria>
+                    <amplada_mitjana>100</amplada_mitjana>
+                    <latitud>39,51642</latitud>
+                    <longitud>2,48004</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala Blanca">
+                    <noms_alternatius>
+                        <nom_alt>Es Castellot</nom_alt>
+                    </noms_alternatius>
+                    <barri>Costa de la Calma</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>40</llargaria>
+                    <amplada_mitjana>10</amplada_mitjana>
+                    <latitud>39,52245</latitud>
+                    <longitud>2,46829</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Platja Monte de Oro">
+                    <barri>Costa de la Calma</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>15</llargaria>
+                    <amplada_mitjana>4</amplada_mitjana>
+                    <latitud>39,524745</latitud>
+                    <longitud>2,46622</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Platja la Romana">
+                    <noms_alternatius>
+                        <nom_alt>Peguera Romana</nom_alt>
+                        <nom_alt>Platja dels Morts</nom_alt>
+                    </noms_alternatius>
+                    <barri>Peguera</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>300</llargaria>
+                    <amplada_mitjana>60</amplada_mitjana>
+                    <latitud>39,53311</latitud>
+                    <longitud>2,4586</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Platja de Torà">
+                    <noms_alternatius>
+                        <nom_alt>Peguera Torà</nom_alt>
+                        <nom_alt>Platja Gran de Torà</nom_alt>
+                    </noms_alternatius>
+                    <barri>Peguera</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>500</llargaria>
+                    <amplada_mitjana>40</amplada_mitjana>
+                    <latitud>39,53484</latitud>
+                    <longitud>2,4567</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Platja de Palmira">
+                    <noms_alternatius>
+                        <nom_alt>Peguera Palmira</nom_alt>
+                        <nom_alt>Platja des Pouet</nom_alt>
+                    </noms_alternatius>
+                    <barri>Peguera</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>600</llargaria>
+                    <amplada_mitjana>40</amplada_mitjana>
+                    <latitud>39,53709</latitud>
+                    <longitud>2,45195</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Caló de ses Llisses">
+                    <barri>Cala Fornells</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>10</llargaria>
+                    <amplada_mitjana>5</amplada_mitjana>
+                    <latitud>39,532639</latitud>
+                    <longitud>2,438018</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala Fornells">
+                    <barri>Cala Fornells</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>80</llargaria>
+                    <amplada_mitjana>4</amplada_mitjana>
+                    <latitud>39,531281</latitud>
+                    <longitud>2,43798</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Caló des Monjo">
+                    <noms_alternatius>
+                        <nom_alt>Caló d'en Monjo</nom_alt>
+                    </noms_alternatius>
+                    <barri>Cala Fornells</barri>
+                    <superficie_tipus>roques</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>15</llargaria>
+                    <amplada_mitjana>4</amplada_mitjana>
+                    <latitud>39,529125</latitud>
+                    <longitud>2,430585</longitud>
+                    <nat>false</nat>
+                </platja>
+            </platges>
+        </municipi>
+        <municipi nom="Campos">
+            <infoMeteoPath>http://www.aemet.es/xml/municipios/localidad_07013.xml</infoMeteoPath>
+            <platges>
+                <platja nom="Es Molí de s'Estany">
+                    <noms_alternatius>
+                        <nom_alt>Platja des Marquès</nom_alt>
+                    </noms_alternatius>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>540</llargaria>
+                    <amplada_mitjana>25</amplada_mitjana>
+                    <latitud>39,32685</latitud>
+                    <longitud>2,99012</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Es Pregons Petits">
+                    <noms_alternatius>
+                        <nom_alt>Platja des Peregons Petits</nom_alt>
+                    </noms_alternatius>
+                    <barri>Es Trenc</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>115</llargaria>
+                    <amplada_mitjana>12</amplada_mitjana>
+                    <latitud>39,33102</latitud>
+                    <longitud>2,99161</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Es Pregons Grans">
+                    <noms_alternatius>
+                        <nom_alt>Platja des Peregons Grans</nom_alt>
+                    </noms_alternatius>
+                    <barri>Es Trenc</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>200</llargaria>
+                    <amplada_mitjana>20</amplada_mitjana>
+                    <latitud>39,33229</latitud>
+                    <longitud>2,99204</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Es Trenc">
+                    <noms_alternatius>
+                        <nom_alt>Arenal d'en Trenc</nom_alt>
+                    </noms_alternatius>
+                    <barri>Es Trenc</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>1900</llargaria>
+                    <amplada_mitjana>22</amplada_mitjana>
+                    <latitud>39,34253</latitud>
+                    <longitud>2,98639</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Arenal d'en Tem">
+                    <barri>Es Trenc</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>800</llargaria>
+                    <amplada_mitjana>22</amplada_mitjana>
+                    <latitud>39,35049</latitud>
+                    <longitud>2,97806</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Freu de ses Covetes">
+                    <barri>Ses Covetes</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>50</llargaria>
+                    <amplada_mitjana>12</amplada_mitjana>
+                    <latitud>39,35407</latitud>
+                    <longitud>2,97189</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Platja de ses Covetes">
+                    <noms_alternatius>
+                        <nom_alt>Platja des Morters</nom_alt>
+                    </noms_alternatius>
+                    <barri>Ses Covetes</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>300</llargaria>
+                    <amplada_mitjana>20</amplada_mitjana>
+                    <latitud>39,35708</latitud>
+                    <longitud>2,9678</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Arenal de sa Ràpita">
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>1100</llargaria>
+                    <amplada_mitjana>15</amplada_mitjana>
+                    <latitud>39,36091</latitud>
+                    <longitud>2,96175</longitud>
+                    <nat>false</nat>
+                </platja>
+            </platges>
+        </municipi>
+        <municipi nom="Capdepera">
+            <infoMeteoPath>http://www.aemet.es/xml/municipios/localidad_07014.xml</infoMeteoPath>
+            <platges>
+                <platja nom="Cala Mesquida">
+                    <noms_alternatius>
+                        <nom_alt>S'arenal de sa Mesquida</nom_alt>
+                    </noms_alternatius>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>300</llargaria>
+                    <amplada_mitjana>130</amplada_mitjana>
+                    <latitud>39,744206981</latitud>
+                    <longitud>3,4334888449</longitud>
+                    <nat>true</nat>
+                </platja>
+                <platja nom="Cova de na Xoriguer">
+                    <superficie_tipus>grava</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>9</llargaria>
+                    <amplada_mitjana>9</amplada_mitjana>
+                    <latitud>39,7316996472</latitud>
+                    <longitud>3,4547319403</longitud>
+                    <nat>true</nat>
+                </platja>
+                <platja nom="Cala Moltó">
+                    <superficie_tipus>roques</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>100</llargaria>
+                    <amplada_mitjana>10</amplada_mitjana>
+                    <latitud>39,7262785476</latitud>
+                    <longitud>3,4519075742</longitud>
+                    <nat>true</nat>
+                </platja>
+                <platja nom="Cala Agulla">
+                    <noms_alternatius>
+                        <nom_alt>Cala Nau</nom_alt>
+                        <nom_alt>Cala de s'Aguila</nom_alt>
+                    </noms_alternatius>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>520</llargaria>
+                    <amplada_mitjana>50</amplada_mitjana>
+                    <latitud>39,7226436142</latitud>
+                    <longitud>3,4521677484</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala Lliteres">
+                    <noms_alternatius>
+                        <nom_alt>Na Lliteres</nom_alt>
+                    </noms_alternatius>
+                    <superficie_tipus>roques</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>30</llargaria>
+                    <amplada_mitjana>10</amplada_mitjana>
+                    <latitud>39,7201081244</latitud>
+                    <longitud>3,4616869082</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala Gat">
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>40</llargaria>
+                    <amplada_mitjana>20</amplada_mitjana>
+                    <latitud>39,7130189863</latitud>
+                    <longitud>3,4700554004</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="La Ferradura">
+                    <superficie_tipus>grava</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>30</llargaria>
+                    <amplada_mitjana>6</amplada_mitjana>
+                    <latitud>39,7075695929</latitud>
+                    <longitud>3,4595143189</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Son Moll">
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>149</llargaria>
+                    <amplada_mitjana>55</amplada_mitjana>
+                    <latitud>39,7057784829</latitud>
+                    <longitud>3,456499516</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala Pedruscada">
+                    <noms_alternatius>
+                        <nom_alt>Sa Pedruscada</nom_alt>
+                    </noms_alternatius>
+                    <superficie_tipus>grava</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>20</llargaria>
+                    <amplada_mitjana>10</amplada_mitjana>
+                    <latitud>39,7000746845</latitud>
+                    <longitud>3,4549867501</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala de n'Aguait">
+                    <noms_alternatius>
+                        <nom_alt>Caló des Beato</nom_alt>
+                    </noms_alternatius>
+                    <barri>Cala Rajada</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>20</llargaria>
+                    <amplada_mitjana>10</amplada_mitjana>
+                    <latitud>39,6957242927</latitud>
+                    <longitud>3,4547721734</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala des Frades">
+                    <noms_alternatius>
+                        <nom_alt>Es Carregador</nom_alt>
+                    </noms_alternatius>
+                    <barri>Es Carregador</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>15</llargaria>
+                    <amplada_mitjana>10</amplada_mitjana>
+                    <latitud>39,6896749763</latitud>
+                    <longitud>3,4543322911</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Es Carregador">
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>8</llargaria>
+                    <amplada_mitjana>4</amplada_mitjana>
+                    <latitud>39,6892874593</latitud>
+                    <longitud>3,4543943511</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala des Tamarells">
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>9</llargaria>
+                    <amplada_mitjana>6</amplada_mitjana>
+                    <latitud>39,6886894096</latitud>
+                    <longitud>3,4557002177</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Caló de n'Aladern">
+                    <noms_alternatius>
+                        <nom_alt>N'Aladern</nom_alt>
+                    </noms_alternatius>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>15</llargaria>
+                    <amplada_mitjana>5</amplada_mitjana>
+                    <latitud>39,6838748951</latitud>
+                    <longitud>3,4548633685</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Font de sa Cala">
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>100</llargaria>
+                    <amplada_mitjana>60</amplada_mitjana>
+                    <latitud>39,6822565648</latitud>
+                    <longitud>3,4521865239</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala Provençal">
+                    <superficie_tipus>roques</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>60</llargaria>
+                    <amplada_mitjana>7</amplada_mitjana>
+                    <latitud>39,6757137068</latitud>
+                    <longitud>3,4534122934</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Canyamel">
+                    <barri>Costa de Canyamel</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>290</llargaria>
+                    <amplada_mitjana>80</amplada_mitjana>
+                    <latitud>39,65618</latitud>
+                    <longitud>3,44053</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala Auberdans">
+                    <noms_alternatius>
+                        <nom_alt>Cova dels Albardans</nom_alt>
+                    </noms_alternatius>
+                    <barri>Costa de Canyamel</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>45</llargaria>
+                    <amplada_mitjana>25</amplada_mitjana>
+                    <latitud>39,64791</latitud>
+                    <longitud>3,43646</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala Roja">
+                    <noms_alternatius>
+                        <nom_alt>Cala Rotja</nom_alt>
+                    </noms_alternatius>
+                    <barri>Costa de Canyamel</barri>
+                    <superficie_tipus>roques</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>30</llargaria>
+                    <amplada_mitjana>4</amplada_mitjana>
+                    <latitud>39,64643</latitud>
+                    <longitud>3,43692</longitud>
+                    <nat>false</nat>
+                </platja>
+            </platges>
+        </municipi>
+        <municipi nom="Deià">
+            <infoMeteoPath>http://www.aemet.es/xml/municipios/localidad_07018.xml</infoMeteoPath>
+            <platges>
+                <platja nom="Cala Deià">
+                    <superficie_tipus>roques</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>70</llargaria>
+                    <amplada_mitjana>6</amplada_mitjana>
+                    <latitud>39,760146</latitud>
+                    <longitud>2,640803</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Es Canyaret">
+                    <noms_alternatius>
+                        <nom_alt>Platja de Llucalcari</nom_alt>
+                    </noms_alternatius>
+                    <barri>Llucalcari</barri>
+                    <superficie_tipus>roques</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>60</llargaria>
+                    <amplada_mitjana>6</amplada_mitjana>
+                    <latitud>39,767395</latitud>
+                    <longitud>2,653654</longitud>
+                    <nat>false</nat>
+                </platja>
+            </platges>
+        </municipi>
+        <municipi nom="Escorca">
+            <infoMeteoPath>http://www.aemet.es/xml/municipios/localidad_07019.xml</infoMeteoPath>
+            <platges>
+                <platja nom="Cala Tuent">
+                    <superficie_tipus>grava</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>100</llargaria>
+                    <amplada_mitjana>32</amplada_mitjana>
+                    <latitud>39,8401</latitud>
+                    <longitud>2,77624</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Sa Calobra">
+                    <noms_alternatius>
+                        <nom_alt>Torrent de Pareis</nom_alt>
+                    </noms_alternatius>
+                    <superficie_tipus>roques</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>30</llargaria>
+                    <amplada_mitjana>15</amplada_mitjana>
+                    <latitud>39,85098</latitud>
+                    <longitud>2,79995</longitud>
+                    <nat>false</nat>
+                </platja>
+
+            </platges>
+        </municipi>
+        <municipi nom="Estellencs">
+            <infoMeteoPath>http://www.aemet.es/xml/municipios/localidad_07021.xml</infoMeteoPath>
+            <platges>
+                <platja nom="Platja de Can Pruaga">
+                    <noms_alternatius>
+                        <nom_alt>Cala Can Pruaga</nom_alt>
+                        <nom_alt>Cala Son Pruaga</nom_alt>
+                    </noms_alternatius>
+                    <superficie_tipus>grava</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>60</llargaria>
+                    <amplada_mitjana>15</amplada_mitjana>
+                    <latitud>39,64876</latitud>
+                    <longitud>2,45102</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala d'Estellencs">
+                    <superficie_tipus>grava</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>80</llargaria>
+                    <amplada_mitjana>15</amplada_mitjana>
+                    <latitud>39,65855</latitud>
+                    <longitud>2,47169</longitud>
+                    <nat>false</nat>
+                </platja>
+            </platges>
+        </municipi>
+        <municipi nom="Felanitx">
+            <infoMeteoPath>http://www.aemet.es/xml/municipios/localidad_07022.xml</infoMeteoPath>
+            <platges>
+                <platja nom="Platja de s'Algar">
+                    <noms_alternatius>
+                        <nom_alt>Cala de s'Algar</nom_alt>
+                        <nom_alt>Racó de s'Algar</nom_alt>
+                    </noms_alternatius>
+                    <superficie_tipus>roques</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>70</llargaria>
+                    <amplada_mitjana>6</amplada_mitjana>
+                    <latitud>39,428147</latitud>
+                    <longitud>3,272911</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Platja de s'Arena">
+                    <noms_alternatius>
+                        <nom_alt>Arenal Gran o des Homos</nom_alt>
+                        <nom_alt>Arenal Petit o de ses Dones</nom_alt>
+                    </noms_alternatius>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>100</llargaria>
+                    <amplada_mitjana>20</amplada_mitjana>
+                    <latitud>39,41956</latitud>
+                    <longitud>3,27054</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala d'en Marçal">
+                    <noms_alternatius>
+                        <nom_alt>Caló d'en Marçal</nom_alt>
+                    </noms_alternatius>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>150</llargaria>
+                    <amplada_mitjana>120</amplada_mitjana>
+                    <latitud>39,4098</latitud>
+                    <longitud>3,258</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala Brafi">
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>40</llargaria>
+                    <amplada_mitjana>20</amplada_mitjana>
+                    <latitud>39,40371</latitud>
+                    <longitud>3,25406</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala sa Nau">
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>60</llargaria>
+                    <amplada_mitjana>70</amplada_mitjana>
+                    <latitud>39,39325</latitud>
+                    <longitud>3,24716</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala Mitjana">
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>30</llargaria>
+                    <amplada_mitjana>10</amplada_mitjana>
+                    <latitud>39,38894</latitud>
+                    <longitud>3,24684</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala Serena">
+                    <noms_alternatius>
+                        <nom_alt>Caló de ses Dones</nom_alt>
+                    </noms_alternatius>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>20</llargaria>
+                    <amplada_mitjana>20</amplada_mitjana>
+                    <latitud>39,37937</latitud>
+                    <longitud>3,24157</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala Ferrera">
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>100</llargaria>
+                    <amplada_mitjana>60</amplada_mitjana>
+                    <latitud>39,37973</latitud>
+                    <longitud>3,23925</longitud>
+                    <nat>false</nat>
+                </platja>
+            </platges>
+        </municipi>
+        <municipi nom="Fornalutx">
+            <infoMeteoPath>http://www.aemet.es/xml/municipios/localidad_07025.xml</infoMeteoPath>
+            <platges>
+                <platja nom="Caló de Sant Antoni">
+                    <noms_alternatius>
+                        <nom_alt>Es Fornàs</nom_alt>
+                    </noms_alternatius>
+                    <barri>Son Verí</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>70</llargaria>
+                    <amplada_mitjana>16</amplada_mitjana>
+                    <latitud>39,49869</latitud>
+                    <longitud>2,74801</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Sa Cova Baixa">
+                    <noms_alternatius>
+                        <nom_alt>Escat de Son Fraret</nom_alt>
+                        <nom_alt>Roca des Turistes</nom_alt>
+                    </noms_alternatius>
+                    <barri>Son Verí</barri>
+                    <superficie_tipus>roques</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>50</llargaria>
+                    <amplada_mitjana>10</amplada_mitjana>
+                    <latitud>39,497138</latitud>
+                    <longitud>2,745797</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Es Calonet des Fornàs">
+                    <barri>Son Verí nou</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>40</llargaria>
+                    <amplada_mitjana>4</amplada_mitjana>
+                    <latitud>39,496708</latitud>
+                    <longitud>2,745369</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Punta de S'arenal">
+                    <noms_alternatius>
+                        <nom_alt>Punta de s'Orenol</nom_alt>
+                    </noms_alternatius>
+                    <barri>S'arenal</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>9</llargaria>
+                    <amplada_mitjana>3</amplada_mitjana>
+                    <latitud>39,4926026252</latitud>
+                    <longitud>2,7373697749</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Sa Pesquera des Tinent">
+                    <barri>Son Verí Nou</barri>
+                    <superficie_tipus>roques</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>10</llargaria>
+                    <amplada_mitjana>3</amplada_mitjana>
+                    <latitud>39,4886697445</latitud>
+                    <longitud>2,7364229551</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala Blava">
+                    <noms_alternatius>
+                        <nom_alt>Cala Mosques</nom_alt>
+                        <nom_alt>Cala Mosca</nom_alt>
+                    </noms_alternatius>
+                    <barri>Cala Blava</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>30</llargaria>
+                    <amplada_mitjana>20</amplada_mitjana>
+                    <latitud>39,48709</latitud>
+                    <longitud>2,73677</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Sa Pesquera Plana">
+                    <noms_alternatius>
+                        <nom_alt>Na Plana</nom_alt>
+                    </noms_alternatius>
+                    <barri>Cala Blava</barri>
+                    <superficie_tipus>roques</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>50</llargaria>
+                    <amplada_mitjana>15</amplada_mitjana>
+                    <latitud>39,48555</latitud>
+                    <longitud>2,7351</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Caló de ses Lleonardes">
+                    <noms_alternatius>
+                        <nom_alt>Caló de ses Donardes</nom_alt>
+                    </noms_alternatius>
+                    <barri>Cala Blava</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>30</llargaria>
+                    <amplada_mitjana>4</amplada_mitjana>
+                    <latitud>39,484583</latitud>
+                    <longitud>2,735701</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Punta de ses Puntes">
+                    <noms_alternatius>
+                        <nom_alt>Punta de ses Punxes</nom_alt>
+                        <nom_alt>Pas de ses Barques</nom_alt>
+                    </noms_alternatius>
+                    <barri>Cala Blava</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>60</llargaria>
+                    <amplada_mitjana>10</amplada_mitjana>
+                    <latitud>39,48381</latitud>
+                    <longitud>2,73429</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Caló Fort">
+                    <noms_alternatius>
+                        <nom_alt>Caló de Can Mercadal</nom_alt>
+                        <nom_alt>Caló Groc de ses Puntes</nom_alt>
+                        <nom_alt>Caló Groc de sa Partió</nom_alt>
+                    </noms_alternatius>
+                    <barri>Cala Blava - Bellavista</barri>
+                    <superficie_tipus>grava</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>20</llargaria>
+                    <amplada_mitjana>5</amplada_mitjana>
+                    <latitud>39,482488</latitud>
+                    <longitud>2,73388</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Calonet de s'Almadrava">
+                    <barri>Bellavista</barri>
+                    <superficie_tipus>roques</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>90</llargaria>
+                    <amplada_mitjana>10</amplada_mitjana>
+                    <latitud>39,481773</latitud>
+                    <longitud>2,732176</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Mollet de Can Tem des Cafè">
+                    <noms_alternatius>
+                        <nom_alt>Caló des Xorri</nom_alt>
+                    </noms_alternatius>
+                    <barri>Bellavista</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>20</llargaria>
+                    <amplada_mitjana>10</amplada_mitjana>
+                    <latitud>39,481401</latitud>
+                    <longitud>2,731559</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Calonet des Cap Alt">
+                    <noms_alternatius>
+                        <nom_alt>Caló Fred</nom_alt>
+                        <nom_alt>Cala Aró</nom_alt>
+                    </noms_alternatius>
+                    <barri>Bellavista</barri>
+                    <superficie_tipus>roques</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>35</llargaria>
+                    <amplada_mitjana>3</amplada_mitjana>
+                    <latitud>39,480184</latitud>
+                    <longitud>2,728435</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Badia Blava">
+                    <noms_alternatius>
+                        <nom_alt>Racó de s'Almadrava</nom_alt>
+                        <nom_alt>Na Cocó</nom_alt>
+                        <nom_alt>Roca des Milans</nom_alt>
+                        <nom_alt>S'Arc de Sant Martí</nom_alt>
+                    </noms_alternatius>
+                    <superficie_tipus>roques</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>50</llargaria>
+                    <amplada_mitjana>6</amplada_mitjana>
+                    <latitud>39,433624</latitud>
+                    <longitud>2,745898</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala Pi">
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>45</llargaria>
+                    <amplada_mitjana>140</amplada_mitjana>
+                    <latitud>39,36413</latitud>
+                    <longitud>2,8363</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Racó de s'Arena">
+                    <barri>S'Estanyol de Migjorn</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>120</llargaria>
+                    <amplada_mitjana>150</amplada_mitjana>
+                    <latitud>39,3587</latitud>
+                    <longitud>2,9145</longitud>
+                    <nat>false</nat>
+                </platja>
+            </platges>
+        </municipi>
+        <municipi nom="Llucmajor">
+            <infoMeteoPath>http://www.aemet.es/xml/municipios/localidad_07031.xml</infoMeteoPath>
+            <platges>
+                <platja nom="Caló de Sant Antoni">
+                    <noms_alternatius>
+                        <nom_alt>Es Fornàs</nom_alt>
+                    </noms_alternatius>
+                    <barri>Son Verí</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>70</llargaria>
+                    <amplada_mitjana>16</amplada_mitjana>
+                    <latitud>39,49869</latitud>
+                    <longitud>2,74801</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Sa Cova Baixa">
+                    <noms_alternatius>
+                        <nom_alt>Escat de Son Fraret</nom_alt>
+                        <nom_alt>Roca des Turistes</nom_alt>
+                    </noms_alternatius>
+                    <barri>Son Verí</barri>
+                    <superficie_tipus>roques</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>50</llargaria>
+                    <amplada_mitjana>10</amplada_mitjana>
+                    <latitud>39,497138</latitud>
+                    <longitud>2,745797</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Es Calonet des Fornàs">
+                    <barri>Son Verí nou</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>40</llargaria>
+                    <amplada_mitjana>4</amplada_mitjana>
+                    <latitud>39,496708</latitud>
+                    <longitud>2,745369</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Punta de S'arenal">
+                    <noms_alternatius>
+                        <nom_alt>Punta de s'Orenol</nom_alt>
+                    </noms_alternatius>
+                    <barri>S'arenal</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>9</llargaria>
+                    <amplada_mitjana>3</amplada_mitjana>
+                    <latitud>39,4926026252</latitud>
+                    <longitud>2,7373697749</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Sa Pesquera des Tinent">
+                    <barri>Son Verí Nou</barri>
+                    <superficie_tipus>roques</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>10</llargaria>
+                    <amplada_mitjana>3</amplada_mitjana>
+                    <latitud>39,4886697445</latitud>
+                    <longitud>2,7364229551</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala Blava">
+                    <noms_alternatius>
+                        <nom_alt>Cala Mosques</nom_alt>
+                        <nom_alt>Cala Mosca</nom_alt>
+                    </noms_alternatius>
+                    <barri>Cala Blava</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>30</llargaria>
+                    <amplada_mitjana>20</amplada_mitjana>
+                    <latitud>39,48709</latitud>
+                    <longitud>2,73677</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Sa Pesquera Plana">
+                    <noms_alternatius>
+                        <nom_alt>Na Plana</nom_alt>
+                    </noms_alternatius>
+                    <barri>Cala Blava</barri>
+                    <superficie_tipus>roques</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>50</llargaria>
+                    <amplada_mitjana>15</amplada_mitjana>
+                    <latitud>39,48555</latitud>
+                    <longitud>2,7351</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Caló de ses Lleonardes">
+                    <noms_alternatius>
+                        <nom_alt>Caló de ses Donardes</nom_alt>
+                    </noms_alternatius>
+                    <barri>Cala Blava</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>30</llargaria>
+                    <amplada_mitjana>4</amplada_mitjana>
+                    <latitud>39,484583</latitud>
+                    <longitud>2,735701</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Punta de ses Puntes">
+                    <noms_alternatius>
+                        <nom_alt>Punta de ses Punxes</nom_alt>
+                        <nom_alt>Pas de ses Barques</nom_alt>
+                    </noms_alternatius>
+                    <barri>Cala Blava</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>60</llargaria>
+                    <amplada_mitjana>10</amplada_mitjana>
+                    <latitud>39,48381</latitud>
+                    <longitud>2,73429</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Caló Fort">
+                    <noms_alternatius>
+                        <nom_alt>Caló de Can Mercadal</nom_alt>
+                        <nom_alt>Caló Groc de ses Puntes</nom_alt>
+                        <nom_alt>Caló Groc de sa Partió</nom_alt>
+                    </noms_alternatius>
+                    <barri>Cala Blava - Bellavista</barri>
+                    <superficie_tipus>grava</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>20</llargaria>
+                    <amplada_mitjana>5</amplada_mitjana>
+                    <latitud>39,482488</latitud>
+                    <longitud>2,73388</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Calonet de s'Almadrava">
+                    <barri>Bellavista</barri>
+                    <superficie_tipus>roques</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>90</llargaria>
+                    <amplada_mitjana>10</amplada_mitjana>
+                    <latitud>39,481773</latitud>
+                    <longitud>2,732176</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Mollet de Can Tem des Cafè">
+                    <noms_alternatius>
+                        <nom_alt>Caló des Xorri</nom_alt>
+                    </noms_alternatius>
+                    <barri>Bellavista</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>20</llargaria>
+                    <amplada_mitjana>10</amplada_mitjana>
+                    <latitud>39,481401</latitud>
+                    <longitud>2,731559</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Calonet des Cap Alt">
+                    <noms_alternatius>
+                        <nom_alt>Caló Fred</nom_alt>
+                        <nom_alt>Cala Aró</nom_alt>
+                    </noms_alternatius>
+                    <barri>Bellavista</barri>
+                    <superficie_tipus>roques</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>35</llargaria>
+                    <amplada_mitjana>3</amplada_mitjana>
+                    <latitud>39,480184</latitud>
+                    <longitud>2,728435</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Badia Blava">
+                    <noms_alternatius>
+                        <nom_alt>Racó de s'Almadrava</nom_alt>
+                        <nom_alt>Na Cocó</nom_alt>
+                        <nom_alt>Roca des Milans</nom_alt>
+                        <nom_alt>S'Arc de Sant Martí</nom_alt>
+                    </noms_alternatius>
+                    <superficie_tipus>roques</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>50</llargaria>
+                    <amplada_mitjana>6</amplada_mitjana>
+                    <latitud>39,433624</latitud>
+                    <longitud>2,745898</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala Pi">
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>45</llargaria>
+                    <amplada_mitjana>140</amplada_mitjana>
+                    <latitud>39,36413</latitud>
+                    <longitud>2,8363</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Racó de s'Arena">
+                    <barri>S'Estanyol de Migjorn</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>120</llargaria>
+                    <amplada_mitjana>150</amplada_mitjana>
+                    <latitud>39,3587</latitud>
+                    <longitud>2,9145</longitud>
+                    <nat>false</nat>
+                </platja>
+            </platges>
+        </municipi>
+        <municipi nom="Manacor">
+            <infoMeteoPath>http://www.aemet.es/xml/municipios/localidad_07033.xml</infoMeteoPath>
+            <platges>
+                <platja nom="Platja de s'Illot">
+                    <noms_alternatius>
+                        <nom_alt>Cala Moreia</nom_alt>
+                    </noms_alternatius>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>350</llargaria>
+                    <amplada_mitjana>50</amplada_mitjana>
+                    <latitud>39,56534</latitud>
+                    <longitud>3,37309</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Porto Cristo">
+                    <noms_alternatius>
+                        <nom_alt>Port de Portocristo</nom_alt>
+                        <nom_alt>Port de Manacor</nom_alt>
+                        <nom_alt>Cala Manacor</nom_alt>
+                    </noms_alternatius>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>350</llargaria>
+                    <amplada_mitjana>25</amplada_mitjana>
+                    <latitud>39,54156</latitud>
+                    <longitud>3,33644</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala Anguila">
+                    <barri>Porto Cristo Novo</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>50</llargaria>
+                    <amplada_mitjana>120</amplada_mitjana>
+                    <latitud>39,52286</latitud>
+                    <longitud>3,3179</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala Mendia">
+                    <barri>Porto Cristo Novo</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>60</llargaria>
+                    <amplada_mitjana>120</amplada_mitjana>
+                    <latitud>39,52054</latitud>
+                    <longitud>3,31412</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="S'Estany d'en Mas">
+                    <barri>Urb. Romàntica</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>100</llargaria>
+                    <amplada_mitjana>160</amplada_mitjana>
+                    <latitud>39,5166</latitud>
+                    <longitud>3,3103</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala Varques">
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>90</llargaria>
+                    <amplada_mitjana>60</amplada_mitjana>
+                    <latitud>39,49988</latitud>
+                    <longitud>3,29598</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala Antena">
+                    <barri>Cales de Mallorca</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>25</llargaria>
+                    <amplada_mitjana>85</amplada_mitjana>
+                    <latitud>39,46693</latitud>
+                    <longitud>3,27916</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala Domingos">
+                    <noms_alternatius>
+                        <nom_alt>Cala es Domingos Grans</nom_alt>
+                        <nom_alt>Cala es Dominigos Petits</nom_alt>
+                    </noms_alternatius>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>180</llargaria>
+                    <amplada_mitjana>125</amplada_mitjana>
+                    <latitud>39,4583</latitud>
+                    <longitud>3,2782</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala Murada">
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>350</llargaria>
+                    <amplada_mitjana>35</amplada_mitjana>
+                    <latitud>39,45142</latitud>
+                    <longitud>3,27706</longitud>
+                    <nat>false</nat>
+                </platja>
+            </platges>
+        </municipi>
+        <municipi nom="Muro">
+            <infoMeteoPath>http://www.aemet.es/xml/municipios/localidad_07039.xml</infoMeteoPath>
+            <platges>
+                <platja nom="Platja de Muro">
+                    <noms_alternatius>
+                        <nom_alt>S'Enfront</nom_alt>
+                        <nom_alt>Es Braç</nom_alt>
+                        <nom_alt>Es Comú</nom_alt>
+                        <nom_alt>Es Capellans</nom_alt>
+                    </noms_alternatius>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>5292</llargaria>
+                    <amplada_mitjana>26</amplada_mitjana>
+                    <latitud>39,79113</latitud>
+                    <longitud>3,12741</longitud>
+                    <nat>false</nat>
+                </platja>
+            </platges>
+        </municipi>
+        <municipi nom="Palma">
+            <infoMeteoPath>http://www.aemet.es/xml/municipios/localidad_07040.xml</infoMeteoPath>
+            <platges>
+                <platja nom="Cala Nova">
+                    <barri>Cala Major</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>50</llargaria>
+                    <amplada_mitjana>20</amplada_mitjana>
+                    <latitud>39,5500802591</latitud>
+                    <longitud>2,5989782768</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala Guix">
+                    <noms_alternatius>
+                        <nom_alt>Roques de Cala Major</nom_alt>
+                    </noms_alternatius>
+                    <barri>Cala Major</barri>
+                    <superficie_tipus>roques</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>300</llargaria>
+                    <amplada_mitjana>30</amplada_mitjana>
+                    <latitud>39,5511246752</latitud>
+                    <longitud>2,6007485347</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala Major">
+                    <barri>Cala Major</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>200</llargaria>
+                    <amplada_mitjana>80</amplada_mitjana>
+                    <latitud>39,5520863515</latitud>
+                    <longitud>2,6067620473</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Caló des Grells">
+                    <barri>Dic de l'oest</barri>
+                    <superficie_tipus>còdols</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>50</llargaria>
+                    <amplada_mitjana>20</amplada_mitjana>
+                    <latitud>39,5462416361</latitud>
+                    <longitud>2,6181721645</longitud>
+                    <nat>true</nat>
+                </platja>
+                <platja nom="Can Pere Antoni">
+                    <barri>Centre</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>750</llargaria>
+                    <amplada_mitjana>15</amplada_mitjana>
+                    <latitud>39,5630660944</latitud>
+                    <longitud>2,660706635</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Es Portitxolet">
+                    <barri>Es Portitxol</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>50</llargaria>
+                    <amplada_mitjana>18</amplada_mitjana>
+                    <latitud>39,5600274262</latitud>
+                    <longitud>2,6725700455</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Ses Palmeres">
+                    <barri>Es molinar</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>1000</llargaria>
+                    <amplada_mitjana>25</amplada_mitjana>
+                    <latitud>39,5553206083</latitud>
+                    <longitud>2,6827841392</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Ciutat Jardí">
+                    <barri>Ciutat Jardí</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>450</llargaria>
+                    <amplada_mitjana>35</amplada_mitjana>
+                    <latitud>39,5521814843</latitud>
+                    <longitud>2,6895645218</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Es Penyó">
+                    <barri>Torre d'en Pau</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>100</llargaria>
+                    <amplada_mitjana>30</amplada_mitjana>
+                    <latitud>39,5487150694</latitud>
+                    <longitud>2,6914530388</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Punta de Sa Torre">
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>10</llargaria>
+                    <amplada_mitjana>5</amplada_mitjana>
+                    <latitud>39,5474350238</latitud>
+                    <longitud>2,6929065542</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala Gamba">
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>100</llargaria>
+                    <amplada_mitjana>25</amplada_mitjana>
+                    <latitud>39,5466220122</latitud>
+                    <longitud>2,6978366962</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala Pudent">
+                    <barri>Es Carnatge</barri>
+                    <superficie_tipus>grava</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>11</llargaria>
+                    <amplada_mitjana>3</amplada_mitjana>
+                    <latitud>39,5438175686</latitud>
+                    <longitud>2,7001967983</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Es Carnatge">
+                    <barri>Es Carnatge</barri>
+                    <superficie_tipus>roques</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>60</llargaria>
+                    <amplada_mitjana>7</amplada_mitjana>
+                    <latitud>39,5423759116</latitud>
+                    <longitud>2,7011784868</longitud>
+                    <nat>true</nat>
+                </platja>
+                <platja nom="Cova des Bufador">
+                    <barri>Es Carnatge</barri>
+                    <superficie_tipus>grava</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>25</llargaria>
+                    <amplada_mitjana>10</amplada_mitjana>
+                    <latitud>39,5382460496</latitud>
+                    <longitud>2,7076079837</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Caló de Son Caios">
+                    <barri>Can Pastilla</barri>
+                    <superficie_tipus>roques</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>70</llargaria>
+                    <amplada_mitjana>30</amplada_mitjana>
+                    <latitud>39,5361299223</latitud>
+                    <longitud>2,7107354394</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala Estància">
+                    <barri>Can Pastilla</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>220</llargaria>
+                    <amplada_mitjana>37</amplada_mitjana>
+                    <latitud>39,534716032</latitud>
+                    <longitud>2,7133586398</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Can Pastilla">
+                    <barri>Can Pastilla</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>0</llargaria>
+                    <amplada_mitjana>0</amplada_mitjana>
+                    <latitud>39,5347886203</latitud>
+                    <longitud>2,7207425194</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="S'arenal">
+                    <barri>S'Arenal</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>4810</llargaria>
+                    <amplada_mitjana>50</amplada_mitjana>
+                    <latitud>39,515982112</latitud>
+                    <longitud>2,7447834006</longitud>
+                    <nat>false</nat>
+                </platja>
+            </platges>
+        </municipi>
+        <municipi nom="Pollença">
+            <infoMeteoPath>http://www.aemet.es/xml/municipios/localidad_07042.xml</infoMeteoPath>
+            <platges>
+                <platja nom="Cala Castell">
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>200</llargaria>
+                    <amplada_mitjana>20</amplada_mitjana>
+                    <latitud>39,93097</latitud>
+                    <longitud>3,03108</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala Estremer">
+                    <superficie_tipus>còdols</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>200</llargaria>
+                    <amplada_mitjana>15</amplada_mitjana>
+                    <latitud>39,92999</latitud>
+                    <longitud>3,03774</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala Barques">
+                    <barri>Cala Sant Vicenç</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>85</llargaria>
+                    <amplada_mitjana>40</amplada_mitjana>
+                    <latitud>39,92149</latitud>
+                    <longitud>3,05466</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala Clara">
+                    <barri>Cala Sant Vicenç</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>50</llargaria>
+                    <amplada_mitjana>30</amplada_mitjana>
+                    <latitud>39,92075</latitud>
+                    <longitud>3,05603</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="El Maressar">
+                    <noms_alternatius>
+                        <nom_alt>Punta de sa Torre</nom_alt>
+                    </noms_alternatius>
+                    <barri>Cala Sant Vicenç</barri>
+                    <superficie_tipus>còdols</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>10</llargaria>
+                    <amplada_mitjana>10</amplada_mitjana>
+                    <latitud>39,92142</latitud>
+                    <longitud>3,05722</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala Molins">
+                    <barri>Cala Sant Vicenç</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>45</llargaria>
+                    <amplada_mitjana>50</amplada_mitjana>
+                    <latitud>39,91996</latitud>
+                    <longitud>3,05762</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala Carbó">
+                    <barri>Cala Sant Vicenç</barri>
+                    <superficie_tipus>còdols</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>80</llargaria>
+                    <amplada_mitjana>15</amplada_mitjana>
+                    <latitud>39,91931</latitud>
+                    <longitud>3,06045</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala Bóquer">
+                    <noms_alternatius>
+                        <nom_alt>Vall de Bóquer</nom_alt>
+                    </noms_alternatius>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>80</llargaria>
+                    <amplada_mitjana>15</amplada_mitjana>
+                    <latitud>39,92884</latitud>
+                    <longitud>3,09457</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala Figuera">
+                    <barri>Formentor</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>45</llargaria>
+                    <amplada_mitjana>10</amplada_mitjana>
+                    <latitud>39,95208</latitud>
+                    <longitud>3,17295</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala en Gossalba">
+                    <barri>Formentor</barri>
+                    <superficie_tipus>còdols</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>37</llargaria>
+                    <amplada_mitjana>15</amplada_mitjana>
+                    <latitud>39,94411</latitud>
+                    <longitud>3,18915</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala Murta">
+                    <barri>Formentor</barri>
+                    <superficie_tipus>còdols</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>85</llargaria>
+                    <amplada_mitjana>25</amplada_mitjana>
+                    <latitud>39,94029</latitud>
+                    <longitud>3,18016</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala en Feliu">
+                    <barri>Formentor</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>42</llargaria>
+                    <amplada_mitjana>30</amplada_mitjana>
+                    <latitud>39,93004</latitud>
+                    <longitud>3,1634</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala Formentor">
+                    <noms_alternatius>
+                        <nom_alt>Cala Pi de la Posada</nom_alt>
+                        <nom_alt>Platja de Formentor</nom_alt>
+                    </noms_alternatius>
+                    <barri>Formentor</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>840</llargaria>
+                    <amplada_mitjana>8</amplada_mitjana>
+                    <latitud>39,92808</latitud>
+                    <longitud>3,13857</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="El Caló">
+                    <noms_alternatius>
+                        <nom_alt>Es Caló</nom_alt>
+                    </noms_alternatius>
+                    <barri>Formentor</barri>
+                    <superficie_tipus>grava</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>63</llargaria>
+                    <amplada_mitjana>20</amplada_mitjana>
+                    <latitud>39,91188</latitud>
+                    <longitud>3,11078</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Platja d'Albercutx">
+                    <noms_alternatius>
+                        <nom_alt>Albercuix</nom_alt>
+                    </noms_alternatius>
+                    <barri>Port de Pollença</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>1450</llargaria>
+                    <amplada_mitjana>12</amplada_mitjana>
+                    <latitud>39,91105</latitud>
+                    <longitud>3,08907</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Platja del Port de Pollença">
+                    <noms_alternatius>
+                        <nom_alt>Platja de Llenaire</nom_alt>
+                        <nom_alt>Platja dels Tamarells</nom_alt>
+                    </noms_alternatius>
+                    <barri>Port de Pollença</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>1440</llargaria>
+                    <amplada_mitjana>40</amplada_mitjana>
+                    <latitud>39,89891</latitud>
+                    <longitud>3,07956</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Platja de Can Cullerassa">
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>2545</llargaria>
+                    <amplada_mitjana>10</amplada_mitjana>
+                    <latitud>39,88466</latitud>
+                    <longitud>3,07972</longitud>
+                    <nat>false</nat>
+                </platja>
+            </platges>
+        </municipi>
+        <municipi nom="Sant Llorenç des Cardassar">
+            <infoMeteoPath>http://www.aemet.es/xml/municipios/localidad_07051.xml</infoMeteoPath>
+            <platges>
+                <platja nom="Cala Millor">
+                    <noms_alternatius>
+                        <nom_alt>Arenal de Son Servera</nom_alt>
+                        <nom_alt>Arenal de Son Moro</nom_alt>
+                        <nom_alt>Cala Nau</nom_alt>
+                        <nom_alt>Platja de Sant Llorenç</nom_alt>
+                    </noms_alternatius>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>1740</llargaria>
+                    <amplada_mitjana>30</amplada_mitjana>
+                    <latitud>39,59557</latitud>
+                    <longitud>3,38469</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Platja de sa Coma">
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>800</llargaria>
+                    <amplada_mitjana>30</amplada_mitjana>
+                    <latitud>39,57422</latitud>
+                    <longitud>3,37664</longitud>
+                    <nat>false</nat>
+                </platja>
+            </platges>
+        </municipi>
+        <municipi nom="Santa Margalida">
+            <infoMeteoPath>http://www.aemet.es/xml/municipios/localidad_07055.xml</infoMeteoPath>
+            <platges>
+                <platja nom="Platja de Can Picafort">
+                    <noms_alternatius>
+                        <nom_alt>Platja de Santa Margalida</nom_alt>
+                    </noms_alternatius>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>1300</llargaria>
+                    <amplada_mitjana>30</amplada_mitjana>
+                    <latitud>39,76974</latitud>
+                    <longitud>3,14994</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Platja de Son Bauló">
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>160</llargaria>
+                    <amplada_mitjana>80</amplada_mitjana>
+                    <latitud>39,75946</latitud>
+                    <longitud>3,16986</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Na Patana">
+                    <noms_alternatius>
+                        <nom_alt>Punta de na Patana</nom_alt>
+                        <nom_alt>Arenal de ses Assussenes</nom_alt>
+                    </noms_alternatius>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>100</llargaria>
+                    <amplada_mitjana>8</amplada_mitjana>
+                    <latitud>39,75762</latitud>
+                    <longitud>3,17496</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Arenal d'en Casat">
+                    <noms_alternatius>
+                        <nom_alt>s'Arenal des Casat</nom_alt>
+                        <nom_alt>Ses Assussenes</nom_alt>
+                    </noms_alternatius>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>50</llargaria>
+                    <amplada_mitjana>20</amplada_mitjana>
+                    <latitud>39,74969</latitud>
+                    <longitud>3,19454</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala Serralot">
+                    <noms_alternatius>
+                        <nom_alt>Es Serralot</nom_alt>
+                    </noms_alternatius>
+                    <superficie_tipus>grava</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>40</llargaria>
+                    <amplada_mitjana>200</amplada_mitjana>
+                    <latitud>39,74471</latitud>
+                    <longitud>3,20725</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Platja de Son Real">
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>300</llargaria>
+                    <amplada_mitjana>250</amplada_mitjana>
+                    <latitud>39,74182</latitud>
+                    <longitud>3,2112</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Platja de Son Serra de Marina">
+                    <noms_alternatius>
+                        <nom_alt>S'Home Mort</nom_alt>
+                        <nom_alt>Es Fondo de na Borges</nom_alt>
+                    </noms_alternatius>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>450</llargaria>
+                    <amplada_mitjana>130</amplada_mitjana>
+                    <latitud>39,7377</latitud>
+                    <longitud>3,22406</longitud>
+                    <nat>false</nat>
+                </platja>
+            </platges>
+        </municipi>
+        <municipi nom="Santanyí">
+            <infoMeteoPath>http://www.aemet.es/xml/municipios/localidad_07057.xml</infoMeteoPath>
+            <platges>
+                <platja nom="Cala Esmeralda">
+                    <noms_alternatius>
+                        <nom_alt>Caló des Corral</nom_alt>
+                    </noms_alternatius>
+                    <barri>Cala d'Or</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>25</llargaria>
+                    <amplada_mitjana>25</amplada_mitjana>
+                    <latitud>39,37619</latitud>
+                    <longitud>3,23732</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala Gran">
+                    <noms_alternatius>
+                        <nom_alt>Caló Gran</nom_alt>
+                    </noms_alternatius>
+                    <barri>Cala d'Or</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>40</llargaria>
+                    <amplada_mitjana>100</amplada_mitjana>
+                    <latitud>39,37331</latitud>
+                    <longitud>3,23232</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala d'Or">
+                    <noms_alternatius>
+                        <nom_alt>Caló de ses Dones</nom_alt>
+                        <nom_alt>Cala d'Hort</nom_alt>
+                    </noms_alternatius>
+                    <barri>Cala d'Or</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>40</llargaria>
+                    <amplada_mitjana>100</amplada_mitjana>
+                    <latitud>39,37114</latitud>
+                    <longitud>3,22997</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Caló des Pou">
+                    <noms_alternatius>
+                        <nom_alt>Caleta des Pou</nom_alt>
+                    </noms_alternatius>
+
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>40</llargaria>
+                    <amplada_mitjana>50</amplada_mitjana>
+                    <latitud>39,36608</latitud>
+                    <longitud>3,22855</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Caló de ses Egos">
+                    <noms_alternatius>
+                        <nom_alt>Caló de ses Egües</nom_alt>
+                    </noms_alternatius>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>20</llargaria>
+                    <amplada_mitjana>30</amplada_mitjana>
+                    <latitud>39,36113</latitud>
+                    <longitud>3,22432</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Caló des Homos Morts">
+                    <noms_alternatius>
+                        <nom_alt>Caló des Homes Morts</nom_alt>
+                    </noms_alternatius>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>35</llargaria>
+                    <amplada_mitjana>25</amplada_mitjana>
+                    <latitud>39,35803</latitud>
+                    <longitud>3,20853</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Caló de sa Torre">
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>35</llargaria>
+                    <amplada_mitjana>25</amplada_mitjana>
+                    <latitud>39,3556</latitud>
+                    <longitud>3,20914</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Caló de sa Barca Trencada">
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>35</llargaria>
+                    <amplada_mitjana>25</amplada_mitjana>
+                    <latitud>39,35273</latitud>
+                    <longitud>3,19806</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Caló des Burgit">
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>35</llargaria>
+                    <amplada_mitjana>25</amplada_mitjana>
+                    <latitud>39,35255</latitud>
+                    <longitud>3,1929</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala Mondragó">
+                    <noms_alternatius>
+                        <nom_alt>Cala de sa Font de n'Alis</nom_alt>
+                        <nom_alt>Caló d'en Garrot</nom_alt>
+                    </noms_alternatius>
+                    <barri>Cala Mondragó</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>35</llargaria>
+                    <amplada_mitjana>25</amplada_mitjana>
+                    <latitud>39,35222</latitud>
+                    <longitud>3,18831</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="S'Amarador">
+                    <barri>Cala Mondragó</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>145</llargaria>
+                    <amplada_mitjana>50</amplada_mitjana>
+                    <latitud>39,34976</latitud>
+                    <longitud>3,18535</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala Figuera">
+                    <noms_alternatius>
+                        <nom_alt>Caló d'en Boira</nom_alt>
+                        <nom_alt>Caló d'en Busques</nom_alt>
+                    </noms_alternatius>
+
+                    <superficie_tipus>còdols</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>10</llargaria>
+                    <amplada_mitjana>3</amplada_mitjana>
+                    <latitud>39,333416</latitud>
+                    <longitud>3,169389</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala Santanyí">
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>70</llargaria>
+                    <amplada_mitjana>100</amplada_mitjana>
+                    <latitud>39,33043</latitud>
+                    <longitud>3,14657</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala Llombards">
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>55</llargaria>
+                    <amplada_mitjana>150</amplada_mitjana>
+                    <latitud>39,3239</latitud>
+                    <longitud>3,13888</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Caló des Moro">
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>30</llargaria>
+                    <amplada_mitjana>20</amplada_mitjana>
+                    <latitud>39,31376</latitud>
+                    <longitud>3,12157</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala s'Almunia">
+                    <noms_alternatius>
+                        <nom_alt>Cala es Maquer</nom_alt>
+                    </noms_alternatius>
+                    <superficie_tipus>còdols</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>30</llargaria>
+                    <amplada_mitjana>10</amplada_mitjana>
+                    <latitud>39,31319</latitud>
+                    <longitud>3,11812</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Caló des Màrmols">
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>40</llargaria>
+                    <amplada_mitjana>35</amplada_mitjana>
+                    <latitud>39,2889</latitud>
+                    <longitud>3,09001</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Platja des Caragol">
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>500</llargaria>
+                    <amplada_mitjana>60</amplada_mitjana>
+                    <latitud>39,27874</latitud>
+                    <longitud>3,04313</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala en Tugores">
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>200</llargaria>
+                    <amplada_mitjana>15</amplada_mitjana>
+                    <latitud>39,28941</latitud>
+                    <longitud>3,03071</longitud>
+                    <nat>false</nat>
+                </platja>
+            </platges>
+        </municipi>
+        <municipi nom="Ses Salines">
+            <infoMeteoPath>http://www.aemet.es/xml/municipios/localidad_07059.xml</infoMeteoPath>
+            <platges>
+                <platja nom="Platja des Carbó">
+                    <noms_alternatius>
+                        <nom_alt>Platja de ses Roquetes</nom_alt>
+                    </noms_alternatius>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>1400</llargaria>
+                    <amplada_mitjana>45</amplada_mitjana>
+                    <latitud>39,30663</latitud>
+                    <longitud>3,01624</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Es Dofí">
+                    <noms_alternatius>
+                        <nom_alt>Platja des Delfí</nom_alt>
+                    </noms_alternatius>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>120</llargaria>
+                    <amplada_mitjana>26</amplada_mitjana>
+                    <latitud>39,31228</latitud>
+                    <longitud>3,00963</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Platja de Can Curt">
+                    <noms_alternatius>
+                        <nom_alt>Es Can Curt</nom_alt>
+                    </noms_alternatius>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>70</llargaria>
+                    <amplada_mitjana>10</amplada_mitjana>
+                    <latitud>39,31225</latitud>
+                    <longitud>3,00582</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Platja des Dolç">
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>natural</entorn>
+                    <llargaria>350</llargaria>
+                    <amplada_mitjana>58</amplada_mitjana>
+                    <latitud>39,31641</latitud>
+                    <longitud>3,00474</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Platja des Port">
+                    <noms_alternatius>
+                        <nom_alt>Platja de la Colònia de Sant Jordi</nom_alt>
+                    </noms_alternatius>
+                    <barri>Colònia de Sant Jordi</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>155</llargaria>
+                    <amplada_mitjana>35</amplada_mitjana>
+                    <latitud>39,31728</latitud>
+                    <longitud>2,99814</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala Galiota">
+                    <barri>Colònia de Sant Jordi</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>30</llargaria>
+                    <amplada_mitjana>9</amplada_mitjana>
+                    <latitud>39,31445</latitud>
+                    <longitud>2,99399</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Bassa des Cabot">
+                    <noms_alternatius>
+                        <nom_alt>Bassa des Cabots</nom_alt>
+                        <nom_alt>Rambada de sa Síquia</nom_alt>
+                    </noms_alternatius>
+                    <barri>Colònia de Sant Jordi</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>60</llargaria>
+                    <amplada_mitjana>11</amplada_mitjana>
+                    <latitud>39,32148</latitud>
+                    <longitud>2,98699</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Es Coto">
+                    <noms_alternatius>
+                        <nom_alt>Platja des Coto</nom_alt>
+                        <nom_alt>Platja de s'Estanys</nom_alt>
+                    </noms_alternatius>
+                    <barri>Colònia de Sant Jordi</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>58</llargaria>
+                    <amplada_mitjana>10</amplada_mitjana>
+                    <latitud>39,3256</latitud>
+                    <longitud>2,98685</longitud>
+                    <nat>false</nat>
+                </platja>
+            </platges>
+        </municipi>
+        <municipi nom="Sóller">
+            <infoMeteoPath>http://www.aemet.es/xml/municipios/localidad_07061.xml</infoMeteoPath>
+            <platges>
+                <platja nom="Platja d'en Repic">
+                    <barri>Port de Sóller</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>250</llargaria>
+                    <amplada_mitjana>20</amplada_mitjana>
+                    <latitud>39,79051</latitud>
+                    <longitud>2,69197</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Port de Sóller">
+                    <barri>Port de Sóller</barri>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>800</llargaria>
+                    <amplada_mitjana>20</amplada_mitjana>
+                    <latitud>39,793848</latitud>
+                    <longitud>2,696628</longitud>
+                    <nat>false</nat>
+                </platja>
+            </platges>
+        </municipi>
+        <municipi nom="Son Servera">
+            <infoMeteoPath>http://www.aemet.es/xml/municipios/localidad_07062.xml</infoMeteoPath>
+            <platges>
+                <platja nom="Platja de sa Marjal">
+                    <noms_alternatius>
+                        <nom_alt>Cala sa Marjal</nom_alt>
+                        <nom_alt>Cala es Ribells</nom_alt>
+                    </noms_alternatius>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>500</llargaria>
+                    <amplada_mitjana>20</amplada_mitjana>
+                    <latitud>39,63603</latitud>
+                    <longitud>3,40415</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Port Vell">
+                    <noms_alternatius>
+                        <nom_alt>Ses Barreres</nom_alt>
+                    </noms_alternatius>
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>200</llargaria>
+                    <amplada_mitjana>4</amplada_mitjana>
+                    <latitud>39,632037</latitud>
+                    <longitud>3,399547</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Port Roig">
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>160</llargaria>
+                    <amplada_mitjana>110</amplada_mitjana>
+                    <latitud>39,61867</latitud>
+                    <longitud>3,39172</longitud>
+                    <nat>false</nat>
+                </platja>
+                <platja nom="Cala Bona">
+                    <superficie_tipus>arena</superficie_tipus>
+                    <entorn>urbà</entorn>
+                    <llargaria>453</llargaria>
+                    <amplada_mitjana>32</amplada_mitjana>
+                    <latitud>39,61169</latitud>
+                    <longitud>3,39119</longitud>
+                    <nat>false</nat>
+                </platja>
+            </platges>
+        </municipi>
+        <municipi nom="Valldemossa">
+            <infoMeteoPath>http://www.aemet.es/xml/municipios/localidad_07063.xml</infoMeteoPath>
+            <platges>
+                <platja nom="Port de Valldemossa">
+                    <noms_alternatius>
+                        <nom_alt>Sa Marina</nom_alt>
+                        <nom_alt>Sa Llosa</nom_alt>
+                    </noms_alternatius>
+                    <superficie_tipus>grava</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>90</llargaria>
+                    <amplada_mitjana>15</amplada_mitjana>
+                    <latitud>39,71826</latitud>
+                    <longitud>2,58829</longitud>
+                    <nat>false</nat>
+                </platja>
+            </platges>
+        </municipi>
+    </municipis>
+    <texts>
+        <text idioma="Català" idiomaCodi="ca">
+            <superficie>
+                <intro>Tipus de superfície</intro>
+                <arena>Arenós</arena>
+                <roques>Rocós</roques>
+                <grava>Grava</grava>
+                <còdols>Còdols</còdols>
+            </superficie>
+            <cercador_text_defecte>Cerca una platja</cercador_text_defecte>
+            <idioma_elecció>Canvia d'idioma</idioma_elecció>
+            <textClickaMapa>Clica sobre el mapa...</textClickaMapa>
+            <textCercaPlatja>...o introdueix el nom de la platja sobre el camp de cerca</textCercaPlatja>
+            <welcome_to>Benvingut a</welcome_to>
+            <inici>INICI</inici>
+            <platges_de>Platges de</platges_de>
+            <noms_alternatius>Noms alternatius</noms_alternatius>
+            <foto_panoramica>Vista<br />panoràmica</foto_panoramica>
+            <coordenades>Coordenades</coordenades>
+            <avui>Avui</avui>
+            <dema>Demà</dema>
+            <llargaria>Llargària</llargaria>
+            <amplada_mitjana>Amplada mitjana</amplada_mitjana>
+            <metres>metres</metres>
+            <superficie>Superfície</superficie>
+            <tipus_entorn>Tipus d'entorn</tipus_entorn>
+            <entorn_natural>Natural</entorn_natural>
+            <entorn_urba>Urbà</entorn_urba>
+            <entorn_semi_urba>Semi-urbà</entorn_semi_urba>
+            <beaches_of_mallorca>Platges de Mallorca</beaches_of_mallorca>
+            <platja_meta_name_description_part1>Aquesta pàgina conté informació sobre la platja de </platja_meta_name_description_part1>
+            <platja_meta_name_description_part2>. També té altres noms alternatius: </platja_meta_name_description_part2>
+            <platja_meta_name_description_part3>. En aquesta pàgina pot trobar fotografies
+                informació meteorològica coordenades geogràfiques i mapes.</platja_meta_name_description_part3>
+            <index_meta_name_description>Catàleg de platges de l'illa de Mallorca a les Illes
+                Balears</index_meta_name_description>
+            <index_meta_name_keywords>Platges, Mallorca, Balears, Mediterrani, Espanya</index_meta_name_keywords>
+        </text>
+        <text idioma="English" idiomaCodi="en">
+            <superficie>
+                <intro>Surface type</intro>
+                <arena>Sandy</arena>
+                <roques>Rocky</roques>
+                <grava>Gravelled</grava>
+                <còdols>Pebbly</còdols>
+            </superficie>
+            <cercador_text_defecte>Search a beach</cercador_text_defecte>
+            <idioma_elecció>Change language</idioma_elecció>
+            <textClickaMapa>Click on the map...</textClickaMapa>
+            <textCercaPlatja>...or key in the name of the beach in the search field</textCercaPlatja>
+            <welcome_to>Welcome to</welcome_to>
+            <inici>HOME</inici>
+            <platges_de>Beaches of</platges_de>
+            <noms_alternatius>Alternative names</noms_alternatius>
+            <foto_panoramica>Panoramic<br />view</foto_panoramica>
+            <coordenades>Coordinates</coordenades>
+            <avui>Today</avui>
+            <dema>Tomorrow</dema>
+            <llargaria>Length</llargaria>
+            <amplada_mitjana>Mean width</amplada_mitjana>
+            <metres>metres</metres>
+            <superficie>Surface area</superficie>
+            <tipus_entorn>Type of environment</tipus_entorn>
+            <entorn_natural>Natural</entorn_natural>
+            <entorn_urba>Urban</entorn_urba>
+            <entorn_semi_urba>Semi-urban</entorn_semi_urba>
+            <beaches_of_mallorca>Beaches of Majorca</beaches_of_mallorca>
+            <platja_meta_name_description_part1>This page contains information about the beach of </platja_meta_name_description_part1>
+            <platja_meta_name_description_part2>. The beach also has other alternative names: </platja_meta_name_description_part2>
+            <platja_meta_name_description_part3>. In this page you can find photos weather
+                information geographic coordinates and maps.</platja_meta_name_description_part3>
+            <index_meta_name_description>Catalogue of beaches of the island of Majorca/Mallorca in
+                the Balearic Islands</index_meta_name_description>
+            <index_meta_name_keywords>Beaches, Mallorca, Majorca, Balearic, Mediterrean, Spain</index_meta_name_keywords>
+        </text>
+        <text idioma="Español" idiomaCodi="es">
+            <superficie>
+                <intro>Tipo de superficie</intro>
+                <arena>Arenoso</arena>
+                <roques>Rocoso</roques>
+                <grava>Grava</grava>
+                <còdols>Guijarros</còdols>
+            </superficie>
+            <cercador_text_defecte>Busca una playa</cercador_text_defecte>
+            <idioma_elecció>Cambia de idioma</idioma_elecció>
+            <textClickaMapa>Clica sobre el mapa...</textClickaMapa>
+            <textCercaPlatja>...o introduce el nombre de la playa en el campo</textCercaPlatja>
+            <welcome_to>Bienvenido a</welcome_to>
+            <inici>INICIO</inici>
+            <platges_de>Playas de</platges_de>
+            <noms_alternatius>Nombres alternativos</noms_alternatius>
+            <foto_panoramica>Vista<br />panorámica</foto_panoramica>
+            <coordenades>Coordenadas</coordenades>
+            <avui>Hoy</avui>
+            <dema>Mañana</dema>
+            <llargaria>Longitud</llargaria>
+            <amplada_mitjana>Amplitud media</amplada_mitjana>
+            <metres>metros</metres>
+            <superficie>Superficie</superficie>
+            <tipus_entorn>Tipo de entorno</tipus_entorn>
+            <entorn_natural>Natural</entorn_natural>
+            <entorn_urba>Urbano</entorn_urba>
+            <entorn_semi_urba>Semiurbano</entorn_semi_urba>
+            <beaches_of_mallorca>Playas de Mallorca</beaches_of_mallorca>
+            <platja_meta_name_description_part1>Esta página contiene información sobre la playa de </platja_meta_name_description_part1>
+            <platja_meta_name_description_part2>. También tiene otros nombres alternativos: </platja_meta_name_description_part2>
+            <platja_meta_name_description_part3>. En esta página puede encontrar fotografías
+                información meteorológica coordenadas geográficas y mapas.</platja_meta_name_description_part3>
+            <index_meta_name_description>Catálogo de playas de la isla de Mallorca en las Islas
+                Baleares</index_meta_name_description>
+            <index_meta_name_keywords>Playas, Mallorca, Baleares, Mediterráneo, España</index_meta_name_keywords>
+        </text>
+    </texts>
+</BoM>

@@ -1,0 +1,363 @@
+@charset "UTF-8";
+
+html,
+body {
+    background-color: #E6E3D4;
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, "Nimbus Roman No9 L", "Century Schoolbook L", Norasi, Rekha, serif;
+    overflow-x: hidden;
+}
+
+/* ------------------------------------------
+
+              Relecionat amb peu
+
+-------------------------------------------- */
+
+#peuPrincipal {
+    clear: both;
+    margin-top: 50px;
+}
+
+#peuGràfic {
+    background: url(imatges/decoracions/gris.png) no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    height: 140px;
+}
+
+#peuContingut {
+    color: white;
+    background-color: #575451;
+    width: 100%;
+    height: 150px;
+}
+
+#peuContingut td {
+    text-align: center;
+    vertical-align: middle;
+    width: 33.333%;
+}
+
+/* ------------------------------------------
+
+                  Contingut
+
+-------------------------------------------- */
+
+.seccions {
+    width: 100%;
+    padding: 0px;
+    border: 2px;
+    border-style: solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.fonsAmbGradient {
+    background-image: radial-gradient(gray, black);
+
+}
+
+#platja {
+    max-width: 1600px;
+    width: 90%;
+    min-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+hgroup {
+    margin-top: 100px;
+    text-align: right;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.75);
+    color: #575451;
+}
+
+hgroup h1 {
+    font-style: oblique;
+    font-size: 56px;
+    margin-bottom: 0px;
+}
+
+hgroup h3 {
+    font-style: oblique;
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+
+hgroup h3 #títolNomsAlternatius {
+    background-color: #575451;
+    border-radius: 15px 15px;
+    padding: 1px 8px 1px 8px;
+    color: white;
+    text-shadow: none;
+    box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.75);
+}
+
+hgroup h3 #headerNomsAlternatius {
+    padding: 1px 8px 1px 8px;
+}
+
+hgroup h2 {
+    font-size: 22px;
+    margin-top: 10px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* ---------------------------------------------
+
+      Relacionat amb la imatge panoràmica
+
+---------------------------------------------- */
+
+#envoltoriRibbon {
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 0px;
+}
+
+#ribbon {
+    transform: rotate(-40deg) scale(1) translate(-85px, -30px);
+    background-color: red;
+    color: white;
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+    width: 300px;
+    height: auto;
+    padding: 5px 0;
+}
+
+#envoltoriFoto {
+    position: relative;
+    overflow: auto;
+}
+
+#envoltoriFoto img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    min-height: 400px;
+}
+
+/* -------------------------------------------------
+
+       Relacionats amb la llista de navegació
+
+--------------------------------------------------- */
+
+#navegacio {
+    color: white;
+    font-family: Arial, Helvetica, Garuda, Utkal, "Nimbus Sans L", FreeSans, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    overflow: hidden;
+    /*due to container collapse*/
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    top: 0;
+    background: linear-gradient(rgba(87, 84, 81, 1), rgba(0, 0, 0, 0.9));
+    padding-bottom: 10px;
+    overflow: visible;
+    height: 40px;
+}
+
+#navegacio ul,
+#navegacio li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#mapet {
+    background: no-repeat;
+    background-image: url(imatges/decoracions/mapets_sprites.png);
+    background-size: 30px 48px;
+    background-position: 0 -24px;
+    display: inline-block;
+    height: 24px;
+    width: 30px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+#navegacio ul li a {
+    display: block;
+    float: left;
+    text-decoration: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    height: 23px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#navegacio ul li a[href^="index"] {
+    position: relative;
+    top: -38px;
+    background-color: #0a5b00;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 61px;
+}
+
+#navegacio ul li a:hover {
+    color: black;
+}
+
+#navegacio ul li a[href^="index"]:hover {
+    background-color: #1dff00;
+
+}
+
+a:focus,
+a:link,
+a:visited,
+a:hover,
+a:active {}
+
+/* Formulari */
+
+#municipiForm {
+    position: relative;
+    height: 43px;
+    padding-left: 10px;
+    padding-right: 10px;
+    min-width: 262px;
+    text-align: center;
+}
+
+#fletxaDreta,
+#fletxaEsquerra,
+#municipiForm {
+    background-color: #636200;
+    float: left;
+    border-style: none;
+    margin-right: 0;
+}
+
+#fletxaEsquerra {
+    border-bottom-left-radius: 20px;
+}
+
+#fletxaDreta {
+    border-bottom-right-radius: 20px;
+}
+
+#fletxaEsquerra:hover {
+    background-color: #fffc00;
+}
+
+#fletxaDreta:hover {
+    background-color: #fffc00;
+}
+
+#selectPlatja {
+    min-width: 50%;
+    max-width: 100%;
+}
+
+/* --------------------------------------------
+
+                    Caixa mapa
+
+---------------------------------------------- */
+
+#envoltoriMapes {
+    height: 400px;
+}
+
+#mapaGeneral {
+    width: 50%;
+    float: left;
+    height: 100%;
+}
+
+#mapaEspecífic {
+    width: 50%;
+    float: left;
+    height: 100%;
+}
+
+/* -----------------------------------------------------
+
+                    Caixa serveis
+
+------------------------------------------------------ */
+
+#envoltoriCaracterístiques {
+    margin-left: -5px;
+    margin-right: -5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.característica {
+    flex: 1 1 200px;
+    min-width: 250px;
+    height: 300px;
+    border-radius: 40px;
+    margin: 5px;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.característica p {
+    background: rgba(255, 255, 255, 0.5);
+    margin: 100px 0 0 0;
+    padding: 25px;
+    color: black;
+    font-size: 20px;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.75);
+    height: 150px;
+}
+
+.característica p {
+    font-size: 40px;
+}
+
+.característica p:first-line {
+    font-size: 20px;
+}
+
+
+#coordenades {
+    background-color: gold;
+    background: no-repeat;
+    background-image: url(imatges/textures/compass.jpg);
+    background-size: cover;
+}
+
+#entorn {
+    background-image: radial-gradient(blue, blueviolet);
+}
+
+#superficieMida {
+    background-image: radial-gradient(lawngreen, green);
+}
+
+#superficieMida p {
+    font-size: 20px;
+}
+
+#meteoContent {
+    position: relative;
+}
+
+.viento {
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    text-align: center;
+}
+
+.viento img {
+    height: 60px;
+}

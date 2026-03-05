@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>BeachesOfMallorca</title>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="BeachesOfMallorca">
+    <link rel="stylesheet" href="portal.css" media="screen" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/qtip2/3.0.3/jquery.qtip.min.css" />
+    <link rel="stylesheet"
+        href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.3/themes/smoothness/jquery-ui.css" />
+    <link href='https://fonts.googleapis.com/css?family=Alex+Brush' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.3/jquery-ui.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/qtip2/3.0.3/jquery.qtip.min.js"></script>
+</head>
+
+<body>
+    <div id="pageWrapper">
+        <div id="benvingut">
+            <h3 class="background"><span id="welcome_to">
+
+                </span></h3>
+            <h1></h1>
+        </div>
+        <div id="mapaPrincipalMallorca">
+            <div id="conjuntMapaNigul">
+                <ol id="mapa">
+                    <li id="palma"><a href="#">Palma</a>
+                        <div class="tooltiptext duesColumnes">
+                        </div>
+                    </li>
+                    <li id="llucmajor"><a href="#">Llucmajor</a>
+                        <div class="tooltiptext duesColumnes">
+                        </div>
+                    </li>
+                    <li id="calvia"><a href="#">Calvià</a>
+                        <div class="tooltiptext duesColumnes">
+                        </div>
+                    </li>
+                    <li id="capdepera"><a href="#">Capdepera</a>
+                        <div class="tooltiptext">
+                        </div>
+                    </li>
+                    <li id="andratx"><a href="#">Andratx</a>
+                        <div class="tooltiptext">
+                        </div>
+                    </li>
+                    <li id="estellencs"><a href="#">Estellencs</a>
+                        <div class="tooltiptext">
+                        </div>
+                    </li>
+                    <li id="campos"><a href="#">Campos</a>
+                        <div class="tooltiptext">
+                        </div>
+                    </li>
+                    <li id="sesSalines"><a href="#">Ses Salines</a>
+                        <div class="tooltiptext">
+                        </div>
+                    </li>
+                    <li id="santanyí"><a href="#">Santanyí</a>
+                        <div class="tooltiptext duesColumnes">
+                        </div>
+                    </li>
+                    <li id="felanitx"><a href="#">Felanitx</a>
+                        <div class="tooltiptext">
+                        </div>
+                    </li>
+                    <li id="manacor"><a href="#">Manacor</a>
+                        <div class="tooltiptext">
+                        </div>
+                    </li>
+                    <li id="sant_llorenc"><a href="#">Sant Llorenç des Cardassar</a>
+                        <div class="tooltiptext">
+                        </div>
+                    </li>
+                    <li id="son_servera"><a href="#">Son Servera</a>
+                        <div class="tooltiptext">
+                        </div>
+                    </li>
+                    <li id="arta"><a href="#">Artà</a>
+                        <div class="tooltiptext">
+                        </div>
+                    </li>
+                    <li id="santa_margalida"><a href="#">Santa Margalida</a>
+                        <div class="tooltiptext">
+                        </div>
+                    </li>
+                    <li id="muro"><a href="#">Muro</a>
+                        <div class="tooltiptext">
+                        </div>
+                    </li>
+                    <li id="alcudia"><a href="#">Alcúdia</a>
+                        <div class="tooltiptext">
+                        </div>
+                    </li>
+                    <li id="pollenca"><a href="#">Pollença</a>
+                        <div class="tooltiptext">
+                        </div>
+                    </li>
+                    <li id="escorca"><a href="#">Escorca</a>
+                        <div class="tooltiptext">
+                        </div>
+                    </li>
+                    <li id="soller"><a href="#">Sóller</a>
+                        <div class="tooltiptext">
+                        </div>
+                    </li>
+                    <li id="deia"><a href="#">Deià</a>
+                        <div class="tooltiptext">
+                        </div>
+                    </li>
+                    <li id="valldemossa"><a href="#">Valldemossa</a>
+                        <div class="tooltiptext">
+                        </div>
+                    </li>
+                    <li id="banyalbufar"><a href="#">Banyalbufar</a>
+                        <div class="tooltiptext">
+                        </div>
+                    </li>
+                </ol>
+                <div id="textClickaMapa">
+                    <p></p>
+                </div>
+            </div>
+            <div id="cercador" class="ui-widget">
+                <input id="inputCercador" placeholder="" />
+                <div id="textCercaPlatja">
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="peuPrincipal">
+        <div id="peuGràfic">
+        </div>
+        <table id="peuContingut">
+            <tr>
+                <td>
+                    <form id="formulari" method="GET">
+                        <label><small id="idioma_elecció">
+                            </small>&nbsp;</label>
+                        <select name="lang" id="lang">
+
+                        </select>
+                    </form>
+                    <div id="idiomes">
+                    </div>
+                </td>
+                <td>
+
+                </td>
+                <td>
+                    <small>&copy; Copyright 2015<br>BeachesOfMallorca</small>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <script src="bomData.js"></script>
+    <script src="portal.js"></script>
+</body>
+
+</html>
