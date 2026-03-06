@@ -21,9 +21,15 @@ body {
 }
 
 #peuGràfic {
-    background: url(imatges/decoracions/gris.png) no-repeat;
-    background-position: bottom;
-    background-size: contain;
+    mask-image: url(imatges/decoracions/people_beach_web.svg);
+    -webkit-mask-image: url(imatges/decoracions/people_beach_web.svg);
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+    mask-position: bottom;
+    -webkit-mask-position: bottom;
+    mask-size: contain;
+    -webkit-mask-size: contain;
+    background-color: #575451;
     height: 140px;
 }
 

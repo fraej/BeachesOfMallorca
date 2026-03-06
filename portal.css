@@ -122,7 +122,8 @@ body {
     outline: none;
 }
 
-#mapa a:hover, a:focus {
+#mapa a:hover,
+a:focus {
     opacity: 0.6;
 }
 
@@ -156,7 +157,8 @@ body {
     top: -160px;
 }
 
-#textClickaMapa p, #textCercaPlatja p {
+#textClickaMapa p,
+#textCercaPlatja p {
     font-family: "Comic Sans MS", TSCu_Comic, cursive;
     font-size: 11px;
     text-align: center;
@@ -194,7 +196,7 @@ body {
     left: 0;
 }
 
-#inputCercador[placeholder]{
+#inputCercador[placeholder] {
     text-align: center;
 }
 
@@ -225,7 +227,8 @@ body {
 
 .tooltiptext ul {
     list-style: none;
-    padding: 0;  /* Canviar en un futur per posar iconetes de roques, arena, còdols... */
+    padding: 0;
+    /* Canviar en un futur per posar iconetes de roques, arena, còdols... */
 }
 
 .tooltiptext li {
@@ -252,9 +255,15 @@ body {
 }
 
 #peuGràfic {
-    background: url(imatges/decoracions/blau.png) no-repeat;
-    background-position: bottom;
-    background-size: contain;
+    mask-image: url(imatges/decoracions/people_beach_web.svg);
+    -webkit-mask-image: url(imatges/decoracions/people_beach_web.svg);
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+    mask-position: bottom;
+    -webkit-mask-position: bottom;
+    mask-size: contain;
+    -webkit-mask-size: contain;
+    background-color: #B5C0E7;
     height: 140px;
 }
 
@@ -292,7 +301,8 @@ body {
     height: 97px;
 }
 
-#palma a:hover, #palma a:focus {
+#palma a:hover,
+#palma a:focus {
     background: url(imatges/decoracions/mallorca-sprites.png) -14px -593px no-repeat;
 }
 
@@ -306,7 +316,8 @@ body {
     height: 116px;
 }
 
-#llucmajor a:hover, #llucmajor a:focus {
+#llucmajor a:hover,
+#llucmajor a:focus {
     background: url(imatges/decoracions/mallorca-sprites.png) -267px -595px no-repeat;
 }
 
@@ -320,7 +331,8 @@ body {
     height: 73px;
 }
 
-#andratx a:hover, #andratx a:focus {
+#andratx a:hover,
+#andratx a:focus {
     background: url(imatges/decoracions/mallorca-sprites.png) -11px -1002px no-repeat;
 }
 
@@ -336,7 +348,8 @@ body {
 
 }
 
-#calvia a:hover, #calvia a:focus {
+#calvia a:hover,
+#calvia a:focus {
     background: url(imatges/decoracions/mallorca-sprites.png) -269px -1003px no-repeat;
 }
 
@@ -352,7 +365,8 @@ body {
 
 }
 
-#estellencs a:hover, #estellencs a:focus {
+#estellencs a:hover,
+#estellencs a:focus {
     background: url(imatges/decoracions/mallorca-sprites.png) -2130px -820px no-repeat;
 }
 
@@ -366,7 +380,8 @@ body {
     height: calc(-125px + 193px);
 }
 
-#capdepera a:hover, #capdepera a:focus {
+#capdepera a:hover,
+#capdepera a:focus {
     background: url(imatges/decoracions/mallorca-sprites.png) -1941px -595px no-repeat;
 }
 
@@ -380,7 +395,8 @@ body {
     height: calc(-285px + 374px);
 }
 
-#campos a:hover, #campos a:focus {
+#campos a:hover,
+#campos a:focus {
     background: url(imatges/decoracions/mallorca-sprites.png) -507px -594px no-repeat;
 }
 
@@ -396,7 +412,8 @@ body {
 
 }
 
-#sesSalines a:hover, #sesSalines a:focus {
+#sesSalines a:hover,
+#sesSalines a:focus {
     background: url(imatges/decoracions/mallorca-sprites.png) -709px -595px no-repeat;
 }
 
@@ -410,7 +427,8 @@ body {
     height: calc(-322px + 410px);
 }
 
-#santanyí a:hover, #santanyí a:focus {
+#santanyí a:hover,
+#santanyí a:focus {
     background: url(imatges/decoracions/mallorca-sprites.png) -880px -594px no-repeat;
 }
 
@@ -425,7 +443,8 @@ body {
     height: calc(-251px + 345px);
 }
 
-#felanitx a:hover, #felanitx a:focus {
+#felanitx a:hover,
+#felanitx a:focus {
     background: url(imatges/decoracions/mallorca-sprites.png) -1102px -594px no-repeat;
 }
 
@@ -439,7 +458,8 @@ body {
     height: calc(-166px + 309px);
 }
 
-#manacor a:hover, #manacor a:focus {
+#manacor a:hover,
+#manacor a:focus {
     background: url(imatges/decoracions/mallorca-sprites.png) -1325px -594px no-repeat;
 }
 
@@ -454,7 +474,8 @@ body {
     height: calc(-164px + 234px);
 }
 
-#sant_llorenc a:hover, #sant_llorenc a:focus {
+#sant_llorenc a:hover,
+#sant_llorenc a:focus {
     background: url(imatges/decoracions/mallorca-sprites.png) -1564px -595px no-repeat;
 }
 
@@ -469,7 +490,8 @@ body {
     height: calc(-169px + 213px);
 }
 
-#son_servera a:hover, #son_servera a:focus {
+#son_servera a:hover,
+#son_servera a:focus {
     background: url(imatges/decoracions/mallorca-sprites.png) -1764px -594px no-repeat;
 }
 
@@ -483,7 +505,8 @@ body {
     height: calc(-101px + 189px);
 }
 
-#arta a:hover, #arta a:focus {
+#arta a:hover,
+#arta a:focus {
     background: url(imatges/decoracions/mallorca-sprites.png) -2111px -594px no-repeat;
 }
 
@@ -497,7 +520,8 @@ body {
     height: calc(-111px + 168px);
 }
 
-#santa_margalida a:hover, #santa_margalida a:focus {
+#santa_margalida a:hover,
+#santa_margalida a:focus {
     background: url(imatges/decoracions/mallorca-sprites.png) -12px -817px no-repeat;
 }
 
@@ -511,7 +535,8 @@ body {
     height: calc(-87px + 152px);
 }
 
-#muro a:hover, #muro a:focus {
+#muro a:hover,
+#muro a:focus {
     background: url(imatges/decoracions/mallorca-sprites.png) -311px -820px no-repeat;
 }
 
@@ -526,7 +551,8 @@ body {
     height: calc(-40px + 96px);
 }
 
-#alcudia a:hover, #alcudia a:focus {
+#alcudia a:hover,
+#alcudia a:focus {
     background: url(imatges/decoracions/mallorca-sprites.png) -508px -820px no-repeat;
 }
 
@@ -540,7 +566,8 @@ body {
     height: calc(-0px + 86px);
 }
 
-#pollenca a:hover, #pollenca a:focus {
+#pollenca a:hover,
+#pollenca a:focus {
     background: url(imatges/decoracions/mallorca-sprites.png) -668px -820px no-repeat;
 }
 
@@ -554,7 +581,8 @@ body {
     height: calc(-35px + 126px);
 }
 
-#escorca a:hover, #escorca a:focus {
+#escorca a:hover,
+#escorca a:focus {
     background: url(imatges/decoracions/mallorca-sprites.png) -890px -820px no-repeat;
 }
 
@@ -583,7 +611,8 @@ body {
     height: calc(-82px + 134px);
 }
 
-#soller a:hover, #soller a:focus {
+#soller a:hover,
+#soller a:focus {
     background: url(imatges/decoracions/mallorca-sprites.png) -1391px -820px no-repeat;
 }
 
@@ -598,7 +627,8 @@ body {
     height: calc(-112px + 139px);
 }
 
-#deia a:hover, #deia a:focus {
+#deia a:hover,
+#deia a:focus {
     background: url(imatges/decoracions/mallorca-sprites.png) -1626px -820px no-repeat;
 }
 
@@ -612,7 +642,8 @@ body {
     height: calc(-129px + 180px);
 }
 
-#valldemossa a:hover, #valldemossa a:focus {
+#valldemossa a:hover,
+#valldemossa a:focus {
     background: url(imatges/decoracions/mallorca-sprites.png) -1809px -820px no-repeat;
 }
 
@@ -626,6 +657,7 @@ body {
     height: calc(-153px + 180px);
 }
 
-#banyalbufar a:hover, #banyalbufar a:focus {
+#banyalbufar a:hover,
+#banyalbufar a:focus {
     background: url(imatges/decoracions/mallorca-sprites.png) -1971px -820px no-repeat;
 }
