@@ -2877,5 +2877,79 @@
                 Baleares</index_meta_name_description>
             <index_meta_name_keywords>Playas, Mallorca, Baleares, Mediterráneo, España</index_meta_name_keywords>
         </text>
+        <text idioma="Deutsch" idiomaCodi="de">
+            <superficie>
+                <intro>Oberflächentyp</intro>
+                <arena>Sandig</arena>
+                <roques>Felsig</roques>
+                <grava>Kiesig</grava>
+                <còdols>Kieselsteinig</còdols>
+            </superficie>
+            <cercador_text_defecte>Strand suchen</cercador_text_defecte>
+            <idioma_elecció>Sprache ändern</idioma_elecció>
+            <textClickaMapa>Klicken Sie auf die Karte...</textClickaMapa>
+            <textCercaPlatja>...oder geben Sie den Namen des Strandes in das Suchfeld ein</textCercaPlatja>
+            <welcome_to>Willkommen bei</welcome_to>
+            <inici>STARTSEITE</inici>
+            <platges_de>Strände von</platges_de>
+            <noms_alternatius>Alternative Namen</noms_alternatius>
+            <foto_panoramica>Panorama-<br />ansicht</foto_panoramica>
+            <coordenades>Koordinaten</coordenades>
+            <avui>Heute</avui>
+            <dema>Morgen</dema>
+            <llargaria>Länge</llargaria>
+            <amplada_mitjana>Mittlere Breite</amplada_mitjana>
+            <metres>Meter</metres>
+            <superficie>Fläche</superficie>
+            <tipus_entorn>Art der Umgebung</tipus_entorn>
+            <entorn_natural>Natürlich</entorn_natural>
+            <entorn_urba>Städtisch</entorn_urba>
+            <entorn_semi_urba>Halbstädtisch</entorn_semi_urba>
+            <beaches_of_mallorca>Strände von Mallorca</beaches_of_mallorca>
+            <platja_meta_name_description_part1>Diese Seite enthält Informationen über den Strand von </platja_meta_name_description_part1>
+            <platja_meta_name_description_part2>. Der Strand hat auch andere alternative Namen: </platja_meta_name_description_part2>
+            <platja_meta_name_description_part3>. Auf dieser Seite finden Sie Fotos,
+                Wetterinformationen, geografische Koordinaten und Karten.</platja_meta_name_description_part3>
+            <index_meta_name_description>Katalog der Strände der Insel Mallorca auf den
+                Balearischen Inseln</index_meta_name_description>
+            <index_meta_name_keywords>Strände, Mallorca, Balearen, Mittelmeer, Spanien</index_meta_name_keywords>
+        </text>
+        <text idioma="Français" idiomaCodi="fr">
+            <superficie>
+                <intro>Type de surface</intro>
+                <arena>Sablonneux</arena>
+                <roques>Rocheux</roques>
+                <grava>Gravier</grava>
+                <còdols>Galets</còdols>
+            </superficie>
+            <cercador_text_defecte>Rechercher une plage</cercador_text_defecte>
+            <idioma_elecció>Changer de langue</idioma_elecció>
+            <textClickaMapa>Cliquez sur la carte...</textClickaMapa>
+            <textCercaPlatja>...ou saisissez le nom de la plage dans le champ de recherche</textCercaPlatja>
+            <welcome_to>Bienvenue à</welcome_to>
+            <inici>ACCUEIL</inici>
+            <platges_de>Plages de</platges_de>
+            <noms_alternatius>Noms alternatifs</noms_alternatius>
+            <foto_panoramica>Vue<br />panoramique</foto_panoramica>
+            <coordenades>Coordonnées</coordenades>
+            <avui>Aujourd'hui</avui>
+            <dema>Demain</dema>
+            <llargaria>Longueur</llargaria>
+            <amplada_mitjana>Largeur moyenne</amplada_mitjana>
+            <metres>mètres</metres>
+            <superficie>Surface</superficie>
+            <tipus_entorn>Type d'environnement</tipus_entorn>
+            <entorn_natural>Naturel</entorn_natural>
+            <entorn_urba>Urbain</entorn_urba>
+            <entorn_semi_urba>Semi-urbain</entorn_semi_urba>
+            <beaches_of_mallorca>Plages de Majorque</beaches_of_mallorca>
+            <platja_meta_name_description_part1>Cette page contient des informations sur la plage de </platja_meta_name_description_part1>
+            <platja_meta_name_description_part2>. La plage a aussi d'autres noms alternatifs : </platja_meta_name_description_part2>
+            <platja_meta_name_description_part3>. Sur cette page, vous trouverez des photos,
+                des informations météorologiques, des coordonnées géographiques et des cartes.</platja_meta_name_description_part3>
+            <index_meta_name_description>Catalogue des plages de l'île de Majorque dans les
+                îles Baléares</index_meta_name_description>
+            <index_meta_name_keywords>Plages, Majorque, Mallorca, Baléares, Méditerranée, Espagne</index_meta_name_keywords>
+        </text>
     </texts>
 </BoM>
