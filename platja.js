@@ -336,6 +336,22 @@ async function setPlatjaName() {
     const entornValue = document.querySelector('#entornValue');
     if (entornValue) entornValue.textContent = getEntornText(entorn);
 
+    // Description (falls back to Catalan if the language has none)
+    const descripcioNodes = Array.from(platjaObjecte.querySelectorAll('descripcions > descripcio'));
+    const descripcioNode =
+        descripcioNodes.find(node => node.getAttribute('idiomaCodi') === getCurrentLang()) ||
+        descripcioNodes.find(node => node.getAttribute('idiomaCodi') === 'ca');
+    const descripcioDiv = document.querySelector('#descripcio');
+    if (descripcioNode) {
+        const descripcio = descripcioNode.textContent;
+        document.querySelector('#descripcioTitol').textContent = getTranslatedText('descripcio_titol');
+        document.querySelector('#descripcioText').textContent = descripcio;
+        const metaDescription = document.querySelector('meta[name="description"]');
+        if (metaDescription) metaDescription.setAttribute('content', descripcio);
+    } else if (descripcioDiv) {
+        descripcioDiv.style.display = 'none';
+    }
+
     // Labels
     const platgesDeText = document.querySelector('#platgesDeText');
     if (platgesDeText) platgesDeText.textContent = getTranslatedText('platges_de');
