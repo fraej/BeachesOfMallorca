@@ -367,3 +367,29 @@ a:active {}
 .viento img {
     height: 60px;
 }
+/* -----------------------------------------------------
+
+                    Descripció
+
+------------------------------------------------------ */
+
+#descripcio {
+    border-radius: 40px;
+    border-color: #575451;
+    background: rgba(255, 255, 255, 0.7);
+    color: #333;
+    box-sizing: border-box;
+    padding: 10px 40px 25px 40px;
+}
+
+#descripcio h4 {
+    font-size: 24px;
+    color: #575451;
+    margin-bottom: 10px;
+}
+
+#descripcio p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0;
+}
