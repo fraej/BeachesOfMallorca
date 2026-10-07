@@ -62,7 +62,7 @@ for b in beaches:
 REGION_BY_MUN = {
     'Andratx': 'sw', 'Calvià': 'sw',
     'Banyalbufar': 'nw', 'Estellencs': 'nw', 'Valldemossa': 'nw', 'Deià': 'nw',
-    'Sóller': 'nw', 'Escorca': 'nw',
+    'Sóller': 'nw', 'Fornalutx': 'nw', 'Escorca': 'nw',
     'Pollença': 'n', 'Alcúdia': 'n',
     'Muro': 'balcudia', 'Santa Margalida': 'balcudia',
     'Artà': 'ne', 'Capdepera': 'ne',
@@ -73,11 +73,7 @@ REGION_BY_MUN = {
 
 
 def region(b):
-    # Fornalutx's own short coast is in the Tramuntana, but some Fornalutx
-    # entries in the data carry Llucmajor coastline coordinates
-    if b['mun'] == 'Fornalutx' and b['lat'] > 39.6:
-        return 'nw'
-    if b['mun'] in ('Llucmajor', 'Fornalutx'):
+    if b['mun'] == 'Llucmajor':
         return 'bpalma' if b['lat'] > 39.45 else 's'
     return REGION_BY_MUN[b['mun']]
 
