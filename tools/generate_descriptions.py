@@ -73,7 +73,10 @@ REGION_BY_MUN = {
 
 
 def region(b):
-    # The Fornalutx entries in the data carry Llucmajor coastline coordinates
+    # Fornalutx's own short coast is in the Tramuntana, but some Fornalutx
+    # entries in the data carry Llucmajor coastline coordinates
+    if b['mun'] == 'Fornalutx' and b['lat'] > 39.6:
+        return 'nw'
     if b['mun'] in ('Llucmajor', 'Fornalutx'):
         return 'bpalma' if b['lat'] > 39.45 else 's'
     return REGION_BY_MUN[b['mun']]
