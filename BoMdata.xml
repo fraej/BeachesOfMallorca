@@ -6,9 +6,9 @@
             <platges>
                 <platja nom="Platja de Can Cap de Bou">
                     <superficie_tipus>arena</superficie_tipus>
-                    <entorn>semi-urbà</entorn>
+                    <entorn>natural</entorn>
                     <llargaria>2400</llargaria>
-                    <amplada_mitjana>30</amplada_mitjana>
+                    <amplada_mitjana>10</amplada_mitjana>
                     <latitud>39,86557</latitud>
                     <longitud>3,09088</longitud>
                     <nat>false</nat>
@@ -21,8 +21,8 @@
                     </descripcions>
                 </platja>
                 <platja nom="Platja de sa Marina">
-                    <superficie_tipus>arena</superficie_tipus>
-                    <entorn>semi-urbà</entorn>
+                    <superficie_tipus>còdols</superficie_tipus>
+                    <entorn>natural</entorn>
                     <llargaria>400</llargaria>
                     <amplada_mitjana>30</amplada_mitjana>
                     <latitud>39,85874</latitud>
@@ -57,7 +57,7 @@
                         <nom_alt>Platja de sa Font de Sant Joan</nom_alt>
                     </noms_alternatius>
                     <superficie_tipus>arena</superficie_tipus>
-                    <entorn>semi-urbà</entorn>
+                    <entorn>natural</entorn>
                     <llargaria>110</llargaria>
                     <amplada_mitjana>60</amplada_mitjana>
                     <latitud>39,8653</latitud>
@@ -110,7 +110,7 @@
                     <amplada_mitjana>50</amplada_mitjana>
                     <latitud>39,86235</latitud>
                     <longitud>3,1873</longitud>
-                    <nat>false</nat>
+                    <nat>true</nat>
                     <descripcions>
                         <descripcio idiomaCodi="ca">Una cala salvatge al peu dels penya-segats de la península d'Alcúdia, on només s'hi pot arribar a peu o en barca. Des de l'àrea recreativa des Coll Baix, un camí costerut i pedregós hi baixa en uns 20 a 40 minuts —i s'ha de tornar a pujar—, així que cal dur un bon calçat. La recompensa és una aigua cristal·lina envoltada de penya-segats i, sovint, de cabres salvatges. No hi ha cap servei i hi ha poca ombra fins que els penya-segats la cobreixen a mitja tarda.</descripcio>
                         <descripcio idiomaCodi="en">A wild cove at the foot of the cliffs of the Alcúdia peninsula, reachable only on foot or by boat. From the Coll Baix recreation area, a steep, rocky path descends in roughly 20 to 40 minutes — and has to be climbed back up — so sturdy shoes are a must. The reward is crystal-clear water framed by cliffs and, often, wild goats. There are no services and little shade until the cliffs cover the beach in the late afternoon.</descripcio>
@@ -124,7 +124,7 @@
                         <nom_alt>Platja de l'Alcanada</nom_alt>
                     </noms_alternatius>
                     <superficie_tipus>còdols</superficie_tipus>
-                    <entorn>semi-urbà</entorn>
+                    <entorn>natural</entorn>
                     <llargaria>700</llargaria>
                     <amplada_mitjana>20</amplada_mitjana>
                     <latitud>39,83836</latitud>
@@ -165,7 +165,7 @@
                 <platja nom="Platja de Camp de Mar">
                     <barri>Camp de Mar</barri>
                     <superficie_tipus>arena</superficie_tipus>
-                    <entorn>urbà</entorn>
+                    <entorn>semi-urbà</entorn>
                     <llargaria>180</llargaria>
                     <amplada_mitjana>60</amplada_mitjana>
                     <latitud>39,53765</latitud>
@@ -221,13 +221,13 @@
                 </platja>
                 <platja nom="Cala Blanca">
                     <barri>Camp de Mar</barri>
-                    <superficie_tipus>roques</superficie_tipus>
+                    <superficie_tipus>còdols</superficie_tipus>
                     <entorn>natural</entorn>
                     <llargaria>137</llargaria>
                     <amplada_mitjana>27</amplada_mitjana>
                     <latitud>39,53668</latitud>
                     <longitud>2,40545</longitud>
-                    <nat>false</nat>
+                    <nat>true</nat>
                     <descripcions>
                         <descripcio idiomaCodi="ca">Una petita cala de còdols, recollida, entre Camp de Mar i el Port d'Andratx, una alternativa tranquil·la a la concorreguda platja d'arena veïna. S'hi arriba pel camí de Cala Blanca i una forta baixada final d'uns 200 metres a peu. No hi ha bar, lavabos ni socorrista, però l'aigua clara i els petits esculls sota les roques del voltant en fan un bon lloc per fer snorkel; s'hi admeten gossos tot l'any.</descripcio>
                         <descripcio idiomaCodi="en">A small, secluded pebble cove between Camp de Mar and Port d'Andratx, a quiet alternative to the busier sandy beach nearby. It is reached along the Camí de Cala Blanca and a steep final descent of about 200 metres on foot. There is no bar, toilet or lifeguard, but the clear water and the small reefs under the surrounding rocks make it a good snorkelling spot; dogs are allowed all year round.</descripcio>
@@ -255,8 +255,8 @@
                 <platja nom="Cala Marmassen">
                     <superficie_tipus>roques</superficie_tipus>
                     <entorn>semi-urbà</entorn>
-                    <llargaria>345</llargaria>
-                    <amplada_mitjana>30</amplada_mitjana>
+                    <llargaria>100</llargaria>
+                    <amplada_mitjana>15</amplada_mitjana>
                     <latitud>39,5375</latitud>
                     <longitud>2,37674</longitud>
                     <nat>false</nat>
@@ -292,7 +292,7 @@
                     <noms_alternatius>
                         <nom_alt>Cala Fonoll</nom_alt>
                     </noms_alternatius>
-                    <superficie_tipus>arena</superficie_tipus>
+                    <superficie_tipus>grava</superficie_tipus>
                     <entorn>urbà</entorn>
                     <llargaria>63</llargaria>
                     <amplada_mitjana>29</amplada_mitjana>
@@ -308,7 +308,7 @@
                     </descripcions>
                 </platja>
                 <platja nom="Cala d'Egos">
-                    <superficie_tipus>arena</superficie_tipus>
+                    <superficie_tipus>grava</superficie_tipus>
                     <entorn>natural</entorn>
                     <llargaria>55</llargaria>
                     <amplada_mitjana>18</amplada_mitjana>
@@ -350,7 +350,7 @@
                     </noms_alternatius>
                     <barri>Sant Elm</barri>
                     <superficie_tipus>arena</superficie_tipus>
-                    <entorn>urbà</entorn>
+                    <entorn>semi-urbà</entorn>
                     <llargaria>130</llargaria>
                     <amplada_mitjana>30</amplada_mitjana>
                     <latitud>39,57789</latitud>
@@ -396,7 +396,7 @@
                     <amplada_mitjana>40</amplada_mitjana>
                     <latitud>39,72994</latitud>
                     <longitud>3,24596</longitud>
-                    <nat>false</nat>
+                    <nat>true</nat>
                     <descripcions>
                         <descripcio idiomaCodi="ca">Una platja llarga i salvatge a prop de la Colònia de Sant Pere, entre la punta de sa Barraca i la desembocadura del torrent de na Borges. La seva arena fina està formada per fragments de petxines, i al darrere hi ha un sistema dunar que s'endinsa fins a dos quilòmetres, protegit des de 1991 com a Àrea Natural d'Especial Interès; les dunes estan acordonades i es travessen per passarel·les de fusta. No hi ha serveis, i la manera més fàcil d'arribar-hi és a peu des de Son Serra de Marina o s'Estanyol.</descripcio>
                         <descripcio idiomaCodi="en">A long, wild beach near Colònia de Sant Pere, between Punta de sa Barraca and the mouth of the Torrent de na Borges. Its fine sand is made of shell fragments, and behind it lies a dune system reaching up to two kilometres inland, protected since 1991 as a Natural Area of Special Interest; the dunes are roped off and crossed by wooden walkways. There are no services, and the easiest approach is on foot from Son Serra de Marina or s'Estanyol.</descripcio>
@@ -470,13 +470,13 @@
                         <nom_alt>Ca los Cans</nom_alt>
                         <nom_alt>Caló des Cans</nom_alt>
                     </noms_alternatius>
-                    <superficie_tipus>arena</superficie_tipus>
+                    <superficie_tipus>còdols</superficie_tipus>
                     <entorn>natural</entorn>
                     <llargaria>100</llargaria>
                     <amplada_mitjana>10</amplada_mitjana>
                     <latitud>39,74805</latitud>
                     <longitud>3,30131</longitud>
-                    <nat>false</nat>
+                    <nat>true</nat>
                     <descripcions>
                         <descripcio idiomaCodi="ca">Una petita cala gairebé circular a mig camí entre la Colònia de Sant Pere i Betlem, coneguda amb molts noms —Cala des Camps, Ca los Camps, Ca los Cans o Caló des Cans, probablement l'original—. La seva platja de còdols petits, arena i alga es va formar on el torrent des Cocons es troba amb una duna fòssil erosionada, i antigament els pescadors del lloc la feien servir de refugi. No està vigilada.</descripcio>
                         <descripcio idiomaCodi="en">A small, almost circular cove halfway between Colònia de Sant Pere and Betlem, known by many names — Cala des Camps, Ca los Camps, Ca los Cans or Caló des Cans, the last probably the original one. Its beach of small pebbles, sand and seaweed was formed where the Torrent des Cocons meets an eroded fossil dune, and local fishermen once used it as a shelter. It is not supervised.</descripcio>
@@ -541,12 +541,12 @@
                         <nom_alt>Cala Mata</nom_alt>
                     </noms_alternatius>
                     <superficie_tipus>arena</superficie_tipus>
-                    <entorn>natural</entorn>
+                    <entorn>semi-urbà</entorn>
                     <llargaria>50</llargaria>
                     <amplada_mitjana>10</amplada_mitjana>
                     <latitud>39,75618</latitud>
                     <longitud>3,32028</longitud>
-                    <nat>false</nat>
+                    <nat>true</nat>
                     <descripcions>
                         <descripcio idiomaCodi="ca">Una petita cala d'arena i roques sota el llogaret de Betlem, a uns cinc quilòmetres de la Colònia de Sant Pere. Damunt, a les serres de Llevant, hi ha l'ermita de Betlem, fundada el 1805 per als ermitans de Sant Pau i Sant Antoni; pujar-hi a peu des de la costa és una excursió molt recomanable. La platja no té serveis i a l'estiu pot estar concorreguda.</descripcio>
                         <descripcio idiomaCodi="en">A small cove of sand and rocks below the hamlet of Betlem, about five kilometres from Colònia de Sant Pere. Above it, in the Serra de Llevant, stands the Ermita de Betlem, a hermitage founded in 1805 for the hermits of Saint Paul and Saint Anthony; walking up to it from the coast is a rewarding hike. The beach has no services and can get busy in summer.</descripcio>
@@ -556,7 +556,7 @@
                     </descripcions>
                 </platja>
                 <platja nom="Na Clara">
-                    <superficie_tipus>arena</superficie_tipus>
+                    <superficie_tipus>còdols</superficie_tipus>
                     <entorn>natural</entorn>
                     <llargaria>100</llargaria>
                     <amplada_mitjana>10</amplada_mitjana>
@@ -581,7 +581,7 @@
                     <amplada_mitjana>40</amplada_mitjana>
                     <latitud>39,76539</latitud>
                     <longitud>3,37965</longitud>
-                    <nat>false</nat>
+                    <nat>true</nat>
                     <descripcions>
                         <descripcio idiomaCodi="ca">Una platja d'arena remota dins el parc natural de la península de Llevant, a les finques públiques d'Albarca i es Verger. Només s'hi pot arribar a peu: aproximadament una hora i mitja pel camí dels Carabiners des de Cala Mitjana, o unes tres hores des de l'aparcament de s'Alqueria Vella. Just al costat de la platja hi ha el refugi de s'Arenalet, una antiga casa d'estiueig que ara gestiona el Govern balear com a refugi i que cal reservar amb antelació.</descripcio>
                         <descripcio idiomaCodi="en">A remote sandy beach inside the Llevant Peninsula natural park, on the public estates of Albarca and es Verger. It can only be reached on foot — about 1.5 hours along the coastal Camí dels Carabiners from Cala Mitjana, or about three hours from the s'Alqueria Vella car park. Right beside the beach stands the Refugi de s'Arenalet, a former holiday house now run as a mountain refuge by the Balearic government, which must be booked in advance.</descripcio>
@@ -597,7 +597,7 @@
                     <amplada_mitjana>30</amplada_mitjana>
                     <latitud>39,76369</latitud>
                     <longitud>3,38472</longitud>
-                    <nat>false</nat>
+                    <nat>true</nat>
                     <descripcions>
                         <descripcio idiomaCodi="ca">Un dels racons més ben conservats de la península de Llevant: una petita platja d'arena fina i daurada a la desembocadura del torrent des Castellot, entre Cala Torta i el cap Ferrutx. No hi arriba cap carretera ni hi ha cap edifici —només roques baixes, garriga seca i lletreres—, de manera que és sobretot una aturada en una excursió per la costa. Dues fonts alimenten la zona, cosa que pot fer que la mar sembli més fresca que a les cales veïnes. Cal dur aigua i endur-se'n els fems.</descripcio>
                         <descripcio idiomaCodi="en">One of the best-preserved corners of the Llevant peninsula: a small beach of fine golden sand at the mouth of the Torrent des Castellot, between Cala Torta and Cap Ferrutx. No roads or buildings reach it — only low rocks, dry scrub and spurge — so it is essentially a stop on a coastal hike. Two springs feed the area, which can make the sea feel cooler than in the neighbouring coves. Bring water and take your rubbish home.</descripcio>
@@ -616,7 +616,7 @@
                     <amplada_mitjana>100</amplada_mitjana>
                     <latitud>39,75921</latitud>
                     <longitud>3,40388</longitud>
-                    <nat>false</nat>
+                    <nat>true</nat>
                     <descripcions>
                         <descripcio idiomaCodi="ca">Una cala recòndita a la costa de Llevant, a la qual s'arriba a peu en uns 20 minuts per un antic camí de carabiners des de Cala Estreta. Al turó de damunt s'alça la torre d'Albarca, o torre des Matzoc, una torre de guaita de pedra de 1751 on encara es rovella un vell canó a la terrassa; s'hi pot pujar (cal dur una llanterna per a l'interior fosc) i gaudir d'una vista de 360 graus sobre la costa nord-est.</descripcio>
                         <descripcio idiomaCodi="en">A secluded cove on the Llevant coast, reached on foot in about 20 minutes along an old coast-guard path from Cala Estreta. On the hill above stands the Torre d'Albarca, or Torre des Matzoc, a stone watchtower from 1751 where an old cannon still rusts on the terrace; you can climb it (bring a torch for the dark interior) for a 360-degree view over the north-east coast.</descripcio>
@@ -632,7 +632,7 @@
                     <amplada_mitjana>50</amplada_mitjana>
                     <latitud>39,75206</latitud>
                     <longitud>3,41364</longitud>
-                    <nat>false</nat>
+                    <nat>true</nat>
                     <descripcions>
                         <descripcio idiomaCodi="ca">Una cala petita i íntima entre Cala Torta i Cala Estreta, a uns deu quilòmetres d'Artà, d'arena fina i petites dunes. Les roques del voltant mantenen l'aigua tranquil·la i poc fonda, així que és adequada per a famílies, i fer snorkel a les vores rocoses és molt popular. L'últim tram del camí des d'Artà per sa Duaia és dolent, i després una curta caminada hi baixa; un camí de costa l'uneix amb Cala Torta en uns 20 minuts. No hi ha serveis fixos i hi ha poca ombra.</descripcio>
                         <descripcio idiomaCodi="en">A small, intimate cove between Cala Torta and Cala Estreta, about ten kilometres from Artà, with fine sand and small dunes. Surrounding rocks keep the water calm and shallow, so it suits families, and snorkelling along the rocky edges is popular. The last stretch of the road from Artà via sa Duaia is rough, then a short walk leads down; a coastal path links it to Cala Torta in about 20 minutes. There are no fixed facilities and little shade.</descripcio>
@@ -648,7 +648,7 @@
                     <amplada_mitjana>100</amplada_mitjana>
                     <latitud>39,75033</latitud>
                     <longitud>3,418</longitud>
-                    <nat>false</nat>
+                    <nat>true</nat>
                     <descripcions>
                         <descripcio idiomaCodi="ca">Una àmplia badia d'arena clara i aigua d'un blau lluminós a la costa nord-est protegida d'Artà, una de les platges verges més conegudes de la península de Llevant. Per protegir-ne les dunes, l'Ajuntament va tancar el camí de terra als cotxes el 2018, de manera que el darrer tram ara es fa a peu; també s'hi pot arribar pel camí dels penya-segats des de Cala Mesquida o en barca. S'hi tolera el nudisme, i gairebé no hi ha ombra, així que convé dur para-sol. El seu antic xiringuito, obert des de 1968, es va enderrocar el 2020.</descripcio>
                         <descripcio idiomaCodi="en">A broad bay of pale sand and luminous blue water on the protected north-east coast of Artà, one of the best-known wild beaches of the Llevant peninsula. To protect its dunes, the council closed the dirt track to cars in 2018, so the last stretch is now on foot; it can also be reached along the cliff path from Cala Mesquida or by boat. Nudism is tolerated, and there is hardly any shade, so bring a parasol. Its old beach shack, open since 1968, was demolished in 2020.</descripcio>
@@ -734,7 +734,7 @@
                         <nom_alt>Cala Gata</nom_alt>
                     </noms_alternatius>
                     <superficie_tipus>grava</superficie_tipus>
-                    <entorn>semi-urbà</entorn>
+                    <entorn>natural</entorn>
                     <llargaria>70</llargaria>
                     <amplada_mitjana>20</amplada_mitjana>
                     <latitud>39,69995</latitud>
@@ -761,10 +761,10 @@
                         <nom_alt>Buguenvíl·lia</nom_alt>
                     </noms_alternatius>
                     <barri>Cas Català</barri>
-                    <superficie_tipus>arena</superficie_tipus>
+                    <superficie_tipus>grava</superficie_tipus>
                     <entorn>urbà</entorn>
-                    <llargaria>100</llargaria>
-                    <amplada_mitjana>20</amplada_mitjana>
+                    <llargaria>29</llargaria>
+                    <amplada_mitjana>14</amplada_mitjana>
                     <latitud>39,5461103001</latitud>
                     <longitud>2,5956523376</longitud>
                     <nat>false</nat>
@@ -819,8 +819,8 @@
                     <barri>Illetes</barri>
                     <superficie_tipus>arena</superficie_tipus>
                     <entorn>urbà</entorn>
-                    <llargaria>200</llargaria>
-                    <amplada_mitjana>50</amplada_mitjana>
+                    <llargaria>79</llargaria>
+                    <amplada_mitjana>27</amplada_mitjana>
                     <latitud>39,53711</latitud>
                     <longitud>2,59077</longitud>
                     <nat>false</nat>
@@ -840,9 +840,9 @@
                     </noms_alternatius>
                     <barri>Portals nous</barri>
                     <superficie_tipus>arena</superficie_tipus>
-                    <entorn>urbà</entorn>
-                    <llargaria>100</llargaria>
-                    <amplada_mitjana>15</amplada_mitjana>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>46</llargaria>
+                    <amplada_mitjana>24</amplada_mitjana>
                     <latitud>39,5347400077</latitud>
                     <longitud>2,5893276887</longitud>
                     <nat>false</nat>
@@ -890,8 +890,8 @@
                     <barri>Portals nous</barri>
                     <superficie_tipus>arena</superficie_tipus>
                     <entorn>urbà</entorn>
-                    <llargaria>100</llargaria>
-                    <amplada_mitjana>15</amplada_mitjana>
+                    <llargaria>59</llargaria>
+                    <amplada_mitjana>20</amplada_mitjana>
                     <latitud>39,532325882</latitud>
                     <longitud>2,5794142442</longitud>
                     <nat>false</nat>
@@ -906,9 +906,9 @@
                 <platja nom="Platja de l'Oratori">
                     <barri>Portals Nous</barri>
                     <superficie_tipus>arena</superficie_tipus>
-                    <entorn>urbà</entorn>
-                    <llargaria>260</llargaria>
-                    <amplada_mitjana>50</amplada_mitjana>
+                    <entorn>semi-urbà</entorn>
+                    <llargaria>170</llargaria>
+                    <amplada_mitjana>32</amplada_mitjana>
                     <latitud>39,53196</latitud>
                     <longitud>2,57326</longitud>
                     <nat>false</nat>
@@ -942,7 +942,7 @@
                 </platja>
                 <platja nom="Platja de Son Caliu">
                     <barri>Son Caliu</barri>
-                    <superficie_tipus>roques</superficie_tipus>
+                    <superficie_tipus>arena</superficie_tipus>
                     <entorn>urbà</entorn>
                     <llargaria>80</llargaria>
                     <amplada_mitjana>15</amplada_mitjana>
@@ -986,8 +986,8 @@
                     <barri>Palmanova</barri>
                     <superficie_tipus>arena</superficie_tipus>
                     <entorn>urbà</entorn>
-                    <llargaria>500</llargaria>
-                    <amplada_mitjana>60</amplada_mitjana>
+                    <llargaria>491</llargaria>
+                    <amplada_mitjana>70</amplada_mitjana>
                     <latitud>39,51939</latitud>
                     <longitud>2,53713</longitud>
                     <nat>false</nat>
@@ -1003,8 +1003,8 @@
                     <barri>Son Maties</barri>
                     <superficie_tipus>arena</superficie_tipus>
                     <entorn>urbà</entorn>
-                    <llargaria>500</llargaria>
-                    <amplada_mitjana>60</amplada_mitjana>
+                    <llargaria>505</llargaria>
+                    <amplada_mitjana>48</amplada_mitjana>
                     <latitud>39,51442</latitud>
                     <longitud>2,53831</longitud>
                     <nat>false</nat>
@@ -1020,8 +1020,8 @@
                     <barri>Magalluf</barri>
                     <superficie_tipus>arena</superficie_tipus>
                     <entorn>urbà</entorn>
-                    <llargaria>1600</llargaria>
-                    <amplada_mitjana>60</amplada_mitjana>
+                    <llargaria>892</llargaria>
+                    <amplada_mitjana>48</amplada_mitjana>
                     <latitud>39,5078911375</latitud>
                     <longitud>2,5360592595</longitud>
                     <nat>false</nat>
@@ -1037,8 +1037,8 @@
                     <barri>Cala Vinyes</barri>
                     <superficie_tipus>arena</superficie_tipus>
                     <entorn>urbà</entorn>
-                    <llargaria>60</llargaria>
-                    <amplada_mitjana>80</amplada_mitjana>
+                    <llargaria>32</llargaria>
+                    <amplada_mitjana>70</amplada_mitjana>
                     <latitud>39,495078156</latitud>
                     <longitud>2,5340154163</longitud>
                     <nat>false</nat>
@@ -1054,8 +1054,8 @@
                     <barri>Cap Falcó</barri>
                     <superficie_tipus>arena</superficie_tipus>
                     <entorn>semi-urbà</entorn>
-                    <llargaria>50</llargaria>
-                    <amplada_mitjana>60</amplada_mitjana>
+                    <llargaria>21</llargaria>
+                    <amplada_mitjana>52</amplada_mitjana>
                     <latitud>39,48782</latitud>
                     <longitud>2,53283</longitud>
                     <nat>false</nat>
@@ -1160,8 +1160,8 @@
                     <barri>El Toro</barri>
                     <superficie_tipus>arena</superficie_tipus>
                     <entorn>urbà</entorn>
-                    <llargaria>250</llargaria>
-                    <amplada_mitjana>10</amplada_mitjana>
+                    <llargaria>100</llargaria>
+                    <amplada_mitjana>30</amplada_mitjana>
                     <latitud>39,49143</latitud>
                     <longitud>2,47922</longitud>
                     <nat>false</nat>
@@ -1180,8 +1180,8 @@
                     <barri>Cala de Santa Ponça</barri>
                     <superficie_tipus>arena</superficie_tipus>
                     <entorn>urbà</entorn>
-                    <llargaria>20</llargaria>
-                    <amplada_mitjana>30</amplada_mitjana>
+                    <llargaria>185</llargaria>
+                    <amplada_mitjana>14</amplada_mitjana>
                     <latitud>39,51187</latitud>
                     <longitud>2,47321</longitud>
                     <nat>false</nat>
@@ -1197,8 +1197,8 @@
                     <barri>Cala de Santa Ponça</barri>
                     <superficie_tipus>arena</superficie_tipus>
                     <entorn>urbà</entorn>
-                    <llargaria>1300</llargaria>
-                    <amplada_mitjana>100</amplada_mitjana>
+                    <llargaria>560</llargaria>
+                    <amplada_mitjana>130</amplada_mitjana>
                     <latitud>39,51642</latitud>
                     <longitud>2,48004</longitud>
                     <nat>false</nat>
@@ -1217,17 +1217,17 @@
                     <barri>Costa de la Calma</barri>
                     <superficie_tipus>arena</superficie_tipus>
                     <entorn>urbà</entorn>
-                    <llargaria>40</llargaria>
-                    <amplada_mitjana>10</amplada_mitjana>
+                    <llargaria>49</llargaria>
+                    <amplada_mitjana>21</amplada_mitjana>
                     <latitud>39,52245</latitud>
                     <longitud>2,46829</longitud>
                     <nat>false</nat>
                     <descripcions>
-                        <descripcio idiomaCodi="ca">Una petita platja rocosa a la Costa de la Calma, també coneguda com es Castellot, entre la punta des Gats i la punta des Castellot, a la qual s'arriba per escales des dels carrers residencials. A la punta s'alça es Castellot, una torre de defensa de marès del segle XVIII, avui de propietat privada. No hi ha serveis; la platja d'arena de Santa Ponça és a poca distància.</descripcio>
-                        <descripcio idiomaCodi="en">A small rocky beach on the Costa de la Calma, also known as Es Castellot, between Punta des Gats and Punta des Castellot, reached by steps from the residential streets. On the point stands Es Castellot, an 18th-century sandstone defence tower now in private hands. There are no services; the sandy beach of Santa Ponça is a short distance away.</descripcio>
-                        <descripcio idiomaCodi="es">Una pequeña playa rocosa en la Costa de la Calma, también conocida como es Castellot, entre la punta des Gats y la punta des Castellot, a la que se llega por escaleras desde las calles residenciales. En la punta se alza es Castellot, una torre de defensa de marés del siglo XVIII, hoy de propiedad privada. No hay servicios; la playa de arena de Santa Ponça está a poca distancia.</descripcio>
-                        <descripcio idiomaCodi="de">Ein kleiner Felsstrand an der Costa de la Calma, auch Es Castellot genannt, zwischen der Punta des Gats und der Punta des Castellot, über Treppen von den Wohnstraßen erreichbar. Auf der Landspitze steht Es Castellot, ein Verteidigungsturm aus Sandstein aus dem 18. Jahrhundert, heute in Privatbesitz. Es gibt keinen Service; der Sandstrand von Santa Ponça ist nicht weit.</descripcio>
-                        <descripcio idiomaCodi="fr">Une petite plage rocheuse sur la Costa de la Calma, aussi appelée Es Castellot, entre la Punta des Gats et la Punta des Castellot, accessible par des escaliers depuis les rues résidentielles. Sur la pointe se dresse Es Castellot, une tour de défense en grès du XVIIIe siècle, aujourd'hui privée. Aucun service ; la plage de sable de Santa Ponça est toute proche.</descripcio>
+                        <descripcio idiomaCodi="ca">Una petita platja a la Costa de la Calma, també coneguda com es Castellot, entre la punta des Gats i la punta des Castellot, a la qual s'arriba per escales des dels carrers residencials. A la punta s'alça es Castellot, una torre de defensa de marès del segle XVIII, avui de propietat privada. No hi ha serveis; la platja d'arena de Santa Ponça és a poca distància.</descripcio>
+                        <descripcio idiomaCodi="en">A small beach on the Costa de la Calma, also known as Es Castellot, between Punta des Gats and Punta des Castellot, reached by steps from the residential streets. On the point stands Es Castellot, an 18th-century sandstone defence tower now in private hands. There are no services; the sandy beach of Santa Ponça is a short distance away.</descripcio>
+                        <descripcio idiomaCodi="es">Una pequeña playa en la Costa de la Calma, también conocida como es Castellot, entre la punta des Gats y la punta des Castellot, a la que se llega por escaleras desde las calles residenciales. En la punta se alza es Castellot, una torre de defensa de marés del siglo XVIII, hoy de propiedad privada. No hay servicios; la playa de arena de Santa Ponça está a poca distancia.</descripcio>
+                        <descripcio idiomaCodi="de">Ein kleiner Strand an der Costa de la Calma, auch Es Castellot genannt, zwischen der Punta des Gats und der Punta des Castellot, über Treppen von den Wohnstraßen erreichbar. Auf der Landspitze steht Es Castellot, ein Verteidigungsturm aus Sandstein aus dem 18. Jahrhundert, heute in Privatbesitz. Es gibt keinen Service; der Sandstrand von Santa Ponça ist nicht weit.</descripcio>
+                        <descripcio idiomaCodi="fr">Une petite plage sur la Costa de la Calma, aussi appelée Es Castellot, entre la Punta des Gats et la Punta des Castellot, accessible par des escaliers depuis les rues résidentielles. Sur la pointe se dresse Es Castellot, une tour de défense en grès du XVIIIe siècle, aujourd'hui privée. Aucun service ; la plage de sable de Santa Ponça est toute proche.</descripcio>
                     </descripcions>
                 </platja>
                 <platja nom="Platja Monte de Oro">
@@ -1255,8 +1255,8 @@
                     <barri>Peguera</barri>
                     <superficie_tipus>arena</superficie_tipus>
                     <entorn>urbà</entorn>
-                    <llargaria>300</llargaria>
-                    <amplada_mitjana>60</amplada_mitjana>
+                    <llargaria>110</llargaria>
+                    <amplada_mitjana>51</amplada_mitjana>
                     <latitud>39,53311</latitud>
                     <longitud>2,4586</longitud>
                     <nat>false</nat>
@@ -1276,8 +1276,8 @@
                     <barri>Peguera</barri>
                     <superficie_tipus>arena</superficie_tipus>
                     <entorn>urbà</entorn>
-                    <llargaria>500</llargaria>
-                    <amplada_mitjana>40</amplada_mitjana>
+                    <llargaria>326</llargaria>
+                    <amplada_mitjana>60</amplada_mitjana>
                     <latitud>39,53484</latitud>
                     <longitud>2,4567</longitud>
                     <nat>false</nat>
@@ -1297,8 +1297,8 @@
                     <barri>Peguera</barri>
                     <superficie_tipus>arena</superficie_tipus>
                     <entorn>urbà</entorn>
-                    <llargaria>600</llargaria>
-                    <amplada_mitjana>40</amplada_mitjana>
+                    <llargaria>513</llargaria>
+                    <amplada_mitjana>27</amplada_mitjana>
                     <latitud>39,53709</latitud>
                     <longitud>2,45195</longitud>
                     <nat>false</nat>
@@ -1312,7 +1312,7 @@
                 </platja>
                 <platja nom="Caló de ses Llisses">
                     <barri>Cala Fornells</barri>
-                    <superficie_tipus>arena</superficie_tipus>
+                    <superficie_tipus>grava</superficie_tipus>
                     <entorn>urbà</entorn>
                     <llargaria>10</llargaria>
                     <amplada_mitjana>5</amplada_mitjana>
@@ -1330,7 +1330,7 @@
                 <platja nom="Cala Fornells">
                     <barri>Cala Fornells</barri>
                     <superficie_tipus>arena</superficie_tipus>
-                    <entorn>urbà</entorn>
+                    <entorn>semi-urbà</entorn>
                     <llargaria>80</llargaria>
                     <amplada_mitjana>4</amplada_mitjana>
                     <latitud>39,531281</latitud>
@@ -1374,8 +1374,8 @@
                         <nom_alt>Platja des Marquès</nom_alt>
                     </noms_alternatius>
                     <superficie_tipus>arena</superficie_tipus>
-                    <entorn>semi-urbà</entorn>
-                    <llargaria>540</llargaria>
+                    <entorn>natural</entorn>
+                    <llargaria>410</llargaria>
                     <amplada_mitjana>25</amplada_mitjana>
                     <latitud>39,32685</latitud>
                     <longitud>2,99012</longitud>
@@ -1395,11 +1395,11 @@
                     <barri>Es Trenc</barri>
                     <superficie_tipus>arena</superficie_tipus>
                     <entorn>natural</entorn>
-                    <llargaria>115</llargaria>
-                    <amplada_mitjana>12</amplada_mitjana>
+                    <llargaria>200</llargaria>
+                    <amplada_mitjana>30</amplada_mitjana>
                     <latitud>39,33102</latitud>
                     <longitud>2,99161</longitud>
-                    <nat>false</nat>
+                    <nat>true</nat>
                     <descripcions>
                         <descripcio idiomaCodi="ca">Una petita platja natural d'arena a l'extrem sud de la costa des Trenc, entre es Trenc pròpiament dit i la Colònia de Sant Jordi, dins el parc natural des Trenc–Salobrar de Campos. Dunes baixes i garriga envolten l'arena i no hi ha serveis; s'hi arriba a peu per la vora de la mar. És al costat de la seva germana més gran, es Pregons Grans.</descripcio>
                         <descripcio idiomaCodi="en">A small natural sandy beach at the southern end of the Es Trenc coastline, between Es Trenc proper and Colònia de Sant Jordi, inside the Es Trenc–Salobrar de Campos natural park. Low dunes and scrub back the sand and there are no services; it is reached on foot along the shore. It lies next to its larger twin, Es Pregons Grans.</descripcio>
@@ -1439,7 +1439,7 @@
                     <amplada_mitjana>22</amplada_mitjana>
                     <latitud>39,34253</latitud>
                     <longitud>2,98639</longitud>
-                    <nat>false</nat>
+                    <nat>true</nat>
                     <descripcions>
                         <descripcio idiomaCodi="ca">La platja natural més famosa de Mallorca: un llarg arenal d'arena blanca, aigua turquesa i dunes verges amb pins, savines i lliris de mar. La mobilització popular sota el lema «Salvem es Trenc» la va salvar de la urbanització, i el 1984 es va declarar àrea protegida; avui forma part del parc natural des Trenc–Salobrar de Campos, juntament amb les salines del darrere, explotades des de l'antiguitat i que encara produeixen flor de sal. Segons la tradició, el seu nom ve d'una onada que va trencar les dunes.</descripcio>
                         <descripcio idiomaCodi="en">Mallorca's most famous natural beach: a long sandbank of white sand, turquoise water and virgin dunes with pines, junipers and sea daffodils. Public protest under the slogan 'Salvem es Trenc' saved it from development, and it was declared a protected area in 1984; it is now part of the Es Trenc–Salobrar de Campos natural park, together with the salt flats behind it, worked since antiquity and still producing flor de sal. According to local tradition, its name — 'the breach' — comes from a wave that broke through the dunes.</descripcio>
@@ -1488,9 +1488,9 @@
                     </noms_alternatius>
                     <barri>Ses Covetes</barri>
                     <superficie_tipus>arena</superficie_tipus>
-                    <entorn>urbà</entorn>
-                    <llargaria>300</llargaria>
-                    <amplada_mitjana>20</amplada_mitjana>
+                    <entorn>natural</entorn>
+                    <llargaria>200</llargaria>
+                    <amplada_mitjana>50</amplada_mitjana>
                     <latitud>39,35708</latitud>
                     <longitud>2,9678</longitud>
                     <nat>false</nat>
@@ -1504,9 +1504,9 @@
                 </platja>
                 <platja nom="Arenal de sa Ràpita">
                     <superficie_tipus>arena</superficie_tipus>
-                    <entorn>urbà</entorn>
+                    <entorn>natural</entorn>
                     <llargaria>1100</llargaria>
-                    <amplada_mitjana>15</amplada_mitjana>
+                    <amplada_mitjana>40</amplada_mitjana>
                     <latitud>39,36091</latitud>
                     <longitud>2,96175</longitud>
                     <nat>false</nat>
@@ -1580,7 +1580,7 @@
                         <nom_alt>Cala de s'Aguila</nom_alt>
                     </noms_alternatius>
                     <superficie_tipus>arena</superficie_tipus>
-                    <entorn>semi-urbà</entorn>
+                    <entorn>natural</entorn>
                     <llargaria>520</llargaria>
                     <amplada_mitjana>50</amplada_mitjana>
                     <latitud>39,7226436142</latitud>
@@ -1796,11 +1796,11 @@
                     <longitud>3,4534122934</longitud>
                     <nat>false</nat>
                     <descripcions>
-                        <descripcio idiomaCodi="ca">Una tranquil·la badia rocosa en una zona residencial just al sud de la Font de sa Cala, de camí cap a Canyamel. Al sud s'alcen els penya-segats del cap Vermell, zona d'especial protecció per a les aus. La majoria de gent hi va per banyar-se des de les roques i camina o va en cotxe fins a la Font de sa Cala per trobar-hi els serveis d'un dia de platja complet.</descripcio>
-                        <descripcio idiomaCodi="en">A quiet rocky bay in a residential area just south of Font de sa Cala, on the way towards Canyamel. To the south rise the cliffs of Cap Vermell, a special protection area for birds. Most people come for a swim off the rocks and walk or drive the short distance to Font de sa Cala for the services of a full beach day.</descripcio>
-                        <descripcio idiomaCodi="es">Una tranquila bahía rocosa en una zona residencial justo al sur de la Font de sa Cala, de camino a Canyamel. Al sur se alzan los acantilados del cabo Vermell, zona de especial protección para las aves. La mayoría de la gente va a bañarse desde las rocas y camina o va en coche hasta la Font de sa Cala para encontrar los servicios de un día de playa completo.</descripcio>
-                        <descripcio idiomaCodi="de">Eine ruhige Felsbucht in einem Wohngebiet gleich südlich von Font de sa Cala, auf dem Weg nach Canyamel. Im Süden erheben sich die Klippen des Cap Vermell, ein besonderes Vogelschutzgebiet. Die meisten kommen zum Baden von den Felsen und gehen oder fahren für einen Strandtag mit Service das kurze Stück nach Font de sa Cala.</descripcio>
-                        <descripcio idiomaCodi="fr">Une baie rocheuse tranquille dans un quartier résidentiel juste au sud de Font de sa Cala, sur la route de Canyamel. Au sud se dressent les falaises du cap Vermell, zone de protection spéciale pour les oiseaux. On y vient surtout se baigner depuis les rochers, avant de rejoindre à pied ou en voiture Font de sa Cala pour les services d'une vraie journée de plage.</descripcio>
+                        <descripcio idiomaCodi="ca">Una tranquil·la badia rocosa en una zona residencial al costat de la Font de sa Cala, entre Cala Ratjada i Canyamel. Al sud s'alcen els penya-segats del cap Vermell, zona d'especial protecció per a les aus. La majoria de gent hi va per banyar-se des de les roques i camina o va en cotxe fins a la Font de sa Cala per trobar-hi els serveis d'un dia de platja complet.</descripcio>
+                        <descripcio idiomaCodi="en">A quiet rocky bay in a residential area next to Font de sa Cala, between Cala Ratjada and Canyamel. To the south rise the cliffs of Cap Vermell, a special protection area for birds. Most people come for a swim off the rocks and walk or drive the short distance to Font de sa Cala for the services of a full beach day.</descripcio>
+                        <descripcio idiomaCodi="es">Una tranquila bahía rocosa en una zona residencial junto a la Font de sa Cala, entre Cala Ratjada y Canyamel. Al sur se alzan los acantilados del cabo Vermell, zona de especial protección para las aves. La mayoría de la gente va a bañarse desde las rocas y camina o va en coche hasta la Font de sa Cala para encontrar los servicios de un día de playa completo.</descripcio>
+                        <descripcio idiomaCodi="de">Eine ruhige Felsbucht in einem Wohngebiet gleich bei Font de sa Cala, zwischen Cala Ratjada und Canyamel. Im Süden erheben sich die Klippen des Cap Vermell, ein besonderes Vogelschutzgebiet. Die meisten kommen zum Baden von den Felsen und gehen oder fahren für einen Strandtag mit Service das kurze Stück nach Font de sa Cala.</descripcio>
+                        <descripcio idiomaCodi="fr">Une baie rocheuse tranquille dans un quartier résidentiel à côté de Font de sa Cala, entre Cala Ratjada et Canyamel. Au sud se dressent les falaises du cap Vermell, zone de protection spéciale pour les oiseaux. On y vient surtout se baigner depuis les rochers, avant de rejoindre à pied ou en voiture Font de sa Cala pour les services d'une vraie journée de plage.</descripcio>
                     </descripcions>
                 </platja>
                 <platja nom="Canyamel">
@@ -1848,7 +1848,7 @@
                     <superficie_tipus>roques</superficie_tipus>
                     <entorn>semi-urbà</entorn>
                     <llargaria>30</llargaria>
-                    <amplada_mitjana>4</amplada_mitjana>
+                    <amplada_mitjana>25</amplada_mitjana>
                     <latitud>39,64643</latitud>
                     <longitud>3,43692</longitud>
                     <nat>false</nat>
@@ -1889,10 +1889,10 @@
                     <superficie_tipus>roques</superficie_tipus>
                     <entorn>natural</entorn>
                     <llargaria>60</llargaria>
-                    <amplada_mitjana>6</amplada_mitjana>
+                    <amplada_mitjana>22</amplada_mitjana>
                     <latitud>39,767395</latitud>
                     <longitud>2,653654</longitud>
-                    <nat>false</nat>
+                    <nat>true</nat>
                     <descripcions>
                         <descripcio idiomaCodi="ca">Una petita cala tranquil·la de còdols i roques sota el llogaret de Llucalcari, un grapat d'una quinzena de cases amb una capella del segle XVIII entre Deià i Sóller. S'hi arriba a peu a través d'un pinar i està arrecerada pels penya-segats, amb aigua clara. Una petita font que baixa de la muntanya forma bassals de fang on els visitants es fan banys de fang naturals, i la cala és apreciada pels naturistes.</descripcio>
                         <descripcio idiomaCodi="en">A small, quiet cove of pebbles and rocks below the hamlet of Llucalcari, a cluster of about fifteen houses with an 18th-century chapel between Deià and Sóller. It is reached on foot through a pine forest and is sheltered by cliffs, with clear water. A small spring coming down from the mountains forms muddy pools where visitors take natural mud baths, and the cove is popular with naturists.</descripcio>
@@ -1908,9 +1908,9 @@
             <platges>
                 <platja nom="Cala Tuent">
                     <superficie_tipus>grava</superficie_tipus>
-                    <entorn>semi-urbà</entorn>
-                    <llargaria>100</llargaria>
-                    <amplada_mitjana>32</amplada_mitjana>
+                    <entorn>natural</entorn>
+                    <llargaria>180</llargaria>
+                    <amplada_mitjana>55</amplada_mitjana>
                     <latitud>39,8401</latitud>
                     <longitud>2,77624</longitud>
                     <nat>false</nat>
@@ -1926,8 +1926,8 @@
                     <noms_alternatius>
                         <nom_alt>Torrent de Pareis</nom_alt>
                     </noms_alternatius>
-                    <superficie_tipus>roques</superficie_tipus>
-                    <entorn>urbà</entorn>
+                    <superficie_tipus>còdols</superficie_tipus>
+                    <entorn>semi-urbà</entorn>
                     <llargaria>30</llargaria>
                     <amplada_mitjana>15</amplada_mitjana>
                     <latitud>39,85098</latitud>
@@ -2014,7 +2014,7 @@
                         <nom_alt>Arenal Petit o de ses Dones</nom_alt>
                     </noms_alternatius>
                     <superficie_tipus>arena</superficie_tipus>
-                    <entorn>urbà</entorn>
+                    <entorn>semi-urbà</entorn>
                     <llargaria>100</llargaria>
                     <amplada_mitjana>20</amplada_mitjana>
                     <latitud>39,41956</latitud>
@@ -2033,7 +2033,7 @@
                         <nom_alt>Caló d'en Marçal</nom_alt>
                     </noms_alternatius>
                     <superficie_tipus>arena</superficie_tipus>
-                    <entorn>urbà</entorn>
+                    <entorn>semi-urbà</entorn>
                     <llargaria>150</llargaria>
                     <amplada_mitjana>120</amplada_mitjana>
                     <latitud>39,4098</latitud>
@@ -2116,7 +2116,7 @@
                 </platja>
                 <platja nom="Cala Ferrera">
                     <superficie_tipus>arena</superficie_tipus>
-                    <entorn>urbà</entorn>
+                    <entorn>semi-urbà</entorn>
                     <llargaria>100</llargaria>
                     <amplada_mitjana>60</amplada_mitjana>
                     <latitud>39,37973</latitud>
@@ -2241,7 +2241,7 @@
                     </noms_alternatius>
                     <barri>Cala Blava</barri>
                     <superficie_tipus>arena</superficie_tipus>
-                    <entorn>semi-urbà</entorn>
+                    <entorn>urbà</entorn>
                     <llargaria>30</llargaria>
                     <amplada_mitjana>20</amplada_mitjana>
                     <latitud>39,48709</latitud>
@@ -2420,7 +2420,7 @@
                 </platja>
                 <platja nom="Cala Pi">
                     <superficie_tipus>arena</superficie_tipus>
-                    <entorn>natural</entorn>
+                    <entorn>semi-urbà</entorn>
                     <llargaria>45</llargaria>
                     <amplada_mitjana>140</amplada_mitjana>
                     <latitud>39,36413</latitud>
@@ -2483,7 +2483,7 @@
                     </noms_alternatius>
                     <superficie_tipus>arena</superficie_tipus>
                     <entorn>urbà</entorn>
-                    <llargaria>350</llargaria>
+                    <llargaria>200</llargaria>
                     <amplada_mitjana>25</amplada_mitjana>
                     <latitud>39,54156</latitud>
                     <longitud>3,33644</longitud>
@@ -2499,7 +2499,7 @@
                 <platja nom="Cala Anguila">
                     <barri>Porto Cristo Novo</barri>
                     <superficie_tipus>arena</superficie_tipus>
-                    <entorn>semi-urbà</entorn>
+                    <entorn>urbà</entorn>
                     <llargaria>50</llargaria>
                     <amplada_mitjana>120</amplada_mitjana>
                     <latitud>39,52286</latitud>
@@ -2554,7 +2554,7 @@
                     <amplada_mitjana>60</amplada_mitjana>
                     <latitud>39,49988</latitud>
                     <longitud>3,29598</longitud>
-                    <nat>false</nat>
+                    <nat>true</nat>
                     <descripcions>
                         <descripcio idiomaCodi="ca">Una cala salvatge i sense serveis a la costa de Manacor, famosa per les coves i arcs naturals del voltant: la cova del Pont, una cova parcialment esfondrada que forma un pont natural, millor a la sortida del sol; la cova des Pirata, amb estalactites, i la cova marina des Coloms, que es visita en excursions guiades en caiac i d'espeleologia. Només s'hi pot arribar a peu; aparcar al camí d'accés ara està prohibit i es multa, no hi ha socorrista i es desaconsella saltar des dels penya-segats per accidents passats.</descripcio>
                         <descripcio idiomaCodi="en">A wild, service-free cove on the Manacor coast, famous for the caves and sea arches around it: the Cova del Pont, a partly collapsed cave forming a natural bridge best seen at sunrise, the Cova des Pirata with its stalactites, and the sea cave of Cova des Coloms, visited on guided kayak and caving trips. It is reached only on foot; parking on the access road is now prohibited and enforced, there is no lifeguard, and cliff jumping is discouraged after past accidents.</descripcio>
@@ -2568,7 +2568,7 @@
                     <superficie_tipus>arena</superficie_tipus>
                     <entorn>semi-urbà</entorn>
                     <llargaria>25</llargaria>
-                    <amplada_mitjana>85</amplada_mitjana>
+                    <amplada_mitjana>60</amplada_mitjana>
                     <latitud>39,46693</latitud>
                     <longitud>3,27916</longitud>
                     <nat>false</nat>
@@ -2586,7 +2586,7 @@
                         <nom_alt>Cala es Dominigos Petits</nom_alt>
                     </noms_alternatius>
                     <superficie_tipus>arena</superficie_tipus>
-                    <entorn>urbà</entorn>
+                    <entorn>semi-urbà</entorn>
                     <llargaria>180</llargaria>
                     <amplada_mitjana>125</amplada_mitjana>
                     <latitud>39,4583</latitud>
@@ -2631,7 +2631,7 @@
                     <superficie_tipus>arena</superficie_tipus>
                     <entorn>semi-urbà</entorn>
                     <llargaria>5292</llargaria>
-                    <amplada_mitjana>26</amplada_mitjana>
+                    <amplada_mitjana>70</amplada_mitjana>
                     <latitud>39,79113</latitud>
                     <longitud>3,12741</longitud>
                     <nat>false</nat>
@@ -2821,7 +2821,7 @@
                     </descripcions>
                 </platja>
                 <platja nom="Cala Gamba">
-                    <superficie_tipus>arena</superficie_tipus>
+                    <superficie_tipus>roques</superficie_tipus>
                     <entorn>urbà</entorn>
                     <llargaria>100</llargaria>
                     <amplada_mitjana>25</amplada_mitjana>
@@ -2967,7 +2967,7 @@
                     <amplada_mitjana>20</amplada_mitjana>
                     <latitud>39,93097</latitud>
                     <longitud>3,03108</longitud>
-                    <nat>false</nat>
+                    <nat>true</nat>
                     <descripcions>
                         <descripcio idiomaCodi="ca">Una platja verge i salvatge amagada al final d'un barranc a l'escarpada costa nord de Pollença, entre la punta Galera i la punta Topina, dividida en dues cales. Pren el nom del Castell del Rei, un castell roquer d'origen sarraí que vigilava aquesta costa des de la serra de Ternelles i va ser la darrera fortalesa a rendir-se quan va acabar el Regne de Mallorca. Només s'hi pot arribar en barca o amb una llarga excursió per la vall de Ternelles, on l'accés està limitat i requereix permís; no hi ha serveis.</descripcio>
                         <descripcio idiomaCodi="en">A wild, unspoilt beach hidden at the end of a ravine on the rugged north coast of Pollença, between Punta Galera and Punta Topina, divided into two coves. It takes its name from the Castell del Rei, a rock-top castle of Saracen origin that watched over this coast from the Serra de Ternelles and was the last fortress to surrender when the Kingdom of Mallorca came to an end. It can only be reached by boat or by a long hike through the Ternelles valley, where access is limited and requires a permit; there are no facilities.</descripcio>
@@ -3107,13 +3107,13 @@
                     <amplada_mitjana>10</amplada_mitjana>
                     <latitud>39,95208</latitud>
                     <longitud>3,17295</longitud>
-                    <nat>false</nat>
+                    <nat>true</nat>
                     <descripcions>
-                        <descripcio idiomaCodi="ca">Una petita cala de pedres polides per la mar prop de l'extrem de la península de Formentor, de camí cap al far de Formentor, sota el puig del Fumat. No té serveis, i sovint es contempla des dels apartadors de la carretera de dalt; els navegants fan servir el seu racó sud-oest com a fondeig arrecerat per passar la nit. No s'ha de confondre amb el poble de pescadors de Cala Figuera, a Santanyí.</descripcio>
-                        <descripcio idiomaCodi="en">A small cove of sea-polished stones near the tip of the Formentor peninsula, on the way to the Formentor lighthouse, below the peak of El Fumat. It has no services, and is often seen from the lay-bys of the road above; sailors use its south-western corner as a sheltered overnight anchorage. Not to be confused with the fishing village of Cala Figuera in Santanyí.</descripcio>
-                        <descripcio idiomaCodi="es">Una pequeña cala de piedras pulidas por el mar cerca del extremo de la península de Formentor, de camino al faro de Formentor, bajo el puig del Fumat. No tiene servicios, y a menudo se contempla desde los apartaderos de la carretera de arriba; los navegantes usan su rincón suroeste como fondeadero resguardado para pasar la noche. No hay que confundirla con el pueblo pesquero de Cala Figuera, en Santanyí.</descripcio>
-                        <descripcio idiomaCodi="de">Eine kleine Bucht aus vom Meer polierten Steinen nahe der Spitze der Halbinsel Formentor, auf dem Weg zum Leuchtturm, unterhalb des Gipfels El Fumat. Sie hat keinen Service und wird oft von den Haltebuchten der Straße oberhalb aus bewundert; Segler nutzen ihre Südwestecke als geschützten Ankerplatz für die Nacht. Nicht mit dem Fischerdorf Cala Figuera in Santanyí verwechseln.</descripcio>
-                        <descripcio idiomaCodi="fr">Une petite crique de pierres polies par la mer près de l'extrémité de la péninsule de Formentor, sur la route du phare, au pied du sommet d'El Fumat. Sans services, on l'admire souvent depuis les aires d'arrêt de la route au-dessus ; les plaisanciers utilisent son angle sud-ouest comme mouillage abrité pour la nuit. À ne pas confondre avec le village de pêcheurs de Cala Figuera, à Santanyí.</descripcio>
+                        <descripcio idiomaCodi="ca">Una petita cala d'arena blanca i fina mesclada amb grava i pedres polides per la mar prop de l'extrem de la península de Formentor, de camí cap al far de Formentor, sota el puig del Fumat. No té serveis, i sovint es contempla des dels apartadors de la carretera de dalt; els navegants fan servir el seu racó sud-oest com a fondeig arrecerat per passar la nit. No s'ha de confondre amb el poble de pescadors de Cala Figuera, a Santanyí.</descripcio>
+                        <descripcio idiomaCodi="en">A small cove of fine white sand mixed with gravel and sea-polished stones near the tip of the Formentor peninsula, on the way to the Formentor lighthouse, below the peak of El Fumat. It has no services, and is often seen from the lay-bys of the road above; sailors use its south-western corner as a sheltered overnight anchorage. Not to be confused with the fishing village of Cala Figuera in Santanyí.</descripcio>
+                        <descripcio idiomaCodi="es">Una pequeña cala de arena blanca y fina mezclada con grava y piedras pulidas por el mar cerca del extremo de la península de Formentor, de camino al faro de Formentor, bajo el puig del Fumat. No tiene servicios, y a menudo se contempla desde los apartaderos de la carretera de arriba; los navegantes usan su rincón suroeste como fondeadero resguardado para pasar la noche. No hay que confundirla con el pueblo pesquero de Cala Figuera, en Santanyí.</descripcio>
+                        <descripcio idiomaCodi="de">Eine kleine Bucht aus feinem weißem Sand, gemischt mit Kies und vom Meer polierten Steinen nahe der Spitze der Halbinsel Formentor, auf dem Weg zum Leuchtturm, unterhalb des Gipfels El Fumat. Sie hat keinen Service und wird oft von den Haltebuchten der Straße oberhalb aus bewundert; Segler nutzen ihre Südwestecke als geschützten Ankerplatz für die Nacht. Nicht mit dem Fischerdorf Cala Figuera in Santanyí verwechseln.</descripcio>
+                        <descripcio idiomaCodi="fr">Une petite crique de sable fin et blanc mêlé de gravier et de pierres polies par la mer près de l'extrémité de la péninsule de Formentor, sur la route du phare, au pied du sommet d'El Fumat. Sans services, on l'admire souvent depuis les aires d'arrêt de la route au-dessus ; les plaisanciers utilisent son angle sud-ouest comme mouillage abrité pour la nuit. À ne pas confondre avec le village de pêcheurs de Cala Figuera, à Santanyí.</descripcio>
                     </descripcions>
                 </platja>
                 <platja nom="Cala en Gossalba">
@@ -3124,7 +3124,7 @@
                     <amplada_mitjana>15</amplada_mitjana>
                     <latitud>39,94411</latitud>
                     <longitud>3,18915</longitud>
-                    <nat>false</nat>
+                    <nat>true</nat>
                     <descripcions>
                         <descripcio idiomaCodi="ca">Una de les cales més aïllades de la península de Formentor, a la banda oriental: una petita platja de còdols a la qual s'arriba a peu continuant una hora més enllà de Cala Murta, o en barca. Els velers hi fondegen entre roques per on s'enfilen cabres salvatges i l'aire fa olor de pi blanc; un racó de pau absoluta, sense serveis.</descripcio>
                         <descripcio idiomaCodi="en">One of the most isolated coves of the Formentor peninsula, on its eastern side: a little pebble beach reached on foot by continuing about an hour beyond Cala Murta, or by boat. Yachts anchor here among rocks where wild goats climb and the air smells of Aleppo pines — a haven of total peace with no services.</descripcio>
@@ -3141,7 +3141,7 @@
                     <amplada_mitjana>25</amplada_mitjana>
                     <latitud>39,94029</latitud>
                     <longitud>3,18016</longitud>
-                    <nat>false</nat>
+                    <nat>true</nat>
                     <descripcions>
                         <descripcio idiomaCodi="ca">Una cala de còdols amb aigua cristal·lina a la península de Formentor, a la qual s'arriba per un camí d'uns 25 minuts a través d'un alzinar espès des d'un aparcament senyalitzat a la carretera de Formentor. És un racó tranquil i verge, sense serveis, i el punt de partida de la caminada més llarga fins a la encara més aïllada Cala en Gossalba.</descripcio>
                         <descripcio idiomaCodi="en">A pebble cove with crystal-clear water on the Formentor peninsula, reached by a path of about 25 minutes through a dense holm oak forest from a signposted car park on the Formentor road. It is a peaceful, unspoilt spot with no services, and the starting point of the longer walk to the even more isolated Cala en Gossalba.</descripcio>
@@ -3158,7 +3158,7 @@
                     <amplada_mitjana>30</amplada_mitjana>
                     <latitud>39,93004</latitud>
                     <longitud>3,1634</longitud>
-                    <nat>false</nat>
+                    <nat>true</nat>
                     <descripcions>
                         <descripcio idiomaCodi="ca">Un petit entrant d'arena excavat per la mar a la península de Formentor, envoltat de penya-segats i roques escarpades, a prop de Cala Murta i Cala en Gossalba. És un racó natural, sense serveis, en un dels paisatges més salvatges de l'illa.</descripcio>
                         <descripcio idiomaCodi="en">A small sandy inlet carved by the sea on the Formentor peninsula, surrounded by cliffs and rugged rocks, near the coves of Cala Murta and Cala en Gossalba. It is a natural, service-free spot in one of the wildest landscapes of the island.</descripcio>
@@ -3174,7 +3174,7 @@
                     </noms_alternatius>
                     <barri>Formentor</barri>
                     <superficie_tipus>arena</superficie_tipus>
-                    <entorn>semi-urbà</entorn>
+                    <entorn>natural</entorn>
                     <llargaria>840</llargaria>
                     <amplada_mitjana>8</amplada_mitjana>
                     <latitud>39,92808</latitud>
@@ -3251,8 +3251,8 @@
                 </platja>
                 <platja nom="Platja de Can Cullerassa">
                     <superficie_tipus>arena</superficie_tipus>
-                    <entorn>semi-urbà</entorn>
-                    <llargaria>2545</llargaria>
+                    <entorn>natural</entorn>
+                    <llargaria>1400</llargaria>
                     <amplada_mitjana>10</amplada_mitjana>
                     <latitud>39,88466</latitud>
                     <longitud>3,07972</longitud>
@@ -3294,9 +3294,9 @@
                 </platja>
                 <platja nom="Platja de sa Coma">
                     <superficie_tipus>arena</superficie_tipus>
-                    <entorn>urbà</entorn>
+                    <entorn>semi-urbà</entorn>
                     <llargaria>800</llargaria>
-                    <amplada_mitjana>30</amplada_mitjana>
+                    <amplada_mitjana>60</amplada_mitjana>
                     <latitud>39,57422</latitud>
                     <longitud>3,37664</longitud>
                     <nat>false</nat>
@@ -3334,7 +3334,7 @@
                 </platja>
                 <platja nom="Platja de Son Bauló">
                     <superficie_tipus>arena</superficie_tipus>
-                    <entorn>semi-urbà</entorn>
+                    <entorn>urbà</entorn>
                     <llargaria>160</llargaria>
                     <amplada_mitjana>80</amplada_mitjana>
                     <latitud>39,75946</latitud>
@@ -3375,11 +3375,11 @@
                     </noms_alternatius>
                     <superficie_tipus>arena</superficie_tipus>
                     <entorn>natural</entorn>
-                    <llargaria>50</llargaria>
+                    <llargaria>500</llargaria>
                     <amplada_mitjana>20</amplada_mitjana>
                     <latitud>39,74969</latitud>
                     <longitud>3,19454</longitud>
-                    <nat>false</nat>
+                    <nat>true</nat>
                     <descripcions>
                         <descripcio idiomaCodi="ca">Una petita platja natural a la costa protegida de Son Real, entre la punta Llarga de Son Real i la punta des Patró, a uns dos quilòmetres de Can Picafort. El que la distingeix de les platges urbanitzades de la badia d'Alcúdia és precisament el que no té: ni carretera, ni hamaques, ni dutxes, ni restaurants, ni socorristes. El millor és arribar-hi a peu des de Son Bauló, uns 1,5 quilòmetres, o a través de la finca pública de Son Real; cal dur aigua, menjar i protecció solar.</descripcio>
                         <descripcio idiomaCodi="en">A small natural beach on the protected coast of Son Real, between Punta Llarga de Son Real and Punta des Patró, about two kilometres from Can Picafort. What sets it apart from the developed beaches of the Bay of Alcúdia is what it lacks: no road, loungers, showers, restaurants or lifeguards. It is best reached on foot from Son Bauló, about 1.5 kilometres, or through the public estate of Son Real; bring water, food and sun protection.</descripcio>
@@ -3414,7 +3414,7 @@
                     <amplada_mitjana>250</amplada_mitjana>
                     <latitud>39,74182</latitud>
                     <longitud>3,2112</longitud>
-                    <nat>false</nat>
+                    <nat>true</nat>
                     <descripcions>
                         <descripcio idiomaCodi="ca">Una platja natural a la costa de la finca pública de Son Real, prop de 400 hectàrees que el Govern balear va adquirir el 2002 per protegir-ne el patrimoni arqueològic i natural. Les cases antigues de la possessió, d'origen medieval, acullen un centre d'interpretació, i diverses rutes senyalitzades porten fins a la necròpolis de l'edat del ferro de la punta dels Fenicis i a l'illot dels Porros, un petit illot just davant la costa amb un altre jaciment funerari prehistòric, al qual a l'estiu s'hi pot anar nedant.</descripcio>
                         <descripcio idiomaCodi="en">A natural beach on the coast of the public estate of Son Real, nearly 400 hectares bought by the Balearic government in 2002 to protect its archaeological and natural heritage. The estate's old farmhouses, of medieval origin, house an interpretation centre, and signposted routes lead to the Iron Age necropolis at Punta dels Fenicis and to the Illot dels Porros, a small islet just offshore with another prehistoric burial site, which summer visitors can swim to.</descripcio>
@@ -3495,7 +3495,7 @@
                     </noms_alternatius>
                     <barri>Cala d'Or</barri>
                     <superficie_tipus>arena</superficie_tipus>
-                    <entorn>urbà</entorn>
+                    <entorn>semi-urbà</entorn>
                     <llargaria>40</llargaria>
                     <amplada_mitjana>100</amplada_mitjana>
                     <latitud>39,37114</latitud>
@@ -3569,7 +3569,7 @@
                 </platja>
                 <platja nom="Caló de sa Torre">
                     <superficie_tipus>arena</superficie_tipus>
-                    <entorn>urbà</entorn>
+                    <entorn>semi-urbà</entorn>
                     <llargaria>35</llargaria>
                     <amplada_mitjana>25</amplada_mitjana>
                     <latitud>39,3556</latitud>
@@ -3622,9 +3622,9 @@
                     </noms_alternatius>
                     <barri>Cala Mondragó</barri>
                     <superficie_tipus>arena</superficie_tipus>
-                    <entorn>semi-urbà</entorn>
-                    <llargaria>35</llargaria>
-                    <amplada_mitjana>25</amplada_mitjana>
+                    <entorn>natural</entorn>
+                    <llargaria>75</llargaria>
+                    <amplada_mitjana>60</amplada_mitjana>
                     <latitud>39,35222</latitud>
                     <longitud>3,18831</longitud>
                     <nat>false</nat>
@@ -3639,7 +3639,7 @@
                 <platja nom="S'Amarador">
                     <barri>Cala Mondragó</barri>
                     <superficie_tipus>arena</superficie_tipus>
-                    <entorn>semi-urbà</entorn>
+                    <entorn>natural</entorn>
                     <llargaria>145</llargaria>
                     <amplada_mitjana>50</amplada_mitjana>
                     <latitud>39,34976</latitud>
@@ -3676,7 +3676,7 @@
                 </platja>
                 <platja nom="Cala Santanyí">
                     <superficie_tipus>arena</superficie_tipus>
-                    <entorn>urbà</entorn>
+                    <entorn>semi-urbà</entorn>
                     <llargaria>70</llargaria>
                     <amplada_mitjana>100</amplada_mitjana>
                     <latitud>39,33043</latitud>
@@ -3692,7 +3692,7 @@
                 </platja>
                 <platja nom="Cala Llombards">
                     <superficie_tipus>arena</superficie_tipus>
-                    <entorn>semi-urbà</entorn>
+                    <entorn>natural</entorn>
                     <llargaria>55</llargaria>
                     <amplada_mitjana>150</amplada_mitjana>
                     <latitud>39,3239</latitud>
@@ -3708,12 +3708,12 @@
                 </platja>
                 <platja nom="Caló des Moro">
                     <superficie_tipus>arena</superficie_tipus>
-                    <entorn>natural</entorn>
+                    <entorn>semi-urbà</entorn>
                     <llargaria>30</llargaria>
                     <amplada_mitjana>20</amplada_mitjana>
                     <latitud>39,31376</latitud>
                     <longitud>3,12157</longitud>
-                    <nat>false</nat>
+                    <nat>true</nat>
                     <descripcions>
                         <descripcio idiomaCodi="ca">Un caló minúscul d'arena blanca i aigua turquesa entre penya-segats coberts de pins, un dels indrets més fotografiats de l'illa. La seva fama a les xarxes socials hi ha portat milers de visitants al dia a l'estiu, molts més dels que caben als seus pocs metres d'arena, i els estudis han constatat que l'arena s'ha reduït molt; l'Ajuntament n'ha deixat de fer promoció. S'hi arriba amb una caminada d'un quilòmetre per terrenys privats des de prop de Cala s'Almunia: convé anar-hi d'hora o fora de temporada i respectar la propietat i l'indret.</descripcio>
                         <descripcio idiomaCodi="en">A tiny cove of white sand and turquoise water between pine-covered cliffs, one of the most photographed places on the island. Its fame on social media has brought thousands of visitors a day in summer — far more than its few metres of sand can hold — and studies have found the sand badly depleted; the council has stopped promoting it. It is reached by a walk of about a kilometre across private land from near Cala s'Almunia: go early or out of season, and respect the property and the place.</descripcio>
@@ -3727,12 +3727,12 @@
                         <nom_alt>Cala es Maquer</nom_alt>
                     </noms_alternatius>
                     <superficie_tipus>còdols</superficie_tipus>
-                    <entorn>natural</entorn>
+                    <entorn>semi-urbà</entorn>
                     <llargaria>30</llargaria>
                     <amplada_mitjana>10</amplada_mitjana>
                     <latitud>39,31319</latitud>
                     <longitud>3,11812</longitud>
-                    <nat>false</nat>
+                    <nat>true</nat>
                     <descripcions>
                         <descripcio idiomaCodi="ca">Una petita cala, sobretot rocosa, ocupada gairebé del tot per casetes tradicionals de pescadors i les rampes per avarar les barques, un dels racons més característics de la costa de Santanyí, sovint inclòs en les excursions en barca des de Cala Figuera. Els banyistes estenen la tovallola damunt les rampes, i hi ha un petit racó d'arena en un extrem. El Caló des Moro és a cinc minuts a peu; no hi ha lavabos, bar ni socorristes, i en temporada alta l'aparcament és molt limitat.</descripcio>
                         <descripcio idiomaCodi="en">A tiny, mostly rocky cove almost entirely occupied by traditional fishermen's huts and the ramps used to launch their boats — one of the most characteristic spots on the Santanyí coast, often included in boat trips from Cala Figuera. Sunbathers spread their towels on the ramps, and there is a small sandy corner at one end. Caló des Moro is a five-minute walk away; there are no toilets, bar or lifeguards, and parking is very limited in high season.</descripcio>
@@ -3748,7 +3748,7 @@
                     <amplada_mitjana>35</amplada_mitjana>
                     <latitud>39,2889</latitud>
                     <longitud>3,09001</longitud>
-                    <nat>false</nat>
+                    <nat>true</nat>
                     <descripcions>
                         <descripcio idiomaCodi="ca">Una cala recòndita i verge entre penya-segats imponents, a la qual s'arriba amb una excursió per la costa d'uns cinc quilòmetres des del far del cap de ses Salines, per un terreny pedregós, esmolat i sense ombra —cal comptar fins a una hora i quaranta minuts per trajecte—, o en barca. És excel·lent per fer snorkel, i la caminada ofereix vistes a l'arxipèlag de Cabrera. No hi ha cap servei, així que cal dur almenys dos litres d'aigua i un bon calçat.</descripcio>
                         <descripcio idiomaCodi="en">A secluded, unspoilt cove between towering cliffs, reached by a coastal hike of about five kilometres from the Cap de ses Salines lighthouse over stony, sharp-edged and shadeless ground — allow up to an hour and forty minutes each way — or by boat. It is excellent for snorkelling, and the walk offers views of the Cabrera archipelago. There are no facilities, so bring at least two litres of water and sturdy shoes.</descripcio>
@@ -3764,7 +3764,7 @@
                     <amplada_mitjana>60</amplada_mitjana>
                     <latitud>39,27874</latitud>
                     <longitud>3,04313</longitud>
-                    <nat>false</nat>
+                    <nat>true</nat>
                     <descripcions>
                         <descripcio idiomaCodi="ca">Una platja natural remota d'uns 500 metres, amb dunes al darrere, a prop de l'extrem sud de Mallorca, a la qual s'arriba caminant entre 1,5 i 2 quilòmetres cap a l'oest per la costa plana i rocosa des del far del cap de ses Salines. No hi ha passeig, hamaques ni bar: només arena, l'illot de Can Curt, sa Punta Negra i, els dies clars, l'arxipèlag de Cabrera a l'horitzó. Cal dur aigua, menjar i protecció solar; així i tot, els dies d'estiu s'hi pot aplegar gent.</descripcio>
                         <descripcio idiomaCodi="en">A remote natural beach of about 500 metres backed by dunes, near Mallorca's southern tip, reached by walking 1.5 to 2 kilometres along the flat, rocky coast west from the Cap de ses Salines lighthouse. There is no promenade, lounger or bar — just sand, the islet of Can Curt, Sa Punta Negra and, on clear days, the Cabrera archipelago on the horizon. Bring water, food and sun protection; even so, it can get busy on summer days.</descripcio>
@@ -3780,7 +3780,7 @@
                     <amplada_mitjana>15</amplada_mitjana>
                     <latitud>39,28941</latitud>
                     <longitud>3,03071</longitud>
-                    <nat>false</nat>
+                    <nat>true</nat>
                     <descripcions>
                         <descripcio idiomaCodi="ca">Un entrant natural d'arena i poca fondària, amb vores baixes, un petit aiguamoll i alguns pins, unit a la platja des Caragol per una franja rocosa; juntes es consideren la platja més meridional de l'illa. S'hi arriba amb una caminada fàcil d'unes dues hores (anada i tornada) des del far del cap de ses Salines. Part del terreny del voltant és privat, inclosa una gran casa a la vora de la cala, i no hi ha serveis.</descripcio>
                         <descripcio idiomaCodi="en">A shallow, natural inlet of sand with low shores, a small marsh and some pine trees, linked to Platja des Caragol by a rocky strip; together they are considered the southernmost beach of the island. It is reached on an easy walk of a couple of hours (round trip) from the Cap de ses Salines lighthouse. Part of the surrounding land is private, including a large beach house on the bay, and there are no services.</descripcio>
@@ -3804,7 +3804,7 @@
                     <amplada_mitjana>45</amplada_mitjana>
                     <latitud>39,30663</latitud>
                     <longitud>3,01624</longitud>
-                    <nat>false</nat>
+                    <nat>true</nat>
                     <descripcions>
                         <descripcio idiomaCodi="ca">Una platja d'arena verge a l'est de la Colònia de Sant Jordi, envoltada de dunes i vegetació baixa, amb aigua clara i poc fonda. Només s'hi pot arribar a peu per la costa des del port de la Colònia, una caminada de 30 a 45 minuts; el costat de terra està tancat, i les aplicacions de navegació poden enviar els conductors per camins privats. No hi ha serveis, però les vistes del capvespre sobre la mar són especialment boniques, i pel camí es veu l'illa de Cabrera a l'horitzó.</descripcio>
                         <descripcio idiomaCodi="en">An unspoilt sandy beach east of Colònia de Sant Jordi, framed by dunes and low vegetation, with shallow, clear water. It can only be reached on foot along the coast from the Colònia harbour, a walk of 30 to 45 minutes; the land side is fenced, and navigation apps may wrongly send drivers down private tracks. There are no services, but the evening views over the sea are especially beautiful, and on the way the island of Cabrera appears on the horizon.</descripcio>
@@ -3819,8 +3819,8 @@
                     </noms_alternatius>
                     <superficie_tipus>arena</superficie_tipus>
                     <entorn>natural</entorn>
-                    <llargaria>120</llargaria>
-                    <amplada_mitjana>26</amplada_mitjana>
+                    <llargaria>30</llargaria>
+                    <amplada_mitjana>8</amplada_mitjana>
                     <latitud>39,31228</latitud>
                     <longitud>3,00963</longitud>
                     <nat>false</nat>
@@ -3996,7 +3996,7 @@
                         <nom_alt>Cala es Ribells</nom_alt>
                     </noms_alternatius>
                     <superficie_tipus>arena</superficie_tipus>
-                    <entorn>semi-urbà</entorn>
+                    <entorn>natural</entorn>
                     <llargaria>500</llargaria>
                     <amplada_mitjana>20</amplada_mitjana>
                     <latitud>39,63603</latitud>
@@ -4049,7 +4049,7 @@
                     <superficie_tipus>arena</superficie_tipus>
                     <entorn>urbà</entorn>
                     <llargaria>453</llargaria>
-                    <amplada_mitjana>32</amplada_mitjana>
+                    <amplada_mitjana>15</amplada_mitjana>
                     <latitud>39,61169</latitud>
                     <longitud>3,39119</longitud>
                     <nat>false</nat>
