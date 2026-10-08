@@ -1,0 +1,1506 @@
+@charset "UTF-8";
+
+/* Phone screens (mobil.html). The desktop pages use portal.css and platja.css. */
+
+:root {
+    --mar: #2c47a3;
+    --mar-fosc: #1b2c6c;
+    --accent: #2c47a3;
+    --municipi: #2c47a3;
+    --corall: #ef6b4a;
+    --fons: #f6f2e9;
+    --carta: #ffffff;
+    --carta-suau: #efe9dc;
+    --indicador: #dfe6fb;
+    --text: #1c2333;
+    --text-suau: #5e6779;
+    --linia: #e4dccb;
+    --illa: #e6d3a6;
+    --mar-suau: #d6e3f6;
+    --peu: #e6d3a6;
+    --peu-text: #6b5733;
+    --etiqueta-fons: #fde3da;
+    --etiqueta-text: #a3381c;
+    --ombra: 0 1px 2px rgb(28 35 51 / 6%), 0 6px 18px rgb(28 35 51 / 8%);
+    --radi: 18px;
+    --barra: 56px;
+    --pestanyes: 64px;
+    --dalt: env(safe-area-inset-top, 0px);
+    --baix: env(safe-area-inset-bottom, 0px);
+    color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --accent: #a9b9ff;
+        --municipi: #6f88f2;
+        --fons: #0f1526;
+        --carta: #19223a;
+        --carta-suau: #232e4b;
+        --indicador: #26356b;
+        --text: #e9edf6;
+        --text-suau: #a6b0c4;
+        --linia: #2b3654;
+        --illa: #c7b183;
+        --mar-suau: #1f2d56;
+        --peu: #2b3654;
+        --peu-text: #a6b0c4;
+        --etiqueta-fons: #4a2a24;
+        --etiqueta-text: #ffb7a3;
+        --ombra: 0 1px 2px rgb(0 0 0 / 30%), 0 6px 18px rgb(0 0 0 / 22%);
+        color-scheme: dark;
+    }
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+[hidden] {
+    display: none !important;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+    padding-bottom: calc(var(--pestanyes) + var(--baix));
+    background: var(--fons);
+    color: var(--text);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.45;
+    -webkit-tap-highlight-color: transparent;
+}
+
+a {
+    color: var(--accent);
+}
+
+button {
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+
+:focus-visible {
+    outline: 3px solid var(--corall);
+    outline-offset: 2px;
+}
+
+#vista:focus {
+    outline: none;
+}
+
+.sprite {
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.icona {
+    flex: none;
+    width: 24px;
+    height: 24px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.ocult {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+}
+
+.carregant {
+    display: grid;
+    place-items: center;
+    min-height: 60vh;
+    color: var(--accent);
+}
+
+.girant {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    border: 2px solid currentColor;
+    border-right-color: transparent;
+    border-radius: 50%;
+    vertical-align: -3px;
+    animation: gira .8s linear infinite;
+}
+
+.carregant .girant {
+    width: 32px;
+    height: 32px;
+    margin: 0;
+    border-width: 3px;
+}
+
+@keyframes gira {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* ------------------------------------------
+
+                 Header
+
+-------------------------------------------- */
+
+.barra {
+    position: sticky;
+    top: 0;
+    z-index: 30;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: calc(var(--barra) + var(--dalt));
+    padding: var(--dalt) 10px 0 12px;
+    background: var(--mar);
+    color: #fff;
+}
+
+.barra-logo {
+    flex: none;
+    display: block;
+    width: 36px;
+    height: 36px;
+    border-radius: 9px;
+    overflow: hidden;
+    box-shadow: 0 0 0 1px rgb(255 255 255 / 30%);
+}
+
+.barra-logo img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.barra-enrere {
+    flex: none;
+    display: grid;
+    place-items: center;
+    width: 44px;
+    height: 44px;
+    margin-left: -6px;
+    border: 0;
+    border-radius: 50%;
+    background: transparent;
+    color: #fff;
+}
+
+.barra-enrere:active {
+    background: rgb(255 255 255 / 16%);
+}
+
+.barra-titol {
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+    font-size: 18px;
+    font-weight: 700;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    transition: opacity .2s;
+}
+
+.barra:not(.barra-titol-visible) .barra-titol {
+    opacity: 0;
+}
+
+.idioma {
+    position: relative;
+    flex: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    height: 36px;
+    padding: 0 12px 0 10px;
+    border-radius: 18px;
+    background: rgb(255 255 255 / 15%);
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: .04em;
+}
+
+.idioma .icona {
+    width: 18px;
+    height: 18px;
+}
+
+.idioma select {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    opacity: 0;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.idioma:focus-within {
+    outline: 3px solid var(--corall);
+    outline-offset: 2px;
+}
+
+/* ------------------------------------------
+
+                 Tab bar
+
+-------------------------------------------- */
+
+.pestanyes {
+    position: fixed;
+    z-index: 30;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    height: calc(var(--pestanyes) + var(--baix));
+    padding-bottom: var(--baix);
+    background: var(--carta);
+    border-top: 1px solid var(--linia);
+}
+
+.pestanya {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    min-width: 0;
+    color: var(--text-suau);
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.pestanya-icona {
+    display: grid;
+    place-items: center;
+    width: 60px;
+    height: 30px;
+    border-radius: 15px;
+    transition: background-color .2s;
+}
+
+.pestanya-nom {
+    max-width: 100%;
+    padding: 0 4px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.pestanya[aria-current="page"] {
+    color: var(--accent);
+}
+
+.pestanya[aria-current="page"] .pestanya-icona {
+    background: var(--indicador);
+}
+
+/* ------------------------------------------
+
+                 Home
+
+-------------------------------------------- */
+
+.portada {
+    position: relative;
+    min-height: 240px;
+    padding: 30px 20px 58px;
+    background: #344ca4 url(imatges/textures/illa.jpeg) no-repeat;
+    background-size: 480px;
+    background-position: calc(100% + 175px) 52%;
+    color: #fff;
+}
+
+.portada-salutacio {
+    margin: 0;
+    font-family: "Alex Brush", cursive;
+    font-size: 34px;
+    line-height: 1;
+}
+
+.portada-titol {
+    max-width: 10ch;
+    margin: 6px 0 10px;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 1.05;
+    letter-spacing: -.01em;
+    text-shadow: 0 1px 12px rgb(20 30 80 / 45%);
+}
+
+.portada-resum {
+    max-width: 13em;
+    margin: 0;
+    font-size: 15px;
+    opacity: .9;
+}
+
+/* Narrow phones: move the island further right so it stays clear of the text */
+@media (max-width: 374px) {
+    .portada {
+        background-position: calc(100% + 205px) 52%;
+    }
+}
+
+/* Where the search box starts: it sticks under the header once this line passes it */
+.portada-final {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 30px;
+    height: 1px;
+}
+
+.cercador {
+    position: sticky;
+    top: calc(var(--barra) + var(--dalt) + 8px);
+    z-index: 20;
+    margin-top: -30px;
+    padding: 0 16px 12px;
+}
+
+.cercador::before {
+    content: "";
+    position: absolute;
+    inset: -8px 0 0;
+    background: var(--fons);
+    box-shadow: 0 8px 12px -10px rgb(28 35 51 / 30%);
+    opacity: 0;
+    transition: opacity .15s;
+}
+
+.cercador-enganxat::before {
+    opacity: 1;
+}
+
+.cercador-camp {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 54px;
+    padding: 0 7px 0 18px;
+    border-radius: 27px;
+    background: var(--carta);
+    box-shadow: var(--ombra), 0 0 0 1px var(--linia);
+    color: var(--text-suau);
+}
+
+.cercador-camp:focus-within {
+    box-shadow: var(--ombra), 0 0 0 2px var(--accent);
+}
+
+.cercador-camp input {
+    flex: 1;
+    min-width: 0;
+    height: 100%;
+    border: 0;
+    background: transparent;
+    color: var(--text);
+    font: inherit;
+    font-size: 17px;
+    outline: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.cercador-camp input::placeholder {
+    color: var(--text-suau);
+}
+
+.cercador-camp input::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+}
+
+.cercador-esborra {
+    display: grid;
+    place-items: center;
+    width: 40px;
+    height: 40px;
+    border: 0;
+    border-radius: 50%;
+    background: var(--carta-suau);
+    color: var(--text-suau);
+}
+
+.cercador-esborra .icona {
+    width: 20px;
+    height: 20px;
+}
+
+.filtres {
+    display: flex;
+    gap: 8px;
+    padding: 2px 16px 14px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+}
+
+.filtres::-webkit-scrollbar {
+    display: none;
+}
+
+.xip {
+    flex: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    height: 38px;
+    padding: 0 15px;
+    border: 1px solid var(--linia);
+    border-radius: 19px;
+    background: var(--carta);
+    color: var(--text);
+    font-size: 14px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.xip[aria-pressed="true"] {
+    border-color: var(--mar);
+    background: var(--mar);
+    color: #fff;
+}
+
+.xip-color {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px rgb(255 255 255 / 85%);
+}
+
+.xip-separador {
+    flex: none;
+    width: 1px;
+    margin: 7px 2px;
+    background: var(--linia);
+}
+
+.seccio-titol {
+    margin: 6px 16px 12px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.municipis {
+    margin: 0 16px;
+    padding: 0;
+    overflow: hidden;
+    border-radius: var(--radi);
+    background: var(--carta);
+    box-shadow: var(--ombra);
+    list-style: none;
+}
+
+.municipis li+li {
+    border-top: 1px solid var(--linia);
+}
+
+.municipi {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 9px 12px 9px 9px;
+    color: var(--text);
+    text-decoration: none;
+}
+
+.municipi:active {
+    background: var(--carta-suau);
+}
+
+.municipi-text {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.municipi-nom {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.municipi-compte {
+    margin-top: 2px;
+    color: var(--text-suau);
+    font-size: 14px;
+}
+
+.municipi>.icona {
+    width: 20px;
+    height: 20px;
+    color: var(--text-suau);
+}
+
+.platja:active,
+.veina:active,
+.accio:active {
+    transform: scale(.98);
+}
+
+/* A zoomed window on the island; mobil.js sets the zoom and the centre */
+.finestra {
+    position: relative;
+    flex: none;
+    width: 80px;
+    height: 62px;
+    overflow: hidden;
+    border-radius: 12px;
+    background: var(--mar-suau);
+}
+
+.finestra .mapet {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: calc(var(--zoom) * 100%);
+    transform: translate(calc(-1 * var(--cx)), calc(-1 * var(--cy)));
+}
+
+.finestra .mapet-punt {
+    width: 5px;
+    height: 5px;
+    margin: -2.5px 0 0 -2.5px;
+    box-shadow: 0 0 0 1px #fff;
+}
+
+/* ------------------------------------------
+
+           Island mini-maps
+
+-------------------------------------------- */
+
+.mapet {
+    position: relative;
+    display: block;
+    width: 100%;
+    aspect-ratio: 532 / 411;
+}
+
+.mapet::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: var(--illa);
+    -webkit-mask: url(imatges/decoracions/illa_silueta.png) 0 0 / 100% 100% no-repeat;
+    mask: url(imatges/decoracions/illa_silueta.png) 0 0 / 100% 100% no-repeat;
+}
+
+.mapet-municipi {
+    position: absolute;
+    background: var(--municipi);
+    -webkit-mask-image: url(imatges/decoracions/mallorca-sprites.png);
+    mask-image: url(imatges/decoracions/mallorca-sprites.png);
+    -webkit-mask-size: var(--mida);
+    mask-size: var(--mida);
+    -webkit-mask-position: var(--posicio);
+    mask-position: var(--posicio);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+}
+
+.mapet-punt {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    margin: -3px 0 0 -3px;
+    border-radius: 50%;
+    background: var(--corall);
+    box-shadow: 0 0 0 1.5px var(--carta);
+}
+
+.mapet-punt-destacat {
+    width: 12px;
+    height: 12px;
+    margin: -6px 0 0 -6px;
+    box-shadow: 0 0 0 2px #fff, 0 0 0 6px rgb(239 107 74 / 35%);
+}
+
+/* ------------------------------------------
+
+           Beach cards and results
+
+-------------------------------------------- */
+
+.resultats-capcalera {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    min-height: 36px;
+    margin: 0 16px 8px;
+    color: var(--text-suau);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.enllac-boto {
+    padding: 8px 0;
+    border: 0;
+    background: none;
+    color: var(--accent);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.buit {
+    margin: 12px 16px;
+    padding: 28px 20px;
+    border-radius: var(--radi);
+    background: var(--carta);
+    color: var(--text-suau);
+    text-align: center;
+}
+
+.buit p {
+    margin: 0 0 6px;
+}
+
+.llista {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 10px;
+    margin: 0;
+    padding: 0 16px;
+    list-style: none;
+}
+
+.platja {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 10px 14px 10px 10px;
+    border-radius: var(--radi);
+    background: var(--carta);
+    box-shadow: var(--ombra);
+    color: var(--text);
+    text-decoration: none;
+    transition: transform .15s;
+}
+
+.platja-textura {
+    flex: none;
+    width: 66px;
+    height: 66px;
+    border-radius: 13px;
+    background-position: center;
+    background-size: cover;
+}
+
+.platja-cos {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.platja-nom {
+    font-weight: 700;
+    line-height: 1.25;
+}
+
+.platja-alt {
+    overflow: hidden;
+    color: var(--text-suau);
+    font-size: 13px;
+    font-style: italic;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.platja-lloc {
+    color: var(--text-suau);
+    font-size: 13px;
+}
+
+.platja-dades {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 4px 8px;
+    margin-top: 4px;
+    font-size: 13px;
+}
+
+.etiqueta {
+    padding: 1px 8px;
+    border-radius: 10px;
+    background: var(--etiqueta-fons);
+    color: var(--etiqueta-text);
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.platja-distancia {
+    flex: none;
+    align-self: flex-start;
+    margin-top: 2px;
+    padding: 3px 9px;
+    border-radius: 11px;
+    background: var(--indicador);
+    color: var(--accent);
+    font-size: 13px;
+    font-weight: 700;
+}
+
+/* ------------------------------------------
+
+             Municipality
+
+-------------------------------------------- */
+
+.capcalera {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 20px 16px 18px;
+}
+
+.capcalera-mapa {
+    flex: none;
+    width: 42%;
+    max-width: 200px;
+    padding: 10px;
+    border-radius: var(--radi);
+    background: var(--carta);
+    box-shadow: var(--ombra);
+}
+
+.capcalera-text {
+    min-width: 0;
+}
+
+.capcalera-sub {
+    margin: 0;
+    color: var(--text-suau);
+    font-size: 14px;
+}
+
+.capcalera-titol {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 1.1;
+    overflow-wrap: anywhere;
+}
+
+.capcalera-compte {
+    margin: 4px 0 12px;
+    color: var(--text-suau);
+}
+
+.boto {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    min-height: 46px;
+    padding: 0 20px;
+    border: 0;
+    border-radius: 23px;
+    background: var(--mar);
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.boto .icona {
+    width: 20px;
+    height: 20px;
+}
+
+.boto-contorn {
+    min-height: 40px;
+    padding: 0 14px;
+    background: transparent;
+    box-shadow: inset 0 0 0 1.5px currentColor;
+    color: var(--accent);
+    font-size: 14px;
+}
+
+/* ------------------------------------------
+
+                 Beach
+
+-------------------------------------------- */
+
+.heroi {
+    position: relative;
+    height: 38vh;
+    min-height: 220px;
+    max-height: 340px;
+    background: #1d2b3f;
+}
+
+.heroi-mapa {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    background: #1d2b3f;
+}
+
+.heroi-enllac {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+}
+
+.heroi-situacio {
+    position: absolute;
+    z-index: 2;
+    left: 12px;
+    bottom: 12px;
+    width: 96px;
+    padding: 6px;
+    border-radius: 12px;
+    background: rgb(255 255 255 / 90%);
+    box-shadow: 0 2px 10px rgb(0 0 0 / 30%);
+    pointer-events: none;
+    --carta: #fff;
+    --illa: #e6d3a6;
+    --municipi: #2c47a3;
+}
+
+.heroi .leaflet-control-attribution {
+    font-size: 10px;
+}
+
+.pin svg {
+    display: block;
+    width: 40px;
+    height: 40px;
+    filter: drop-shadow(0 2px 3px rgb(0 0 0 / 45%));
+}
+
+.pin path {
+    fill: var(--corall);
+    stroke: #fff;
+    stroke-width: 1.5;
+}
+
+.pin circle {
+    fill: #fff;
+}
+
+.fitxa {
+    padding: 18px 16px 8px;
+}
+
+.fitxa-nom {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 1.12;
+    letter-spacing: -.01em;
+}
+
+.fitxa-alt {
+    margin: 6px 0 0;
+    color: var(--text-suau);
+    font-style: italic;
+}
+
+.fitxa-lloc {
+    margin: 6px 0 0;
+    color: var(--text-suau);
+}
+
+.fitxa-lloc a {
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.accions {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 8px;
+    margin-top: 16px;
+}
+
+.accio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    min-height: 66px;
+    padding: 8px 4px;
+    border: 0;
+    border-radius: 16px;
+    background: var(--carta);
+    box-shadow: var(--ombra);
+    color: var(--accent);
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1.15;
+    text-align: center;
+    text-decoration: none;
+    transition: transform .15s;
+}
+
+.accio-principal {
+    background: var(--mar);
+    color: #fff;
+}
+
+.dades {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+    padding: 8px 16px;
+}
+
+.dada {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    min-height: 100px;
+    padding: 12px 14px;
+    border-radius: var(--radi);
+    background: var(--carta);
+    box-shadow: var(--ombra);
+}
+
+.dada-etiqueta {
+    color: var(--text-suau);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .05em;
+    line-height: 1.25;
+    text-transform: uppercase;
+}
+
+.dada-valor {
+    margin-top: 2px;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.dada-nota {
+    color: var(--text-suau);
+    font-size: 13px;
+}
+
+.dada-superficie {
+    background: linear-gradient(to top, rgb(0 0 0 / 68%), rgb(0 0 0 / 8%) 80%), var(--textura) center / cover;
+    color: #fff;
+}
+
+.dada-superficie .dada-etiqueta {
+    color: rgb(255 255 255 / 88%);
+}
+
+.temps {
+    min-height: 156px;
+    margin: 10px 16px;
+    padding: 16px 16px 12px;
+    border-radius: var(--radi);
+    background: linear-gradient(rgb(14 28 70 / 55%), rgb(14 28 70 / 78%)), var(--foto, none) center / cover, #35598f;
+    box-shadow: var(--ombra);
+    color: #fff;
+}
+
+.temps-carregant {
+    background: var(--carta-suau);
+    box-shadow: none;
+    animation: polsa 1.4s ease-in-out infinite;
+}
+
+@keyframes polsa {
+    50% {
+        opacity: .55;
+    }
+}
+
+.temps h2 {
+    margin: 0 0 10px;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    opacity: .9;
+}
+
+.temps-dies {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+}
+
+.temps-dia {
+    display: grid;
+    grid-template-columns: auto auto 1fr;
+    align-items: baseline;
+    column-gap: 8px;
+}
+
+.temps-dia-nom {
+    grid-column: 1 / -1;
+    font-size: 14px;
+    font-weight: 600;
+    opacity: .9;
+}
+
+.temps-simbol {
+    align-self: center;
+    font-size: 26px;
+    line-height: 1;
+}
+
+.temps-max {
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 1.1;
+}
+
+.temps-min {
+    font-size: 18px;
+    opacity: .75;
+}
+
+.temps-extres {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 14px 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.temps-extres li {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 11px;
+    border-radius: 15px;
+    background: rgb(255 255 255 / 18%);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.temps-extres .icona {
+    width: 16px;
+    height: 16px;
+    stroke-width: 2.5;
+}
+
+.temps-font {
+    display: inline-block;
+    margin-top: 10px;
+    color: rgb(255 255 255 / 75%);
+    font-size: 11px;
+}
+
+.seccio {
+    margin: 10px 16px;
+    padding: 16px 18px;
+    border-radius: var(--radi);
+    background: var(--carta);
+    box-shadow: var(--ombra);
+}
+
+.seccio h2,
+.properes h2 {
+    margin: 0 0 8px;
+    color: var(--text-suau);
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+}
+
+.descripcio p {
+    margin: 0;
+    font-family: Georgia, "Nimbus Roman No9 L", "Times New Roman", serif;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.coordenades {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.coordenades h2 {
+    margin-bottom: 2px;
+}
+
+.coordenades p {
+    margin: 0;
+    font-variant-numeric: tabular-nums;
+}
+
+.boto-icona {
+    flex: none;
+    display: grid;
+    place-items: center;
+    width: 46px;
+    height: 46px;
+    border: 0;
+    border-radius: 50%;
+    background: var(--indicador);
+    color: var(--accent);
+}
+
+.properes {
+    margin: 22px 0 14px;
+}
+
+.properes h2 {
+    margin: 0 16px 10px;
+}
+
+.carrusel {
+    display: flex;
+    gap: 12px;
+    margin: 0;
+    padding: 0 16px 6px;
+    overflow-x: auto;
+    list-style: none;
+    scroll-padding: 0 16px;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+}
+
+.carrusel::-webkit-scrollbar {
+    display: none;
+}
+
+.carrusel li {
+    flex: none;
+    width: 148px;
+    scroll-snap-align: start;
+}
+
+.propera {
+    display: block;
+    color: var(--text);
+    text-decoration: none;
+}
+
+.propera-textura {
+    display: block;
+    height: 96px;
+    border-radius: 14px;
+    background-position: center;
+    background-size: cover;
+    box-shadow: var(--ombra);
+}
+
+.propera-nom {
+    display: block;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.25;
+}
+
+.propera-dist {
+    display: block;
+    color: var(--text-suau);
+    font-size: 13px;
+}
+
+.veines {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+    padding: 4px 16px 0;
+}
+
+.veina {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    min-width: 0;
+    padding: 12px 10px;
+    border-radius: var(--radi);
+    background: var(--carta);
+    box-shadow: var(--ombra);
+    color: var(--text);
+    text-decoration: none;
+    transition: transform .15s;
+}
+
+.veina span {
+    min-width: 0;
+}
+
+.veina small {
+    display: block;
+    color: var(--text-suau);
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.veina strong {
+    display: block;
+    overflow: hidden;
+    font-size: 14px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.veina .icona {
+    color: var(--accent);
+}
+
+.veina-seguent {
+    grid-column: 2;
+    justify-content: flex-end;
+    text-align: right;
+}
+
+/* ------------------------------------------
+
+                  Map
+
+-------------------------------------------- */
+
+body.amb-mapa {
+    overflow: hidden;
+}
+
+.mapa-gran {
+    position: fixed;
+    top: calc(var(--barra) + var(--dalt));
+    bottom: calc(var(--pestanyes) + var(--baix));
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    background: var(--fons);
+}
+
+.mapa-gran .filtres {
+    flex: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.mapa-gran-mapa {
+    flex: 1;
+    min-height: 0;
+    z-index: 0;
+    background: #dfe6ea;
+}
+
+.mapa-gran-fitxa {
+    position: absolute;
+    z-index: 1;
+    left: 12px;
+    right: 12px;
+    bottom: 26px;
+}
+
+.mapa-gran-fitxa .llista {
+    padding: 0;
+}
+
+.mapa-gran-fitxa .platja {
+    padding-right: 44px;
+    box-shadow: 0 6px 24px rgb(0 0 0 / 25%);
+}
+
+.mapa-gran-tanca {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    display: grid;
+    place-items: center;
+    width: 36px;
+    height: 36px;
+    border: 0;
+    border-radius: 50%;
+    background: var(--carta-suau);
+    color: var(--text-suau);
+}
+
+.mapa-gran-tanca .icona {
+    width: 18px;
+    height: 18px;
+}
+
+.mapa-gran .leaflet-bar a,
+.mapa-ubica {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.mapa-ubica {
+    display: grid;
+    place-items: center;
+    padding: 0;
+    border: 0;
+    background: #fff;
+    color: #1a73e8;
+}
+
+.mapa-ubica .icona {
+    width: 20px;
+    height: 20px;
+}
+
+/* ------------------------------------------
+
+                 Nearby
+
+-------------------------------------------- */
+
+.aprop-titol {
+    margin: 22px 16px 14px;
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 1.15;
+}
+
+.aprop-buit {
+    margin: 0 16px;
+    padding: 24px 20px;
+    border-radius: var(--radi);
+    background: var(--carta);
+    box-shadow: var(--ombra);
+    text-align: center;
+}
+
+.aprop-buit .mapet {
+    max-width: 240px;
+    margin: 0 auto 18px;
+}
+
+.aprop-buit .mapet-punt {
+    width: 4px;
+    height: 4px;
+    margin: -2px 0 0 -2px;
+    box-shadow: none;
+}
+
+.aprop-buit p {
+    margin: 0 0 18px;
+    color: var(--text-suau);
+}
+
+.aprop-cercant {
+    margin: 0 16px;
+    padding: 24px 20px;
+    border-radius: var(--radi);
+    background: var(--carta);
+    color: var(--text-suau);
+    text-align: center;
+}
+
+/* ------------------------------------------
+
+          Footer and messages
+
+-------------------------------------------- */
+
+.peu {
+    margin-top: 34px;
+    text-align: center;
+}
+
+.peu-gent {
+    height: 86px;
+    background: var(--peu);
+    -webkit-mask: url(imatges/decoracions/people_beach_web.svg) bottom / contain no-repeat;
+    mask: url(imatges/decoracions/people_beach_web.svg) bottom / contain no-repeat;
+}
+
+.peu-text {
+    margin: 0;
+    padding: 12px 16px 18px;
+    background: var(--peu);
+    color: var(--peu-text);
+    font-size: 13px;
+}
+
+.avis {
+    position: fixed;
+    z-index: 40;
+    left: 50%;
+    bottom: calc(var(--pestanyes) + var(--baix) + 16px);
+    max-width: calc(100% - 32px);
+    padding: 10px 18px;
+    border-radius: 22px;
+    background: #1c2333;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    opacity: 0;
+    pointer-events: none;
+    transform: translate(-50%, 16px);
+    transition: opacity .2s, transform .2s;
+}
+
+.avis.visible {
+    opacity: 1;
+    transform: translate(-50%, 0);
+}
+
+/* ------------------------------------------
+
+      Phones on their side get more columns
+
+-------------------------------------------- */
+
+@media (min-width: 600px) {
+    .municipis {
+        columns: 2;
+        column-gap: 0;
+    }
+
+    .municipis li {
+        break-inside: avoid;
+    }
+
+    .llista {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .mapa-gran-fitxa .llista {
+        grid-template-columns: minmax(0, 1fr);
+        max-width: 480px;
+    }
+
+    .dades {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: .01ms !important;
+        transition-duration: .01ms !important;
+    }
+}
