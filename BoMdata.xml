@@ -4127,6 +4127,45 @@
             <index_meta_name_description>Catàleg de platges de l'illa de Mallorca a les Illes
                 Balears</index_meta_name_description>
             <index_meta_name_keywords>Platges, Mallorca, Balears, Mediterrani, Espanya</index_meta_name_keywords>
+            <mobil>
+                <pestanya_platges>Platges</pestanya_platges>
+                <pestanya_mapa>Mapa</pestanya_mapa>
+                <pestanya_a_prop>A prop</pestanya_a_prop>
+                <resum>{platges} platges a {municipis} municipis</resum>
+                <municipis>Municipis</municipis>
+                <platja_una>platja</platja_una>
+                <platja_moltes>platges</platja_moltes>
+                <cap_resultat>Cap platja no coincideix amb la cerca.</cap_resultat>
+                <esborra_filtres>Esborra els filtres</esborra_filtres>
+                <esborra_cerca>Esborra la cerca</esborra_cerca>
+                <filtres>Filtres</filtres>
+                <naturisme>Naturisme</naturisme>
+                <si>Sí</si>
+                <no>No</no>
+                <mida>Mida</mida>
+                <temps>El temps</temps>
+                <vent>Vent</vent>
+                <aigua>Aigua</aigua>
+                <onades>Onades</onades>
+                <com_arribar>Com arribar-hi</com_arribar>
+                <compartir>Comparteix</compartir>
+                <mostra_al_mapa>Mostra al mapa</mostra_al_mapa>
+                <enllac_copiat>Enllaç copiat</enllac_copiat>
+                <copia>Copia</copia>
+                <coordenades_copiades>Coordenades copiades</coordenades_copiades>
+                <platges_properes>Platges properes</platges_properes>
+                <anterior>Anterior</anterior>
+                <seguent>Següent</seguent>
+                <veure_platja>Veure la platja</veure_platja>
+                <tornar>Enrere</tornar>
+                <a_prop_titol>Platges a prop teu</a_prop_titol>
+                <a_prop_text>Comparteix la teva ubicació i veuràs les platges ordenades per distància.</a_prop_text>
+                <usa_ubicacio>Utilitza la meva ubicació</usa_ubicacio>
+                <cercant_ubicacio>Cercant la teva ubicació…</cercant_ubicacio>
+                <ubicacio_error>No s'ha pogut obtenir la teva ubicació. Revisa els permisos del navegador.</ubicacio_error>
+                <la_meva_ubicacio>La meva ubicació</la_meva_ubicacio>
+                <tanca>Tanca</tanca>
+            </mobil>
         </text>
         <text idioma="English" idiomaCodi="en">
             <superficie>
@@ -4165,6 +4204,45 @@
             <index_meta_name_description>Catalogue of beaches of the island of Majorca/Mallorca in
                 the Balearic Islands</index_meta_name_description>
             <index_meta_name_keywords>Beaches, Mallorca, Majorca, Balearic, Mediterrean, Spain</index_meta_name_keywords>
+            <mobil>
+                <pestanya_platges>Beaches</pestanya_platges>
+                <pestanya_mapa>Map</pestanya_mapa>
+                <pestanya_a_prop>Nearby</pestanya_a_prop>
+                <resum>{platges} beaches in {municipis} municipalities</resum>
+                <municipis>Municipalities</municipis>
+                <platja_una>beach</platja_una>
+                <platja_moltes>beaches</platja_moltes>
+                <cap_resultat>No beaches match your search.</cap_resultat>
+                <esborra_filtres>Clear filters</esborra_filtres>
+                <esborra_cerca>Clear search</esborra_cerca>
+                <filtres>Filters</filtres>
+                <naturisme>Naturism</naturisme>
+                <si>Yes</si>
+                <no>No</no>
+                <mida>Size</mida>
+                <temps>Weather</temps>
+                <vent>Wind</vent>
+                <aigua>Water</aigua>
+                <onades>Waves</onades>
+                <com_arribar>Directions</com_arribar>
+                <compartir>Share</compartir>
+                <mostra_al_mapa>Show on map</mostra_al_mapa>
+                <enllac_copiat>Link copied</enllac_copiat>
+                <copia>Copy</copia>
+                <coordenades_copiades>Coordinates copied</coordenades_copiades>
+                <platges_properes>Nearby beaches</platges_properes>
+                <anterior>Previous</anterior>
+                <seguent>Next</seguent>
+                <veure_platja>View beach</veure_platja>
+                <tornar>Back</tornar>
+                <a_prop_titol>Beaches near you</a_prop_titol>
+                <a_prop_text>Share your location to see the beaches sorted by distance.</a_prop_text>
+                <usa_ubicacio>Use my location</usa_ubicacio>
+                <cercant_ubicacio>Finding your location…</cercant_ubicacio>
+                <ubicacio_error>Your location could not be found. Check your browser's permissions.</ubicacio_error>
+                <la_meva_ubicacio>My location</la_meva_ubicacio>
+                <tanca>Close</tanca>
+            </mobil>
         </text>
         <text idioma="Español" idiomaCodi="es">
             <superficie>
@@ -4203,6 +4281,45 @@
             <index_meta_name_description>Catálogo de playas de la isla de Mallorca en las Islas
                 Baleares</index_meta_name_description>
             <index_meta_name_keywords>Playas, Mallorca, Baleares, Mediterráneo, España</index_meta_name_keywords>
+            <mobil>
+                <pestanya_platges>Playas</pestanya_platges>
+                <pestanya_mapa>Mapa</pestanya_mapa>
+                <pestanya_a_prop>Cerca de mí</pestanya_a_prop>
+                <resum>{platges} playas en {municipis} municipios</resum>
+                <municipis>Municipios</municipis>
+                <platja_una>playa</platja_una>
+                <platja_moltes>playas</platja_moltes>
+                <cap_resultat>Ninguna playa coincide con la búsqueda.</cap_resultat>
+                <esborra_filtres>Borrar filtros</esborra_filtres>
+                <esborra_cerca>Borrar búsqueda</esborra_cerca>
+                <filtres>Filtros</filtres>
+                <naturisme>Naturismo</naturisme>
+                <si>Sí</si>
+                <no>No</no>
+                <mida>Tamaño</mida>
+                <temps>El tiempo</temps>
+                <vent>Viento</vent>
+                <aigua>Agua</aigua>
+                <onades>Olas</onades>
+                <com_arribar>Cómo llegar</com_arribar>
+                <compartir>Compartir</compartir>
+                <mostra_al_mapa>Ver en el mapa</mostra_al_mapa>
+                <enllac_copiat>Enlace copiado</enllac_copiat>
+                <copia>Copiar</copia>
+                <coordenades_copiades>Coordenadas copiadas</coordenades_copiades>
+                <platges_properes>Playas cercanas</platges_properes>
+                <anterior>Anterior</anterior>
+                <seguent>Siguiente</seguent>
+                <veure_platja>Ver la playa</veure_platja>
+                <tornar>Atrás</tornar>
+                <a_prop_titol>Playas cerca de ti</a_prop_titol>
+                <a_prop_text>Comparte tu ubicación para ver las playas ordenadas por distancia.</a_prop_text>
+                <usa_ubicacio>Usar mi ubicación</usa_ubicacio>
+                <cercant_ubicacio>Buscando tu ubicación…</cercant_ubicacio>
+                <ubicacio_error>No se ha podido obtener tu ubicación. Revisa los permisos del navegador.</ubicacio_error>
+                <la_meva_ubicacio>Mi ubicación</la_meva_ubicacio>
+                <tanca>Cerrar</tanca>
+            </mobil>
         </text>
         <text idioma="Deutsch" idiomaCodi="de">
             <superficie>
@@ -4241,6 +4358,45 @@
             <index_meta_name_description>Katalog der Strände der Insel Mallorca auf den
                 Balearischen Inseln</index_meta_name_description>
             <index_meta_name_keywords>Strände, Mallorca, Balearen, Mittelmeer, Spanien</index_meta_name_keywords>
+            <mobil>
+                <pestanya_platges>Strände</pestanya_platges>
+                <pestanya_mapa>Karte</pestanya_mapa>
+                <pestanya_a_prop>In der Nähe</pestanya_a_prop>
+                <resum>{platges} Strände in {municipis} Gemeinden</resum>
+                <municipis>Gemeinden</municipis>
+                <platja_una>Strand</platja_una>
+                <platja_moltes>Strände</platja_moltes>
+                <cap_resultat>Kein Strand entspricht Ihrer Suche.</cap_resultat>
+                <esborra_filtres>Filter zurücksetzen</esborra_filtres>
+                <esborra_cerca>Suche löschen</esborra_cerca>
+                <filtres>Filter</filtres>
+                <naturisme>FKK</naturisme>
+                <si>Ja</si>
+                <no>Nein</no>
+                <mida>Größe</mida>
+                <temps>Wetter</temps>
+                <vent>Wind</vent>
+                <aigua>Wasser</aigua>
+                <onades>Wellen</onades>
+                <com_arribar>Route</com_arribar>
+                <compartir>Teilen</compartir>
+                <mostra_al_mapa>Auf der Karte zeigen</mostra_al_mapa>
+                <enllac_copiat>Link kopiert</enllac_copiat>
+                <copia>Kopieren</copia>
+                <coordenades_copiades>Koordinaten kopiert</coordenades_copiades>
+                <platges_properes>Strände in der Nähe</platges_properes>
+                <anterior>Vorheriger</anterior>
+                <seguent>Nächster</seguent>
+                <veure_platja>Strand ansehen</veure_platja>
+                <tornar>Zurück</tornar>
+                <a_prop_titol>Strände in Ihrer Nähe</a_prop_titol>
+                <a_prop_text>Teilen Sie Ihren Standort, um die Strände nach Entfernung sortiert zu sehen.</a_prop_text>
+                <usa_ubicacio>Meinen Standort verwenden</usa_ubicacio>
+                <cercant_ubicacio>Standort wird ermittelt…</cercant_ubicacio>
+                <ubicacio_error>Ihr Standort konnte nicht ermittelt werden. Prüfen Sie die Berechtigungen Ihres Browsers.</ubicacio_error>
+                <la_meva_ubicacio>Mein Standort</la_meva_ubicacio>
+                <tanca>Schließen</tanca>
+            </mobil>
         </text>
         <text idioma="Français" idiomaCodi="fr">
             <superficie>
@@ -4279,6 +4435,45 @@
             <index_meta_name_description>Catalogue des plages de l'île de Majorque dans les
                 îles Baléares</index_meta_name_description>
             <index_meta_name_keywords>Plages, Majorque, Mallorca, Baléares, Méditerranée, Espagne</index_meta_name_keywords>
+            <mobil>
+                <pestanya_platges>Plages</pestanya_platges>
+                <pestanya_mapa>Carte</pestanya_mapa>
+                <pestanya_a_prop>À proximité</pestanya_a_prop>
+                <resum>{platges} plages dans {municipis} communes</resum>
+                <municipis>Communes</municipis>
+                <platja_una>plage</platja_una>
+                <platja_moltes>plages</platja_moltes>
+                <cap_resultat>Aucune plage ne correspond à votre recherche.</cap_resultat>
+                <esborra_filtres>Effacer les filtres</esborra_filtres>
+                <esborra_cerca>Effacer la recherche</esborra_cerca>
+                <filtres>Filtres</filtres>
+                <naturisme>Naturisme</naturisme>
+                <si>Oui</si>
+                <no>Non</no>
+                <mida>Dimensions</mida>
+                <temps>Météo</temps>
+                <vent>Vent</vent>
+                <aigua>Eau</aigua>
+                <onades>Vagues</onades>
+                <com_arribar>Itinéraire</com_arribar>
+                <compartir>Partager</compartir>
+                <mostra_al_mapa>Voir sur la carte</mostra_al_mapa>
+                <enllac_copiat>Lien copié</enllac_copiat>
+                <copia>Copier</copia>
+                <coordenades_copiades>Coordonnées copiées</coordenades_copiades>
+                <platges_properes>Plages proches</platges_properes>
+                <anterior>Précédente</anterior>
+                <seguent>Suivante</seguent>
+                <veure_platja>Voir la plage</veure_platja>
+                <tornar>Retour</tornar>
+                <a_prop_titol>Plages près de vous</a_prop_titol>
+                <a_prop_text>Partagez votre position pour voir les plages triées par distance.</a_prop_text>
+                <usa_ubicacio>Utiliser ma position</usa_ubicacio>
+                <cercant_ubicacio>Recherche de votre position…</cercant_ubicacio>
+                <ubicacio_error>Impossible d'obtenir votre position. Vérifiez les autorisations de votre navigateur.</ubicacio_error>
+                <la_meva_ubicacio>Ma position</la_meva_ubicacio>
+                <tanca>Fermer</tanca>
+            </mobil>
         </text>
     </texts>
 </BoM>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="dispositiu.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#2c47a3">
+    <meta name="description" content="">
+    <meta name="author" content="BeachesOfMallorca">
+    <title>BeachesOfMallorca</title>
+    <link rel="apple-touch-icon" href="imatges/decoracions/title.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="mobil.css">
+</head>
+
+<body>
+    <svg class="sprite" aria-hidden="true" focusable="false">
+        <symbol id="i-cerca" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7" /><path d="m20 20-4-4" /></symbol>
+        <symbol id="i-enrere" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7" /></symbol>
+        <symbol id="i-endavant" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7" /></symbol>
+        <symbol id="i-tanca" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18" /></symbol>
+        <symbol id="i-platges" viewBox="0 0 24 24"><path d="M3 11a9 9 0 0 1 18 0z" /><path d="M12 11v7" /><path d="M2 21c1.7 0 1.7-1.2 3.3-1.2S7 21 8.7 21s1.7-1.2 3.3-1.2 1.7 1.2 3.3 1.2 1.7-1.2 3.4-1.2S20.3 21 22 21" /></symbol>
+        <symbol id="i-mapa" viewBox="0 0 24 24"><path d="M9 4 3 6v14l6-2 6 2 6-2V4l-6 2-6-2z" /><path d="M9 4v14M15 6v14" /></symbol>
+        <symbol id="i-aprop" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3" /><circle cx="12" cy="12" r="8" /><path d="M12 2v2M12 20v2M2 12h2M20 12h2" /></symbol>
+        <symbol id="i-ruta" viewBox="0 0 24 24"><path d="M12 2.5 21.5 12 12 21.5 2.5 12z" /><path d="M9 15v-2.5a2 2 0 0 1 2-2h4.5" /><path d="m13.5 8.5 2 2-2 2" /></symbol>
+        <symbol id="i-comparteix" viewBox="0 0 24 24"><path d="M12 15V3M8 7l4-4 4 4" /><path d="M8 11H6a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-6a2 2 0 0 0-2-2h-2" /></symbol>
+        <symbol id="i-copia" viewBox="0 0 24 24"><rect x="9" y="9" width="12" height="12" rx="2" /><path d="M5 15H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1" /></symbol>
+        <symbol id="i-globus" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" /><path d="M3 12h18" /><path d="M12 3a14 14 0 0 1 0 18 14 14 0 0 1 0-18z" /></symbol>
+        <symbol id="i-vent" viewBox="0 0 24 24"><path d="M12 20V4M6 10l6-6 6 6" /></symbol>
+        <symbol id="i-ubica" viewBox="0 0 24 24"><path d="M3 11 21 3l-8 18-2-8z" /></symbol>
+    </svg>
+
+    <header class="barra">
+        <a class="barra-logo" href="mobil.html" data-nav><img src="imatges/decoracions/title.jpg" alt="" width="36" height="36"></a>
+        <button class="barra-enrere" type="button" hidden><svg class="icona"><use href="#i-enrere" /></svg></button>
+        <span class="barra-titol"></span>
+        <label class="idioma">
+            <svg class="icona"><use href="#i-globus" /></svg>
+            <span class="idioma-codi"></span>
+            <select id="idioma"></select>
+        </label>
+    </header>
+
+    <main id="vista" tabindex="-1">
+        <div class="carregant"><span class="girant"></span></div>
+    </main>
+
+    <nav class="pestanyes">
+        <a class="pestanya" data-pestanya="platges" href="mobil.html" data-nav>
+            <span class="pestanya-icona"><svg class="icona"><use href="#i-platges" /></svg></span><span class="pestanya-nom"></span>
+        </a>
+        <a class="pestanya" data-pestanya="mapa" href="mobil.html?vista=mapa" data-nav>
+            <span class="pestanya-icona"><svg class="icona"><use href="#i-mapa" /></svg></span><span class="pestanya-nom"></span>
+        </a>
+        <a class="pestanya" data-pestanya="aprop" href="mobil.html?vista=aprop" data-nav>
+            <span class="pestanya-icona"><svg class="icona"><use href="#i-aprop" /></svg></span><span class="pestanya-nom"></span>
+        </a>
+    </nav>
+
+    <div class="avis" role="status" aria-live="polite"></div>
+
+    <script src="bomData.js"></script>
+    <script src="mobil.js"></script>
+</body>
+
+</html>
